@@ -6,7 +6,7 @@
   <link href="http://tdingquan.github.io/atom.xml" rel="self"/>
   
   <link href="http://tdingquan.github.io/"/>
-  <updated>2021-03-04T09:25:51.293Z</updated>
+  <updated>2021-03-05T13:57:30.533Z</updated>
   <id>http://tdingquan.github.io/</id>
   
   <author>
@@ -17,11 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Towards Causal Representation Learning</title>
+    <link href="http://tdingquan.github.io/2021-03-05/towards-causal-representation-learning/"/>
+    <id>http://tdingquan.github.io/2021-03-05/towards-causal-representation-learning/</id>
+    <published>2021-03-05T13:44:31.000Z</published>
+    <updated>2021-03-05T13:57:30.533Z</updated>
+    
+    
+    
+    
+    <category term="Paper Reading" scheme="http://tdingquan.github.io/categories/Paper-Reading/"/>
+    
+    
+    <category term="Representation Learning" scheme="http://tdingquan.github.io/tags/Representation-Learning/"/>
+    
+    <category term="Causality" scheme="http://tdingquan.github.io/tags/Causality/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
     <link href="http://tdingquan.github.io/2021-03-04/hello-world/"/>
     <id>http://tdingquan.github.io/2021-03-04/hello-world/</id>
-    <published>2021-03-04T09:25:51.293Z</published>
-    <updated>2021-03-04T09:25:51.293Z</updated>
+    <published>2021-03-04T13:44:31.000Z</published>
+    <updated>2021-03-05T13:54:52.472Z</updated>
     
     
       
@@ -34,6 +53,8 @@
     
     
     
+    
+    <category term="Hexo" scheme="http://tdingquan.github.io/tags/Hexo/"/>
     
   </entry>
   
