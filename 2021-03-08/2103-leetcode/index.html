@@ -473,7 +473,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    650
+                    658
                 </div>
                 
 
@@ -503,52 +503,31 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <ol>
-<li><a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/range-sum-query-immutable">303. 区域和检索 - 数组不可变</a></li>
-</ol>
-<ul>
+                <h4 id="1-303-区域和检索-数组不可变"><a href="#1-303-区域和检索-数组不可变" class="headerlink" title="1. 303 - 区域和检索 - 数组不可变"></a>1. <a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/range-sum-query-immutable">303 - 区域和检索 - 数组不可变</a></h4><ul>
 <li>前缀和</li>
 <li>注意数组首元素是否为0时，具有不同的含义，有时可以为计算带来简便</li>
 <li>重复调用时，可以使用懒计算</li>
 </ul>
-<ol start="2">
-<li><a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/range-sum-query-2d-immutable/">304. 二维区域和检索 - 矩阵不可变</a></li>
-</ol>
-<ul>
+<h4 id="2-304-二维区域和检索-矩阵不可变"><a href="#2-304-二维区域和检索-矩阵不可变" class="headerlink" title="2. 304 - 二维区域和检索 - 矩阵不可变"></a>2. <a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/range-sum-query-2d-immutable/">304 - 二维区域和检索 - 矩阵不可变</a></h4><ul>
 <li>python 二维数组初始化时，避免浅拷贝，数组引用会带来值修改问题<pre class="line-numbers language-python" data-language="python"><code class="language-python">g <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">[</span><span class="token boolean">True</span><span class="token punctuation">]</span> <span class="token operator">*</span> n <span class="token keyword">for</span> _ <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>n<span class="token punctuation">)</span><span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
 <li>快速子矩阵求和与 DP 的二维数组含义的配合</li>
 </ul>
-<ol start="3">
-<li><a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/counting-bits/">338. 比特位计数</a></li>
-</ol>
-<ul>
+<h4 id="3-338-比特位计数"><a href="#3-338-比特位计数" class="headerlink" title="3. 338 - 比特位计数"></a>3. <a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/counting-bits/">338 - 比特位计数</a></h4><ul>
 <li>位运算计算的奇技淫巧：与 DP 结合快速计算数字二进制形式 1 的个数<pre class="line-numbers language-python" data-language="python"><code class="language-python">bits<span class="token punctuation">.</span>append<span class="token punctuation">(</span>bits<span class="token punctuation">[</span>i <span class="token operator">&gt;&gt;</span> <span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">+</span> <span class="token punctuation">(</span>i <span class="token operator">&amp;</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
 </ul>
-<ol start="4">
-<li><a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/russian-doll-envelopes/">354. 俄罗斯套娃信封问题</a></li>
-</ol>
-<ul>
+<h4 id="4-354-俄罗斯套娃信封问题"><a href="#4-354-俄罗斯套娃信封问题" class="headerlink" title="4. 354 - 俄罗斯套娃信封问题"></a>4. <a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/russian-doll-envelopes/">354 - 俄罗斯套娃信封问题</a></h4><ul>
 <li>题目要求严格大于，在进行预排序的时候，第一维升维，第二维降维</li>
 <li>python 排序<pre class="line-numbers language-python" data-language="python"><code class="language-python">envelopes<span class="token punctuation">.</span>sort<span class="token punctuation">(</span>key<span class="token operator">=</span><span class="token keyword">lambda</span> x<span class="token punctuation">:</span> <span class="token punctuation">(</span>x<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token operator">-</span>x<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
 </ul>
-<ol start="5">
-<li><a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/implement-queue-using-stacks">232. 用栈实现队列</a></li>
-</ol>
-<ul>
+<h4 id="5-232-用栈实现队列"><a href="#5-232-用栈实现队列" class="headerlink" title="5. 232 - 用栈实现队列"></a>5. <a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/implement-queue-using-stacks">232 - 用栈实现队列</a></h4><ul>
 <li>摊销复杂度 【最近总遇到摊销两字，看论文的时候“摊销因果发现”】</li>
 <li>只在pop栈出队列为空的时候进行转移</li>
 </ul>
-<ol start="6">
-<li><a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/next-greater-element-ii">503. 下一个更大元素 II</a></li>
-</ol>
-<ul>
+<h4 id="6-503-下一个更大元素-II"><a href="#6-503-下一个更大元素-II" class="headerlink" title="6. 503 - 下一个更大元素 II"></a>6. <a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/next-greater-element-ii">503 - 下一个更大元素 II</a></h4><ul>
 <li>使用栈只保留index，不用存具体数据</li>
 <li>单调栈应用在找寻循环数组的下一个更大元素</li>
 </ul>
-<ol start="7">
-<li><a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/palindrome-partitioning/">131. 分割回文串</a></li>
-</ol>
-<ul>
+<h4 id="7-131-分割回文串"><a href="#7-131-分割回文串" class="headerlink" title="7. 131 - 分割回文串"></a>7. <a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/palindrome-partitioning/">131 - 分割回文串</a></h4><ul>
 <li>DP + 深搜 基础题</li>
 <li>初始化 map 为全 True 和 全 False 在后续初始化中具有很大   区别<ul>
 <li>如果初始化为全 False<ul>
@@ -577,10 +556,7 @@
 </ul>
 </li>
 </ul>
-<ol start="8">
-<li><a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/palindrome-partitioning-ii">132. 分割回文串 II</a></li>
-</ol>
-<ul>
+<h4 id="8-132-分割回文串-II"><a href="#8-132-分割回文串-II" class="headerlink" title="8. 132 - 分割回文串 II"></a>8. <a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/palindrome-partitioning-ii">132 - 分割回文串 II</a></h4><ul>
 <li>考虑清楚第二次 DP 的表的物理含义，不用深搜，否则超时<ul>
 <li>前 i 个字符最多需要分割多少次得到回文串子集</li>
 </ul>
@@ -852,7 +828,7 @@
             contentSelector: '#articleContent',
             headingsOffset: -($(window).height() * 0.4 - 45),
             collapseDepth: Number('0'),
-            headingSelector: 'h2, h3, h4'
+            headingSelector: 'h1, h2, h3, h4, h5, h6'
         });
 
         // modify the toc link href to support Chinese.
@@ -864,7 +840,7 @@
 
         // modify the heading title id to support Chinese.
         i = 0;
-        $('#articleContent').children('h2, h3, h4').each(function () {
+        $('#articleContent').children('h1, h2, h3, h4, h5, h6').each(function () {
             $(this).attr('id', tocHeading + (++i));
         });
 
@@ -952,7 +928,7 @@
         class="fas fa-chart-area"
       ></i
       >&nbsp;站点总字数:&nbsp;<span class="white-color">
-        723 </span
+        731 </span
       >&nbsp;字   
       <span id="busuanzi_container_site_pv">
         <i class="fa fa-heart-o"></i>
