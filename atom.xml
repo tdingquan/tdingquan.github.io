@@ -6,7 +6,7 @@
   <link href="http://tdingquan.github.io/atom.xml" rel="self"/>
   
   <link href="http://tdingquan.github.io/"/>
-  <updated>2021-04-04T11:52:30.898Z</updated>
+  <updated>2021-04-05T07:45:19.761Z</updated>
   <id>http://tdingquan.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Pytorch 编程的一些坑</title>
+    <link href="http://tdingquan.github.io/2021-04-05/pytorch-bian-cheng-de-yi-xie-keng/"/>
+    <id>http://tdingquan.github.io/2021-04-05/pytorch-bian-cheng-de-yi-xie-keng/</id>
+    <published>2021-04-05T04:12:30.000Z</published>
+    <updated>2021-04-05T07:45:19.761Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre class=&quot;line-numbers language-python&quot; data-language=&quot;python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="Trap" scheme="http://tdingquan.github.io/categories/Trap/"/>
+    
+    
+    <category term="Pytorch" scheme="http://tdingquan.github.io/tags/Pytorch/"/>
+    
+  </entry>
   
   <entry>
     <title>Collections, the Container datatypes</title>
@@ -46,7 +71,7 @@
     <link href="http://tdingquan.github.io/2021-04-04/2104-leetcode/"/>
     <id>http://tdingquan.github.io/2021-04-04/2104-leetcode/</id>
     <published>2021-04-04T11:15:04.000Z</published>
-    <updated>2021-04-04T11:43:57.980Z</updated>
+    <updated>2021-04-05T04:15:47.522Z</updated>
     
     
       
@@ -59,10 +84,10 @@
     
     
     
-    <category term="LeetCode" scheme="http://tdingquan.github.io/categories/LeetCode/"/>
+    <category term="Summary" scheme="http://tdingquan.github.io/categories/Summary/"/>
     
     
-    <category term="Summary" scheme="http://tdingquan.github.io/tags/Summary/"/>
+    <category term="LeetCode" scheme="http://tdingquan.github.io/tags/LeetCode/"/>
     
   </entry>
   
@@ -71,7 +96,7 @@
     <link href="http://tdingquan.github.io/2021-03-26/winscp-tutorial/"/>
     <id>http://tdingquan.github.io/2021-03-26/winscp-tutorial/</id>
     <published>2021-03-26T10:06:32.000Z</published>
-    <updated>2021-04-04T11:44:51.066Z</updated>
+    <updated>2021-04-05T05:43:53.037Z</updated>
     
     
       
@@ -86,8 +111,6 @@
     
     <category term="Tutorial" scheme="http://tdingquan.github.io/categories/Tutorial/"/>
     
-    <category term="Tool" scheme="http://tdingquan.github.io/categories/Tutorial/Tool/"/>
-    
     
     <category term="WinSCP" scheme="http://tdingquan.github.io/tags/WinSCP/"/>
     
@@ -98,7 +121,7 @@
     <link href="http://tdingquan.github.io/2021-03-08/2103-leetcode/"/>
     <id>http://tdingquan.github.io/2021-03-08/2103-leetcode/</id>
     <published>2021-03-08T03:42:31.000Z</published>
-    <updated>2021-04-04T11:44:10.590Z</updated>
+    <updated>2021-04-05T04:15:46.257Z</updated>
     
     
       
@@ -111,10 +134,10 @@
     
     
     
-    <category term="LeetCode" scheme="http://tdingquan.github.io/categories/LeetCode/"/>
+    <category term="Summary" scheme="http://tdingquan.github.io/categories/Summary/"/>
     
     
-    <category term="Summary" scheme="http://tdingquan.github.io/tags/Summary/"/>
+    <category term="LeetCode" scheme="http://tdingquan.github.io/tags/LeetCode/"/>
     
   </entry>
   
