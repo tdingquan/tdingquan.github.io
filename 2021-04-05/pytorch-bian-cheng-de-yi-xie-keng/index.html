@@ -526,8 +526,8 @@ tensor <span class="token operator">=</span> Tensor<span class="token punctuatio
 <li><strong>Deprecated</strong> 不共享内存：<code>tensor()</code>，是否计算梯度，看构造函数的传参</li>
 </ol>
 <h3 id="cpu-向-gpu-的转换"><a href="#cpu-向-gpu-的转换" class="headerlink" title="cpu 向 gpu 的转换"></a><code>cpu</code> 向 <code>gpu</code> 的转换</h3><ul>
-<li>拷贝到GPU：<code>tensor.cuda()</code></li>
-<li>转换到GPU：<code>tensor.to()</code></li>
+<li>拷贝到 GPU：<code>tensor.cuda()</code></li>
+<li>转换到 GPU：<code>tensor.to()</code></li>
 </ul>
 <h2 id="Tensor类与tensor对象的操作"><a href="#Tensor类与tensor对象的操作" class="headerlink" title="Tensor类与tensor对象的操作"></a><code>Tensor</code>类与<code>tensor</code>对象的操作</h2><h3 id="从tensor中获取元素"><a href="#从tensor中获取元素" class="headerlink" title="从tensor中获取元素"></a>从<code>tensor</code>中获取元素</h3><ol>
 <li>下标访问得到一个 <code>0-dim</code> 的 <code>scalar</code></li>
@@ -542,8 +542,8 @@ tensor <span class="token operator">=</span> Tensor<span class="token punctuatio
 <li><code>Tensor.Tensor(1, 2)</code>, size: <code>torch.Size([1, 2])</code></li>
 </ol>
 <h3 id="tensor-的大小改变"><a href="#tensor-的大小改变" class="headerlink" title="tensor 的大小改变"></a><code>tensor</code> 的大小改变</h3><ol>
-<li><code>tensor.view()</code> 创造一个共享内存的新tensor</li>
-<li><code>tensor.squeeze(), tensor.unsqueeze()</code> 减少、添加一个维度，创造一个共享内存的新tensor</li>
+<li><code>tensor.view()</code> 创造一个共享内存的新 tensor</li>
+<li><code>tensor.squeeze(), tensor.unsqueeze()</code> 减少、添加一个维度，创造一个共享内存的新 tensor</li>
 <li><code>tensor.resize()</code> 如果新分配空间大小小于原空间，保留数据不删除</li>
 </ol>
 <h3 id="tensor-的索引"><a href="#tensor-的索引" class="headerlink" title="tensor 的索引"></a><code>tensor</code> 的索引</h3><ol>
