@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="使用 WinSCP 远程连接主机教程, 一汪白水">
+    <meta name="keywords" content="Matplotlib 基础知识, 一汪白水">
     <meta name="description" content="某十八线研究僧的学习笔记">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>使用 WinSCP 远程连接主机教程 | 一汪白水</title>
+    <title>Matplotlib 基础知识 | 一汪白水</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -313,12 +313,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/20.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/11.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">使用 WinSCP 远程连接主机教程</h1>
+                    <h1 class="description center-align post-title">Matplotlib 基础知识</h1>
                 </div>
             </div>
         </div>
@@ -434,8 +434,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/WinSCP/">
-                                <span class="chip bg-color">WinSCP</span>
+                            <a href="/tags/Python/">
+                                <span class="chip bg-color">Python</span>
+                            </a>
+                        
+                            <a href="/tags/Matplotlib/">
+                                <span class="chip bg-color">Matplotlib</span>
                             </a>
                         
                     </div>
@@ -446,8 +450,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Tutorial/" class="post-category">
-                                Tutorial
+                            <a href="/categories/Documentation/" class="post-category">
+                                Documentation
                             </a>
                         
                     </div>
@@ -459,21 +463,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-03-26
+                    2021-04-09
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-04-05
+                    2021-04-09
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    193
+                    330
                 </div>
                 
 
@@ -503,26 +507,73 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="WinSCP-安装"><a href="#WinSCP-安装" class="headerlink" title="WinSCP 安装"></a>WinSCP 安装</h1><p>官方安装地址：<a target="_blank" rel="noopener" href="https://winscp.net/eng/download.php">下载链接</a></p>
-<p>官方文档地址：<a target="_blank" rel="noopener" href="https://winscp.net/eng/docs/after_installation?ver=5.17.10&amp;lang=chs&amp;utm_source=winscp&amp;utm_medium=setup&amp;utm_campaign=5.17.10&amp;prevver=5.17.10.11087&amp;automatic=0">文档链接</a></p>
-<h1 id="WinSCP-使用"><a href="#WinSCP-使用" class="headerlink" title="WinSCP 使用"></a>WinSCP 使用</h1><ol>
-<li><p>建议安装时选择<code>为所用用户安装</code>。</p>
+                <h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><h3 id="数据格式"><a href="#数据格式" class="headerlink" title="数据格式"></a>数据格式</h3><p><code>matplotlib</code> 接受 <code>numpy.array</code> 的数据格式进行绘制。</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">import</span> numpy <span class="token keyword">as</span> np
+<span class="token keyword">import</span> matplotlib<span class="token punctuation">.</span>pyplot <span class="token keyword">as</span> plt<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<h3 id="调用风格"><a href="#调用风格" class="headerlink" title="调用风格"></a>调用风格</h3><ol>
+<li>类似<code>matlab</code>风格，调用 <code>plt</code> 的函数进行绘制，作用于当前的 <code>axes</code> 对象上。<ul>
+<li>适用于交互编程，如 <code>jupyter-notebook</code>。</li>
+</ul>
 </li>
-<li><p>打开软件界面；</p>
+<li>面向对象 (OO) 风格，调用 <code>Axes</code> 的函数进行绘制，作用于调用函数的 <code>axes</code> 对象上。<ul>
+<li>适用于非交互编程，函数复用的场景。</li>
+</ul>
 </li>
 </ol>
+<h3 id="基本概念-1"><a href="#基本概念-1" class="headerlink" title="基本概念"></a>基本概念</h3><p><img src="/2021-04-09/matplotlib-ji-chu-zhi-shi/elements.png" alt="参与绘图的主要元素"></p>
+<ol>
+<li><code>Canvas</code></li>
+</ol>
 <ul>
-<li>更改文件协议为 SCP（或者服务器使用的其他协议）；</li>
-<li>在“主机名”处填写主机 URL；</li>
-<li>在“用户名”和“密码”填写登录账号和密码；</li>
-<li>点击“登录”按钮。</li>
-<li>首次登录会弹出名为“认证栏：出于安全考虑…”的对话框，点击“继续”按钮即可连接。</li>
+<li>实际进行绘图的对象，对用户隐藏。</li>
 </ul>
-<p><img src="/2021-03-26/winscp-tutorial/1.png" alt="软件界面"></p>
-<h1 id="一些小-Tips"><a href="#一些小-Tips" class="headerlink" title="一些小 Tips"></a>一些小 Tips</h1><ul>
-<li>删除单个文件可以使用 WinSCP，删除目录不要使用，效率低。</li>
-<li>可以在右侧文件栏（服务器目录）和左侧文件栏（本地目录）之间使用拖拽，进行上传/下载操作。</li>
+<ol start="2">
+<li><code>Figure</code></li>
+</ol>
+<ul>
+<li>类似绘图时使用的画布。</li>
 </ul>
+<ol start="3">
+<li><code>Axes</code></li>
+</ol>
+<ul>
+<li>类似绘图时使用的画笔。</li>
+<li>一个 <code>Figure</code> 对象可以有很多个 <code>Axes</code>，但每个 <code>Axes</code> 只能从属于一个 <code>Figure</code>。</li>
+<li>具有多个 <code>Axis</code> 对象，即图上的坐标轴。</li>
+<li>函数接口包括：<code>set_xlim</code>,<code>set_ylim</code>,<code>set_title</code>,<code>set_xlabel</code>,<code>set_ylabel</code> 等。</li>
+</ul>
+<ol start="4">
+<li><code>Axis</code></li>
+</ol>
+<ul>
+<li>图上的坐标轴，管理轴上的刻度和刻度名称。</li>
+<li>通过 <code>Locator</code> 和 <code>Formator</code> 控制名称的位置和格式。</li>
+</ul>
+<ol start="5">
+<li><code>Artist</code></li>
+</ol>
+<ul>
+<li>每个绘制对象都是一个<code>Artist</code>对象，从属于一个<code>Axes</code>对象。</li>
+</ul>
+<h3 id="后端"><a href="#后端" class="headerlink" title="后端"></a>后端</h3><h3 id="交互模式与非交互模式"><a href="#交互模式与非交互模式" class="headerlink" title="交互模式与非交互模式"></a>交互模式与非交互模式</h3><ul>
+<li>交互模式即时更新图像。</li>
+</ul>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">plt<span class="token punctuation">.</span>ion<span class="token punctuation">(</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>title<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+ax <span class="token operator">=</span> plt<span class="token punctuation">.</span>gca<span class="token punctuation">(</span><span class="token punctuation">)</span>
+ax<span class="token punctuation">.</span>set_title<span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<ul>
+<li>非交互模式调用 <code>show</code> 一次性绘制所有对象。<ul>
+<li>阻塞进程，直到手动关闭绘制的图像窗口。</li>
+</ul>
+</li>
+</ul>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">plt<span class="token punctuation">.</span>ioff<span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+plt<span class="token punctuation">.</span>show<span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
                 
             </div>
@@ -549,7 +600,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://tdingquan.github.io/2021-03-26/winscp-tutorial/">http://tdingquan.github.io/2021-03-26/winscp-tutorial/</a>
+                    <a href="http://tdingquan.github.io/2021-04-09/matplotlib-ji-chu-zhi-shi/">http://tdingquan.github.io/2021-04-09/matplotlib-ji-chu-zhi-shi/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -587,8 +638,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/WinSCP/">
-                                    <span class="chip bg-color">WinSCP</span>
+                                <a href="/tags/Python/">
+                                    <span class="chip bg-color">Python</span>
+                                </a>
+                            
+                                <a href="/tags/Matplotlib/">
+                                    <span class="chip bg-color">Matplotlib</span>
                                 </a>
                             
                         </div>
@@ -628,52 +683,332 @@
     
 
     
+        <style>
+    .twikoo-card {
+        margin: 1.5rem auto;
+    }
+
+    .twikoo-card .card-content {
+        padding: 20px;
+    }
+
+    #tcomments textarea {
+        box-sizing: border-box;
+        background: url("/") 100% 100% no-repeat;
+    }
+
+    #tcomments p {
+        margin: 2px 2px 10px;
+        font-size: 1.05rem;
+        line-height: 1.78rem;
+    }
+
+    #tcomments blockquote p {
+        text-indent: 0.2rem;
+    }
+
+    #tcomments a {
+        padding: 0 2px;
+        color: #4cbf30;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    #tcomments img {
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    #tcomments ol li {
+        list-style-type: decimal;
+    }
+
+    #tcomments ol,
+    ul {
+        display: block;
+        padding-left: 2em;
+        word-spacing: 0.05rem;
+    }
+
+    #tcomments ul li,
+    ol li {
+        display: list-item;
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+
+    #tcomments ul li {
+        list-style-type: disc;
+    }
+
+    #tcomments ul ul li {
+        list-style-type: circle;
+    }
+
+    #tcomments table,
+    th,
+    td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    #tcomments table,
+    th,
+    td {
+        border: 0;
+    }
+
+    table tr:nth-child(2n),
+    thead {
+        background-color: #fafafa;
+    }
+
+    #tcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #tcomments table td {
+        min-width: 80px;
+    }
+
+    #tcomments h1 {
+        font-size: 1.85rem;
+        font-weight: bold;
+        line-height: 2.2rem;
+    }
+
+    #tcomments h2 {
+        font-size: 1.65rem;
+        font-weight: bold;
+        line-height: 1.9rem;
+    }
+
+    #tcomments h3 {
+        font-size: 1.45rem;
+        font-weight: bold;
+        line-height: 1.7rem;
+    }
+
+    #tcomments h4 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    #tcomments h5 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        line-height: 1.4rem;
+    }
+
+    #tcomments h6 {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    #tcomments p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #tcomments hr {
+        margin: 12px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    #tcomments blockquote {
+        margin: 15px 0;
+        border-left: 5px solid #42b983;
+        padding: 1rem 0.8rem 0.3rem 0.8rem;
+        color: #666;
+        background-color: rgba(66, 185, 131, .1);
+    }
+
+    #tcomments pre {
+        font-family: monospace, monospace;
+        padding: 1.2em;
+        margin: .5em 0;
+        background: #272822;
+        overflow: auto;
+        border-radius: 0.3em;
+        tab-size: 4;
+    }
+
+    #tcomments code {
+        font-family: monospace, monospace;
+        padding: 1px 3px;
+        font-size: 0.92rem;
+        color: #e96900;
+        background-color: #f8f8f8;
+        border-radius: 2px;
+    }
+
+    #tcomments pre code {
+        font-family: monospace, monospace;
+        padding: 0;
+        color: #e8eaf6;
+        background-color: #272822;
+    }
+
+    #tcomments pre[class*="language-"] {
+        padding: 1.2em;
+        margin: .5em 0;
+    }
+
+    #tcomments code[class*="language-"],
+    pre[class*="language-"] {
+        color: #e8eaf6;
+    }
+
+    #tcomments [type="checkbox"]:not(:checked),
+    [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+
+    #tcomments b,
+    strong {
+        font-weight: bold;
+    }
+
+    #tcomments dfn {
+        font-style: italic;
+    }
+
+    #tcomments small {
+        font-size: 85%;
+    }
+
+    #tcomments cite {
+        font-style: normal;
+    }
+
+    #tcomments mark {
+        background-color: #fcf8e3;
+        padding: .2em;
+    }
+
+    #tcomments table,
+    th,
+    td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    table tr:nth-child(2n),
+    thead {
+        background-color: #fafafa;
+    }
+
+    #tcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #tcomments table td {
+        min-width: 80px;
+    }
+
+    #tcomments [type="checkbox"]:not(:checked),
+    [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+</style>
+
+<div class="card twikoo-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div class="card-content" style="display: grid">
+        <div id="tcomments"></div>
+    </div>
+</div>
+
+<script src="/libs/twikoo/twikoo.all.min.js"></script>
+<script>
+    twikoo.init({
+        envId: 'hello-cloud-8gsos1khfc7fdf90',
+        el: '#tcomments',
+        region: '',
+        path: ''
+    }).then(function () {
+        var tkInputs = document.querySelector('#twikoo').getElementsByTagName('input');
+        for (var tkInputsIndex = 0; tkInputsIndex < tkInputs.length; tkInputsIndex++) {
+            if (tkInputs[tkInputsIndex]) {
+                tkInputs[tkInputsIndex].classList.add('browser-default');
+            }
+        }
+    });
+</script>
+
+    
 
     
 
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2021-04-04/2104-leetcode/">
+                <a href="/2021-04-09/matplotlib-ji-chu-zhi-shi/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="2104-LeetCode">
+                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="Matplotlib 基础知识">
                         
-                        <span class="card-title">2104-LeetCode</span>
+                        <span class="card-title">Matplotlib 基础知识</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            21年4月份 LeetCode 刷过的题目经验总结
+                            matplotlib 入门知识和例程
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-04-04
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-04-09
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Summary/" class="post-category">
-                                    Summary
+                            <a href="/categories/Documentation/" class="post-category">
+                                    Documentation
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/LeetCode/">
-                        <span class="chip bg-color">LeetCode</span>
+                    <a href="/tags/Python/">
+                        <span class="chip bg-color">Python</span>
+                    </a>
+                    
+                    <a href="/tags/Matplotlib/">
+                        <span class="chip bg-color">Matplotlib</span>
                     </a>
                     
                 </div>
@@ -687,31 +1022,31 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021-03-08/2103-leetcode/">
+                <a href="/2021-04-05/pytorch-bian-cheng-de-yi-xie-keng/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="2103 LeetCode">
+                        <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="Pytorch 编程的一些坑">
                         
-                        <span class="card-title">2103 LeetCode</span>
+                        <span class="card-title">Pytorch 编程的一些坑</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            21年3月份 LeetCode 刷过的题目经验总结
+                            记录使用 Pytorch 编写程序时可能会出现的坑
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-03-08
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-04-05
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Summary/" class="post-category">
-                                    Summary
+                            <a href="/categories/Documentation/" class="post-category">
+                                    Documentation
                                 </a>
                             
                             
@@ -721,8 +1056,12 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/LeetCode/">
-                        <span class="chip bg-color">LeetCode</span>
+                    <a href="/tags/Python/">
+                        <span class="chip bg-color">Python</span>
+                    </a>
+                    
+                    <a href="/tags/Pytorch/">
+                        <span class="chip bg-color">Pytorch</span>
                     </a>
                     
                 </div>
@@ -888,7 +1227,7 @@
         class="fas fa-chart-area"
       ></i
       >&nbsp;站点总字数:&nbsp;<span class="white-color">
-        2k </span
+        2.2k </span
       >&nbsp;字   
       <span id="busuanzi_container_site_pv">
         <i class="fa fa-heart-o"></i>

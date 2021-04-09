@@ -6,7 +6,7 @@
   <link href="http://tdingquan.github.io/atom.xml" rel="self"/>
   
   <link href="http://tdingquan.github.io/"/>
-  <updated>2021-04-05T07:45:50.439Z</updated>
+  <updated>2021-04-09T11:00:57.825Z</updated>
   <id>http://tdingquan.github.io/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Matplotlib 基础知识</title>
+    <link href="http://tdingquan.github.io/2021-04-09/matplotlib-ji-chu-zhi-shi/"/>
+    <id>http://tdingquan.github.io/2021-04-09/matplotlib-ji-chu-zhi-shi/</id>
+    <published>2021-04-09T08:13:35.000Z</published>
+    <updated>2021-04-09T11:00:57.825Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;基本概念&quot;&gt;&lt;a href=&quot;#基本概念&quot; class=&quot;headerlink&quot; title=&quot;基本概念&quot;&gt;&lt;/a&gt;基本概念&lt;/h2&gt;&lt;h3 id=&quot;数据格式&quot;&gt;&lt;a href=&quot;#数据格式&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Documentation" scheme="http://tdingquan.github.io/categories/Documentation/"/>
+    
+    
+    <category term="Python" scheme="http://tdingquan.github.io/tags/Python/"/>
+    
+    <category term="Matplotlib" scheme="http://tdingquan.github.io/tags/Matplotlib/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Pytorch 编程的一些坑</title>
     <link href="http://tdingquan.github.io/2021-04-05/pytorch-bian-cheng-de-yi-xie-keng/"/>
     <id>http://tdingquan.github.io/2021-04-05/pytorch-bian-cheng-de-yi-xie-keng/</id>
     <published>2021-04-05T04:12:30.000Z</published>
-    <updated>2021-04-05T07:45:50.439Z</updated>
+    <updated>2021-04-09T11:01:04.838Z</updated>
     
     
       
@@ -34,8 +61,10 @@
     
     
     
-    <category term="Trap" scheme="http://tdingquan.github.io/categories/Trap/"/>
+    <category term="Documentation" scheme="http://tdingquan.github.io/categories/Documentation/"/>
     
+    
+    <category term="Python" scheme="http://tdingquan.github.io/tags/Python/"/>
     
     <category term="Pytorch" scheme="http://tdingquan.github.io/tags/Pytorch/"/>
     
@@ -46,7 +75,7 @@
     <link href="http://tdingquan.github.io/2021-04-04/collections-the-container-datatypes/"/>
     <id>http://tdingquan.github.io/2021-04-04/collections-the-container-datatypes/</id>
     <published>2021-04-04T11:39:12.000Z</published>
-    <updated>2021-04-05T07:46:21.790Z</updated>
+    <updated>2021-04-09T11:01:11.146Z</updated>
     
     
       
@@ -71,7 +100,7 @@
     <link href="http://tdingquan.github.io/2021-04-04/2104-leetcode/"/>
     <id>http://tdingquan.github.io/2021-04-04/2104-leetcode/</id>
     <published>2021-04-04T11:15:04.000Z</published>
-    <updated>2021-04-06T02:28:49.470Z</updated>
+    <updated>2021-04-09T11:01:09.067Z</updated>
     
     
       
@@ -92,36 +121,11 @@
   </entry>
   
   <entry>
-    <title>使用 WinSCP 远程连接主机教程</title>
-    <link href="http://tdingquan.github.io/2021-03-26/winscp-tutorial/"/>
-    <id>http://tdingquan.github.io/2021-03-26/winscp-tutorial/</id>
-    <published>2021-03-26T10:06:32.000Z</published>
-    <updated>2021-04-05T05:43:53.037Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;WinSCP-安装&quot;&gt;&lt;a href=&quot;#WinSCP-安装&quot; class=&quot;headerlink&quot; title=&quot;WinSCP 安装&quot;&gt;&lt;/a&gt;WinSCP 安装&lt;/h1&gt;&lt;p&gt;官方安装地址：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Tutorial" scheme="http://tdingquan.github.io/categories/Tutorial/"/>
-    
-    
-    <category term="WinSCP" scheme="http://tdingquan.github.io/tags/WinSCP/"/>
-    
-  </entry>
-  
-  <entry>
     <title>2103 LeetCode</title>
     <link href="http://tdingquan.github.io/2021-03-08/2103-leetcode/"/>
     <id>http://tdingquan.github.io/2021-03-08/2103-leetcode/</id>
     <published>2021-03-08T03:42:31.000Z</published>
-    <updated>2021-04-05T04:15:46.257Z</updated>
+    <updated>2021-04-09T11:01:14.054Z</updated>
     
     
       
@@ -146,7 +150,7 @@
     <link href="http://tdingquan.github.io/2021-03-05/towards-causal-representation-learning/"/>
     <id>http://tdingquan.github.io/2021-03-05/towards-causal-representation-learning/</id>
     <published>2021-03-05T13:44:31.000Z</published>
-    <updated>2021-04-04T11:44:48.182Z</updated>
+    <updated>2021-04-09T11:01:06.855Z</updated>
     
     
     
@@ -165,7 +169,7 @@
     <link href="http://tdingquan.github.io/2021-03-04/hello-world/"/>
     <id>http://tdingquan.github.io/2021-03-04/hello-world/</id>
     <published>2021-03-04T13:44:31.000Z</published>
-    <updated>2021-04-06T02:27:12.738Z</updated>
+    <updated>2021-04-09T11:01:00.950Z</updated>
     
     
       
