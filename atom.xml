@@ -6,7 +6,7 @@
   <link href="http://tdingquan.github.io/atom.xml" rel="self"/>
   
   <link href="http://tdingquan.github.io/"/>
-  <updated>2021-05-17T02:19:55.296Z</updated>
+  <updated>2021-05-17T07:12:22.400Z</updated>
   <id>http://tdingquan.github.io/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>服务器Nginx配置教程</title>
+    <link href="http://tdingquan.github.io/2021-05-17/fu-wu-qi-nginx-pei-zhi-jiao-cheng/"/>
+    <id>http://tdingquan.github.io/2021-05-17/fu-wu-qi-nginx-pei-zhi-jiao-cheng/</id>
+    <published>2021-05-17T06:19:28.000Z</published>
+    <updated>2021-05-17T07:12:22.400Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;什么是-Nginx&quot;&gt;&lt;a href=&quot;#什么是-Nginx&quot; class=&quot;headerlink&quot; title=&quot;什么是 Nginx?&quot;&gt;&lt;/a&gt;什么是 Nginx?&lt;/h1&gt;&lt;h1 id=&quot;Nginx-的安装&quot;&gt;&lt;a href=&quot;#Nginx-的安装&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Engineering" scheme="http://tdingquan.github.io/categories/Engineering/"/>
+    
+    
+    <category term="Server" scheme="http://tdingquan.github.io/tags/Server/"/>
+    
+  </entry>
+  
+  <entry>
     <title>树专题</title>
     <link href="http://tdingquan.github.io/2021-05-17/shu-zhuan-ti/"/>
     <id>http://tdingquan.github.io/2021-05-17/shu-zhuan-ti/</id>
     <published>2021-05-17T02:15:56.000Z</published>
-    <updated>2021-05-17T02:19:55.296Z</updated>
+    <updated>2021-05-17T06:23:26.191Z</updated>
     
     
       
@@ -34,12 +59,10 @@
     
     
     
-    <category term="Summary" scheme="http://tdingquan.github.io/categories/Summary/"/>
+    <category term="Algorithm" scheme="http://tdingquan.github.io/categories/Algorithm/"/>
     
     
     <category term="LeetCode" scheme="http://tdingquan.github.io/tags/LeetCode/"/>
-    
-    <category term="Tree" scheme="http://tdingquan.github.io/tags/Tree/"/>
     
   </entry>
   
@@ -48,7 +71,7 @@
     <link href="http://tdingquan.github.io/2021-04-10/leetcode-shua-ti-mu-lu/"/>
     <id>http://tdingquan.github.io/2021-04-10/leetcode-shua-ti-mu-lu/</id>
     <published>2021-04-10T02:50:18.000Z</published>
-    <updated>2021-04-10T02:56:52.732Z</updated>
+    <updated>2021-05-17T06:23:26.155Z</updated>
     
     
       
@@ -62,7 +85,7 @@
     
     
     
-    <category term="Summary" scheme="http://tdingquan.github.io/categories/Summary/"/>
+    <category term="Algorithm" scheme="http://tdingquan.github.io/categories/Algorithm/"/>
     
     
     <category term="LeetCode" scheme="http://tdingquan.github.io/tags/LeetCode/"/>
@@ -74,7 +97,7 @@
     <link href="http://tdingquan.github.io/2021-04-09/matplotlib-ji-chu-zhi-shi/"/>
     <id>http://tdingquan.github.io/2021-04-09/matplotlib-ji-chu-zhi-shi/</id>
     <published>2021-04-09T08:13:35.000Z</published>
-    <updated>2021-04-09T11:00:57.825Z</updated>
+    <updated>2021-05-17T06:23:26.155Z</updated>
     
     
       
@@ -87,7 +110,7 @@
     
     
     
-    <category term="Documentation" scheme="http://tdingquan.github.io/categories/Documentation/"/>
+    <category term="Engineering" scheme="http://tdingquan.github.io/categories/Engineering/"/>
     
     
     <category term="Python" scheme="http://tdingquan.github.io/tags/Python/"/>
@@ -101,7 +124,7 @@
     <link href="http://tdingquan.github.io/2021-04-05/pytorch-bian-cheng-de-yi-xie-keng/"/>
     <id>http://tdingquan.github.io/2021-04-05/pytorch-bian-cheng-de-yi-xie-keng/</id>
     <published>2021-04-05T04:12:30.000Z</published>
-    <updated>2021-04-09T11:01:04.838Z</updated>
+    <updated>2021-05-17T06:23:21.548Z</updated>
     
     
       
@@ -114,7 +137,7 @@
     
     
     
-    <category term="Documentation" scheme="http://tdingquan.github.io/categories/Documentation/"/>
+    <category term="Engineering" scheme="http://tdingquan.github.io/categories/Engineering/"/>
     
     
     <category term="Python" scheme="http://tdingquan.github.io/tags/Python/"/>
@@ -128,7 +151,7 @@
     <link href="http://tdingquan.github.io/2021-04-04/collections-the-container-datatypes/"/>
     <id>http://tdingquan.github.io/2021-04-04/collections-the-container-datatypes/</id>
     <published>2021-04-04T11:39:12.000Z</published>
-    <updated>2021-04-09T11:01:11.146Z</updated>
+    <updated>2021-05-17T06:23:26.155Z</updated>
     
     
       
@@ -141,7 +164,7 @@
     
     
     
-    <category term="Documentation" scheme="http://tdingquan.github.io/categories/Documentation/"/>
+    <category term="Engineering" scheme="http://tdingquan.github.io/categories/Engineering/"/>
     
     
     <category term="Python" scheme="http://tdingquan.github.io/tags/Python/"/>
@@ -153,7 +176,7 @@
     <link href="http://tdingquan.github.io/2021-04-04/2104-leetcode/"/>
     <id>http://tdingquan.github.io/2021-04-04/2104-leetcode/</id>
     <published>2021-04-04T11:15:04.000Z</published>
-    <updated>2021-04-09T11:01:09.067Z</updated>
+    <updated>2021-05-17T06:23:26.195Z</updated>
     
     
       
@@ -166,7 +189,7 @@
     
     
     
-    <category term="Summary" scheme="http://tdingquan.github.io/categories/Summary/"/>
+    <category term="Algorithm" scheme="http://tdingquan.github.io/categories/Algorithm/"/>
     
     
     <category term="LeetCode" scheme="http://tdingquan.github.io/tags/LeetCode/"/>
@@ -178,7 +201,7 @@
     <link href="http://tdingquan.github.io/2021-03-08/2103-leetcode/"/>
     <id>http://tdingquan.github.io/2021-03-08/2103-leetcode/</id>
     <published>2021-03-08T03:42:31.000Z</published>
-    <updated>2021-04-09T11:01:14.054Z</updated>
+    <updated>2021-05-17T06:23:26.200Z</updated>
     
     
       
@@ -191,7 +214,7 @@
     
     
     
-    <category term="Summary" scheme="http://tdingquan.github.io/categories/Summary/"/>
+    <category term="Algorithm" scheme="http://tdingquan.github.io/categories/Algorithm/"/>
     
     
     <category term="LeetCode" scheme="http://tdingquan.github.io/tags/LeetCode/"/>
@@ -203,7 +226,7 @@
     <link href="http://tdingquan.github.io/2021-03-04/hello-world/"/>
     <id>http://tdingquan.github.io/2021-03-04/hello-world/</id>
     <published>2021-03-04T13:44:31.000Z</published>
-    <updated>2021-04-10T03:01:02.915Z</updated>
+    <updated>2021-05-17T06:23:26.156Z</updated>
     
     
       
@@ -216,7 +239,7 @@
     
     
     
-    <category term="Tutorial" scheme="http://tdingquan.github.io/categories/Tutorial/"/>
+    <category term="Engineering" scheme="http://tdingquan.github.io/categories/Engineering/"/>
     
     
     <category term="Hexo" scheme="http://tdingquan.github.io/tags/Hexo/"/>
