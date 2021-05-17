@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>树专题</title>
+      <link href="2021-05-17/shu-zhuan-ti/"/>
+      <url>2021-05-17/shu-zhuan-ti/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Hard"><a href="#Hard" class="headerlink" title="Hard"></a>Hard</h1><h1 id="Medium"><a href="#Medium" class="headerlink" title="Medium"></a>Medium</h1><h1 id="Easy"><a href="#Easy" class="headerlink" title="Easy"></a>Easy</h1><h4 id="1-993-二叉树的堂兄弟节点"><a href="#1-993-二叉树的堂兄弟节点" class="headerlink" title="1. 993 - 二叉树的堂兄弟节点"></a>1. <a href="https://leetcode-cn.com/problems/cousins-in-binary-tree/">993 - 二叉树的堂兄弟节点</a></h4><ul><li>堂兄弟节点定义为：父节点不同，深度相同的节点</li><li>层次遍历</li><li>判断每个节点的子节点是否满足查询的数字</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Summary </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> LeetCode </tag>
+            
+            <tag> Tree </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>LeetCode 刷题目录</title>
       <link href="2021-04-10/leetcode-shua-ti-mu-lu/"/>
       <url>2021-04-10/leetcode-shua-ti-mu-lu/</url>
