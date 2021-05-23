@@ -6,7 +6,7 @@
   <link href="http://tdingquan.github.io/atom.xml" rel="self"/>
   
   <link href="http://tdingquan.github.io/"/>
-  <updated>2021-05-23T10:11:21.842Z</updated>
+  <updated>2021-05-23T17:04:28.577Z</updated>
   <id>http://tdingquan.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>核方法</title>
+    <link href="http://tdingquan.github.io/2021-05-23/he-fang-fa/"/>
+    <id>http://tdingquan.github.io/2021-05-23/he-fang-fa/</id>
+    <published>2021-05-23T13:21:31.000Z</published>
+    <updated>2021-05-23T17:04:28.577Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;一些空间的定义&quot;&gt;&lt;a href=&quot;#一些空间的定义&quot; class=&quot;headerlink&quot; title=&quot;一些空间的定义&quot;&gt;&lt;/a&gt;一些空间的定义&lt;/h1&gt;&lt;h2 id=&quot;泛函分析&quot;&gt;&lt;a href=&quot;#泛函分析&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Math" scheme="http://tdingquan.github.io/categories/Math/"/>
+    
+    
+    <category term="Machine Learning" scheme="http://tdingquan.github.io/tags/Machine-Learning/"/>
+    
+  </entry>
   
   <entry>
     <title>二分查找专题</title>
