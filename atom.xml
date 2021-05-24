@@ -6,7 +6,7 @@
   <link href="http://tdingquan.github.io/atom.xml" rel="self"/>
   
   <link href="http://tdingquan.github.io/"/>
-  <updated>2021-05-23T17:04:28.577Z</updated>
+  <updated>2021-05-24T06:49:54.500Z</updated>
   <id>http://tdingquan.github.io/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Markdown 常用输入片段</title>
+    <link href="http://tdingquan.github.io/2021-05-24/markdown-chang-yong-shu-ru-pian-duan/"/>
+    <id>http://tdingquan.github.io/2021-05-24/markdown-chang-yong-shu-ru-pian-duan/</id>
+    <published>2021-05-24T06:07:55.000Z</published>
+    <updated>2021-05-24T06:49:54.500Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;符号以及公式&quot;&gt;&lt;a href=&quot;#符号以及公式&quot; class=&quot;headerlink&quot; title=&quot;符号以及公式&quot;&gt;&lt;/a&gt;符号以及公式&lt;/h1&gt;&lt;h2 id=&quot;输入格式&quot;&gt;&lt;a href=&quot;#输入格式&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Engineering" scheme="http://tdingquan.github.io/categories/Engineering/"/>
+    
+    
+    <category term="Markdown" scheme="http://tdingquan.github.io/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
     <title>核方法</title>
     <link href="http://tdingquan.github.io/2021-05-23/he-fang-fa/"/>
     <id>http://tdingquan.github.io/2021-05-23/he-fang-fa/</id>
     <published>2021-05-23T13:21:31.000Z</published>
-    <updated>2021-05-23T17:04:28.577Z</updated>
+    <updated>2021-05-23T17:06:15.927Z</updated>
     
     
       
