@@ -473,14 +473,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    374
+                    507
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    2 分
                 </div>
                 
 
@@ -503,7 +503,73 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="符号以及公式"><a href="#符号以及公式" class="headerlink" title="符号以及公式"></a>符号以及公式</h1><h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><ol>
+                <h1 id="花体字母"><a href="#花体字母" class="headerlink" title="花体字母"></a>花体字母</h1><table>
+<thead>
+<tr>
+<th>语法</th>
+<th>效果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>\mathbb{R}</td>
+<td>$\mathbb{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$</td>
+</tr>
+<tr>
+<td>\mathcal{R}</td>
+<td>$\mathcal{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$</td>
+</tr>
+<tr>
+<td>\mathscr{R}</td>
+<td>$\mathscr{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$</td>
+</tr>
+<tr>
+<td>\mathrm{R}</td>
+<td>$\mathrm{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$</td>
+</tr>
+<tr>
+<td>\mathbf{R}</td>
+<td>$\mathbf{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$</td>
+</tr>
+<tr>
+<td>\mathit{R}</td>
+<td>$\mathit{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$</td>
+</tr>
+<tr>
+<td>\mathsf{R}</td>
+<td>$\mathsf{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$</td>
+</tr>
+<tr>
+<td>\mathtt{R}</td>
+<td>$\mathtt{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$</td>
+</tr>
+<tr>
+<td>\mathfrak{R}</td>
+<td>$\mathfrak{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$</td>
+</tr>
+</tbody></table>
+<ul>
+<li>一些花体字母，hexo 加载很慢很慢。</li>
+</ul>
+<h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><table>
+<thead>
+<tr>
+<th align="left">左对齐</th>
+<th>居中对齐（默认）</th>
+<th align="right">右对齐</th>
+<th align="center">两边对齐</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">左对齐</td>
+<td>居中对齐（默认）</td>
+<td align="right">右对齐</td>
+<td align="center">两边对齐</td>
+</tr>
+</tbody></table>
+<ul>
+<li>hexo 在处理右对齐时好像有 bug。</li>
+</ul>
+<h1 id="符号以及公式"><a href="#符号以及公式" class="headerlink" title="符号以及公式"></a>符号以及公式</h1><h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><ol>
 <li><p>符号：前后加<code>$</code>。</p>
 </li>
 <li><p>行内公式：前后加<code>$</code>。</p>
@@ -703,7 +769,90 @@
 <td></td>
 </tr>
 </tbody></table>
-<h3 id="二元关系符"><a href="#二元关系符" class="headerlink" title="二元关系符"></a>二元关系符</h3><p>| 语法      | 效果        | 语法      | 效果         | 语法      | 效果        | 语法      | 效果        |<br>| ——— | ———– | ——— | ———— | ——— | ———– | ——— | ———– | —– | ——- |<br>| &lt;         | $&lt;$         | &gt;         | $&gt;$          | =         | $=$         | \neq,\ne  | $\neq, \ne$ |<br>| \leq, \le | $\leq, \le$ | \geq. \ge | $\geq, \ge$  | \nleq     | $\nleq$     | \ngeq     | $\ngeq$     |<br>| \equiv    | $\equiv$    | \ll       | $\ll$        | \gg       | $\gg$       |<br>| \sim      | $\sim$      | \simeq    | $\simeq$     | \approx   | $\approx$   |<br>| \subset   | $\subset$   | \supset   | $\supset$    | \subseteq | $\subseteq$ | \supseteq | $\supseteq$ | \cong | $\cong$ |<br>| \in       | $\in$       | \ni,\owns | $\ni, \owns$ | \propto   | $\propto$   | \mid      | $\mid$      |<br>| \parallel | $\parallel$ | :         | $:$          | \notin    | $\notin$    |</p>
+<h3 id="二元关系符"><a href="#二元关系符" class="headerlink" title="二元关系符"></a>二元关系符</h3><table>
+<thead>
+<tr>
+<th>语法</th>
+<th>效果</th>
+<th>语法</th>
+<th>效果</th>
+<th>语法</th>
+<th>效果</th>
+<th>语法</th>
+<th>效果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>&lt;</td>
+<td>$&lt;$</td>
+<td>&gt;</td>
+<td>$&gt;$</td>
+<td>=</td>
+<td>$=$</td>
+<td>\neq,\ne</td>
+<td>$\neq, \ne$</td>
+</tr>
+<tr>
+<td>\leq, \le</td>
+<td>$\leq, \le$</td>
+<td>\geq, \ge</td>
+<td>$\geq, \ge$</td>
+<td>\nleq</td>
+<td>$\nleq$</td>
+<td>\ngeq</td>
+<td>$\ngeq$</td>
+</tr>
+<tr>
+<td>\equiv</td>
+<td>$\equiv$</td>
+<td>\ll</td>
+<td>$\ll$</td>
+<td>\gg</td>
+<td>$\gg$</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>\sim</td>
+<td>$\sim$</td>
+<td>\simeq</td>
+<td>$\simeq$</td>
+<td>\approx</td>
+<td>$\approx$</td>
+<td>\cong</td>
+<td>$\cong$</td>
+</tr>
+<tr>
+<td>\subset</td>
+<td>$\subset$</td>
+<td>\supset</td>
+<td>$\supset$</td>
+<td>\subseteq</td>
+<td>$\subseteq$</td>
+<td>\supseteq</td>
+<td>$\supseteq$</td>
+</tr>
+<tr>
+<td>\in</td>
+<td>$\in$</td>
+<td>\ni,\owns</td>
+<td>$\ni, \owns$</td>
+<td>\propto</td>
+<td>$\propto$</td>
+<td>\mid</td>
+<td>$\mid$</td>
+</tr>
+<tr>
+<td>\parallel</td>
+<td>$\parallel$</td>
+<td>:</td>
+<td>$:$</td>
+<td>\notin</td>
+<td>$\notin$</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
 <h3 id="二元运算符"><a href="#二元运算符" class="headerlink" title="二元运算符"></a>二元运算符</h3><h3 id="大运算符"><a href="#大运算符" class="headerlink" title="大运算符"></a>大运算符</h3><table>
 <thead>
 <tr>
@@ -776,13 +925,23 @@
 <td>$\vert$</td>
 <td>\Vert</td>
 <td>$\Vert$</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>符号直接表示</td>
+<td>$()$</td>
+<td>符号直接表示</td>
+<td>$[]$</td>
+</tr>
+<tr>
+<td>\lbrace, \rbrace</td>
+<td>$\lbrace, \rbrace$</td>
+<td>\langle, \rangle</td>
+<td>$\langle, \rangle$</td>
+<td>\lceil, \rceil</td>
+<td>$\lceil, \rceil$</td>
+<td>\lfloor, \rfloor</td>
+<td>$\lfloor, \rfloor$</td>
 </tr>
 </tbody></table>
-
+<h2 id="公式"><a href="#公式" class="headerlink" title="公式"></a>公式</h2>
                 
             </div>
             <hr/>
@@ -1423,7 +1582,7 @@
         class="fas fa-chart-area"
       ></i
       >&nbsp;站点总字数:&nbsp;<span class="white-color">
-        5.9k </span
+        6k </span
       >&nbsp;字   
       <span id="busuanzi_container_site_pv">
         <i class="fa fa-heart-o"></i>
