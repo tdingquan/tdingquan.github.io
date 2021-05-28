@@ -4,6 +4,98 @@
   
     
     <entry>
+      <title>位运算专题</title>
+      <link href="2021-05-28/wei-yun-suan-zhuan-ti/"/>
+      <url>2021-05-28/wei-yun-suan-zhuan-ti/</url>
+      
+        <content type="html"><![CDATA[<h1 id="一些经验"><a href="#一些经验" class="headerlink" title="一些经验"></a>一些经验</h1><ol><li>在对数组进行操作的时候，从数字角度考虑，复杂度如果是$O(n^2)$，则可以从数位角度进行考虑，一般可以将复杂度降低到$O(n)$。</li></ol><h1 id="Hard"><a href="#Hard" class="headerlink" title="Hard"></a>Hard</h1><h1 id="Medium"><a href="#Medium" class="headerlink" title="Medium"></a>Medium</h1><h4 id="1-汉明距离总和"><a href="#1-汉明距离总和" class="headerlink" title="1. 汉明距离总和"></a>1. <a href="https://leetcode-cn.com/problems/total-hamming-distance/">汉明距离总和</a></h4><ul><li>思路一：暴力；</li><li>思路二：对于关于整个列表的位运算，我们可以思考暴力算法里面的重复计算；<ul><li>汉明距离定义为两个数字数位不同的数量和；</li><li>对于第 $k$ 位，求出所有 1 的数量$m_1$，0 的数量就是$m_0$；</li><li>第$k$位，列表所有数字的汉明距离和：$m_0 \times m_1$；</li><li>逐位求和。</li></ul></li></ul><h1 id="Easy"><a href="#Easy" class="headerlink" title="Easy"></a>Easy</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> Algorithm </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> LeetCode </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Causal Discovery with Attention-Based Convolutional Neural Networks</title>
+      <link href="2021-05-27/causal-discovery-with-attention-based-convolutional-neural-networks/"/>
+      <url>2021-05-27/causal-discovery-with-attention-based-convolutional-neural-networks/</url>
+      
+        <content type="html"><![CDATA[<h1 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h1><p>作者提出 TCDF，一个结合了 CNN 和 Attention 的深度学习框架去对时间序列进行预测，利用 CNN 的参数可以判断因果的时间滞后性；结合一个因果验证步骤（基于干预）去生成一个时序因果图。克服了混杂因子和瞬时影响的限制。</p><h1 id="作者"><a href="#作者" class="headerlink" title="作者"></a>作者</h1><h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><ul><li><p>大多数的模型都通过数据间的相关性去进行预测，但相关性不能表示因果关系：相关性表示一种双向关系，只能说明数据间存在一种关系。因果关系是有向的、非对称的。当两个变量之间存在一个共同成因，这种伪相关关系会使两个不相关变量展示出一种统计意义上的相关关系；</p></li><li><p>因果关系比相关关系更加鲁棒地体现数据的本性，因为它可以揭示数据内在的运行机制；并且可以对人为干预之后数据结果进行预测；</p></li><li><p>传统的因果关系挖掘方法，利用干预或实际实验。大数据使我们可以利用数据分析的方法揭示其中的因果关系。因果挖掘对于数据成因的帮助，也使其成为可解释人工智能的一个研究内容；</p></li><li><p>时间序列数据对于因果关系天然有一个帮助：果发生在因之后。传统因果关系挖掘的方法对时序数据存在以下假设：线性、稳定、无噪声、无混杂因子（共同成因）、无瞬时效应。这些方法只能用于因果关系挖掘，不能用于预测；</p></li><li><p>TCDF 包括多个 CNN；每个 CNN 接受全部时序数据作为输入，并且被用于预测一维时间序列数据；利用反向传播进行更新的网络参数，被用于进行无监督的因果关系挖掘和因果滞后性挖掘；利用 attention 去看 CNN 在预测时使用哪些历史数据；在训练结束后，TCDF 利用因果关系验证去判断因果关系（基于干预）。</p></li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>On the completeness of orientation rules for causal discovery in the presence of latent confounders and selection bias</title>
+      <link href="2021-05-25/on-the-completeness-of-orientation-rules-for-causal-discovery-in-the-presence-of-latent-confounders-and-selection-bias/"/>
+      <url>2021-05-25/on-the-completeness-of-orientation-rules-for-causal-discovery-in-the-presence-of-latent-confounders-and-selection-bias/</url>
+      
+        <content type="html"><![CDATA[<h1 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h1><p>传统的因果推理方法假设不存在混杂因子和选择偏差，FCI 算法利用指向规则可以克服这个缺点。本篇论文完善了这个指向规则，使之可以在标准假设下确定所有因果结构。</p><h1 id="作者"><a href="#作者" class="headerlink" title="作者"></a>作者</h1><ul><li>Jiji Zhang$^{1,2}$</li></ul><ol><li>Division of the Humanities and Social Sciences, California Institute of Technology, USA</li><li>Department of Philosophy, Lingnan University, Hong Kong</li></ol><h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><ol><li><p>传统因果算法假设数据中不存在混在因子和选择偏差。如果丢掉这个假设，那么 <code>constraint-based</code> 方法将不再有效。因为我们无法估计混杂因子的数量，也因此无法确定一个 <code>DAG</code> 的拓扑结构。</p></li><li><p>为了解决这个问题，我们使用 <code>ancestral graph</code> 来代替原先的 <code>DAG</code>。他有一个很好的性质：对于任意的因果图结构，我们都可以总结一个 <code>maximal ancestral graph</code> 来表示。</p></li><li><p>基于此的 <code>FCI</code> 算法在推断规则上仍是不完整的。本文通过对 <code>MAG</code> 的一般特征进行刻画来扩展这个指向规则。</p></li></ol><h1 id="Ancestral-graphs-and-their-interpretations"><a href="#Ancestral-graphs-and-their-interpretations" class="headerlink" title="Ancestral graphs and their interpretations"></a>Ancestral graphs and their interpretations</h1><h2 id="Ancestral-graphs"><a href="#Ancestral-graphs" class="headerlink" title="Ancestral graphs"></a>Ancestral graphs</h2><p>1.</p><ol start="2"><li>一个 <code>mixed graph</code> 是 <code>ancestral</code> 如果：</li></ol><ul><li>不存在 <code>directed cycle</code>；</li><li>不存在 <code>almost directed cycle</code>；</li><li>对于无向边 <code>V1-V2</code>，<code>V1,V2</code> 不存在父节点或者伴侣节点。</li></ul><ol start="3"><li><code>DAG</code> 都是 <code>ancestral graph</code> 的特例；双向箭头的定义是二者均不构成对方的祖先节点关系；第三个条件使得带有无向边的节点不会被一个有向边指向（不会接收到一个箭头）。</li></ol><h2 id="Probabilistic-interpretation-of-ancestral-graphs"><a href="#Probabilistic-interpretation-of-ancestral-graphs" class="headerlink" title="Probabilistic interpretation of ancestral graphs"></a>Probabilistic interpretation of ancestral graphs</h2><ol><li><code>collider</code>：在一条路径上被两侧邻边同时指向的节点；否则就是 <code>non-collider</code>。</li></ol><ul><li>这不是节点的属性，而是节点在路径中的特性。</li></ul><ol start="2"><li><code>m-separation</code>： 在一个 <code>mixed-graph</code> 中，在节点集合<code>X</code>和<code>Y</code>之间的路径<code>p</code>相对一个集合<code>Z</code>是<code>m-connecting</code>的，如果：</li></ol><ul><li><code>p</code> 中的 <code>non-collider</code> 都不在 <code>Z</code> 中；</li><li><code>p</code> 中的 <code>collider</code> 都有一个后代在 <code>Z</code> 中。</li></ul><ol start="3"><li><code>separation</code> 与独立性：</li></ol><ul><li>在<code>DAG</code>中，<code>d-separation</code> $\Leftrightarrow$ 独立；</li><li>在<code>ancestral graph</code>中，<code>m-separation</code> $\Rightarrow$ 独立；</li><li>在<code>MAG</code>中，<code>m-separation</code> $\Leftrightarrow$ 独立；</li></ul><h1 id="推荐阅读"><a href="#推荐阅读" class="headerlink" title="推荐阅读"></a>推荐阅读</h1><ol><li>23 - <code>ancestral graph</code></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> Paper Reading </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Causal Discovery </tag>
+            
+            <tag> Causal Theory </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>On Causal Discovery from Time Series Data using FCI</title>
+      <link href="2021-05-25/on-causal-discovery-from-time-series-data-using-fci/"/>
+      <url>2021-05-25/on-causal-discovery-from-time-series-data-using-fci/</url>
+      
+        <content type="html"><![CDATA[<h1 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h1><ul><li><p>将 FCI 算法应用到时间序列数据上，使其可以处理带有混杂因子和选择偏差的数据。利用了时间序列数据的特性，对于 PAG 图上的边的推导制定了新的规则。理论上效果应该很好，实际上对于大多数的样本大小效果都不太好。</p></li><li><p>时间序列常用格兰杰因果进行推导，但他无法处理混在因子和选择偏差。</p></li><li><p>时间序列的长度对于推断出的关系有影响；条件独立性的检验对于结果的推断有影响；</p></li><li><p>我们假设瞬时因果关系不存在，但由于采样频率等原因，两次采样中间的多元时间序列可能产生自环；</p></li><li><p>时序数据的聚合使得我们找到的因果关系不能表示原数据的因果结构。</p></li></ul><h1 id="作者"><a href="#作者" class="headerlink" title="作者"></a>作者</h1><ul><li>Doris Entner$^1$</li><li>Patrik O. Hoyer$^{1,2}$</li></ul><ol><li>HIIT &amp; Dept. of Computer Science, University of Helsinki, Finland</li><li>CSAIL, Massachusetts Institute of Technology, Cambridge, MA, USA</li></ol><h1 id="FCI-算法介绍"><a href="#FCI-算法介绍" class="headerlink" title="FCI 算法介绍"></a>FCI 算法介绍</h1><h2 id="MAGs-PAGs-and-FCI"><a href="#MAGs-PAGs-and-FCI" class="headerlink" title="MAGs, PAGs, and FCI"></a>MAGs, PAGs, and FCI</h2><ol><li><p>Partial Ancestral graph</p></li><li><p>Mixed graph</p></li><li><p>Ancestral graph</p></li><li><p>m-separation</p></li><li><p>Maximal ancestral graph</p></li></ol><h1 id="时间序列模型"><a href="#时间序列模型" class="headerlink" title="时间序列模型"></a>时间序列模型</h1><h1 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h1><ul><li>N 维时间序列：$\mathbf{X}(t), t=1,\cdots,T$</li></ul><h2 id="算法内容"><a href="#算法内容" class="headerlink" title="算法内容"></a>算法内容</h2><ol><li>使用滑动窗口算法，将原时间序列划分成固定长度$\tau$的片段$\mathbf{X}$，得到$T-\tau$个样本。认为这个样本是采样于分布$P(\mathbf{X})$；</li></ol><ul><li>$X=(X_1(t-\tau),\cdots,X_N(t-\tau),\cdots,X_1(t),\cdots,X_N(t))^T:1\times(\tau+1)·N$</li></ul><ol start="2"><li><p>对得到的样本应用 FCI 算法，得到一个 Partial Ancestral Graph, PAG。</p></li><li><p>结合数据的时间序列特性，对 PAG 更改如下：</p></li></ol><ul><li>因果箭头必须顺时间方向，$X_i(t_1) \rightarrow X_j(t_2), t_1 \leq t_2 $；</li><li>因果效应时间不变性，$X_i(t-t_1) \rightarrow X_j(t-t_2) \Rightarrow X_i(t-t_3) \rightarrow X_j(t-t_4), \forall t_1 - t_2 = t_3 - t_4$。</li></ul><h2 id="推论"><a href="#推论" class="headerlink" title="推论"></a>推论</h2><ol><li>在一个有限长$\tau$的窗口内，如果$X_i(t-t_1)\perp X_j(t-t_2) \mid \lbrace X_k(t-t_3), \cdots, X_l(t-t_k)\rbrace$，则$X_i(t-t_1+t’)\perp X_j(t-t_2+t’) \mid \lbrace X_k(t-t_3+t’), \cdots, X_l(t-t_k+t’)\rbrace$；</li></ol><ul><li><font color="Red">不知道 markdown 如何敲出来独立符号。</font></li></ul><ol start="2"><li>由于因果效应时间不变性推断出来的边，边两侧的 mark 应该一样。</li></ol><h2 id="推论的应用"><a href="#推论的应用" class="headerlink" title="推论的应用"></a>推论的应用</h2><ul><li>两个节点的条件独立性测试表示他们应该是独立的，则可以移除此刻以及未来每一时刻这两个维度之间的边；</li><li>这个策略导致在这个时间点以前的图上会出现一些可能冗余的边。</li></ul><h2 id="算法伪代码"><a href="#算法伪代码" class="headerlink" title="算法伪代码"></a>算法伪代码</h2><p><img src="/2021-05-25/on-causal-discovery-from-time-series-data-using-fci/algo.png" alt="算法伪代码"></p><h1 id="推荐阅读"><a href="#推荐阅读" class="headerlink" title="推荐阅读"></a>推荐阅读</h1><ol><li>Sprites et al. (2000) - FCI algorithm.</li></ol><p>2.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Paper Reading </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Causal Discovery </tag>
+            
+            <tag> Time series </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Markdown 常用输入片段</title>
       <link href="2021-05-24/markdown-chang-yong-shu-ru-pian-duan/"/>
       <url>2021-05-24/markdown-chang-yong-shu-ru-pian-duan/</url>
@@ -133,7 +225,7 @@
       <link href="2021-04-10/leetcode-shua-ti-mu-lu/"/>
       <url>2021-04-10/leetcode-shua-ti-mu-lu/</url>
       
-        <content type="html"><![CDATA[<h1 id="专题分类"><a href="#专题分类" class="headerlink" title="专题分类"></a>专题分类</h1><ol><li><p>树专题: <a href="/2021-05-17/shu-zhuan-ti/" title="树专题">树专题</a></p></li><li><p>二分查找专题: <a href="/2021-05-23/er-fen-cha-zhao-zhuan-ti/" title="二分查找专题">二分查找专题</a></p></li></ol><p>131 - 分割回文串: <a href="/2021-03-08/2103-leetcode/" title="2103 LeetCode">2103 LeetCode</a></p><p>132 - 分割回文串 II: <a href="/2021-03-08/2103-leetcode/" title="2103 LeetCode">2103 LeetCode</a></p><p>232 - 用栈实现队列: <a href="/2021-03-08/2103-leetcode/" title="2103 LeetCode">2103 LeetCode</a></p><p>303 - 区域和检索 - 数组不可变: <a href="/2021-03-08/2103-leetcode/" title="2103 LeetCode">2103 LeetCode</a></p><p>304 - 二维区域和检索 - 矩阵不可变: <a href="/2021-03-08/2103-leetcode/" title="2103 LeetCode">2103 LeetCode</a></p><p>338 - 比特位计数: <a href="/2021-03-08/2103-leetcode/" title="2103 LeetCode">2103 LeetCode</a></p><p>354 - 俄罗斯套娃信封问题: <a href="/2021-03-08/2103-leetcode/" title="2103 LeetCode">2103 LeetCode</a></p><p>503 - 下一个更大元素 II: <a href="/2021-03-08/2103-leetcode/" title="2103 LeetCode">2103 LeetCode</a></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="专题分类"><a href="#专题分类" class="headerlink" title="专题分类"></a>专题分类</h1><ol><li><p>树专题： <a href="/2021-05-17/shu-zhuan-ti/" title="树专题">树专题</a></p></li><li><p>二分查找专题： <a href="/2021-05-23/er-fen-cha-zhao-zhuan-ti/" title="二分查找专题">二分查找专题</a></p></li><li><p>位运算专题： <a href="/2021-05-28/wei-yun-suan-zhuan-ti/" title="位运算专题">位运算专题</a></p></li></ol><p>131 - 分割回文串： <a href="/2021-03-08/2103-leetcode/" title="2103 LeetCode">2103 LeetCode</a></p><p>132 - 分割回文串 II： <a href="/2021-03-08/2103-leetcode/" title="2103 LeetCode">2103 LeetCode</a></p><p>232 - 用栈实现队列： <a href="/2021-03-08/2103-leetcode/" title="2103 LeetCode">2103 LeetCode</a></p><p>303 - 区域和检索 - 数组不可变： <a href="/2021-03-08/2103-leetcode/" title="2103 LeetCode">2103 LeetCode</a></p><p>304 - 二维区域和检索 - 矩阵不可变： <a href="/2021-03-08/2103-leetcode/" title="2103 LeetCode">2103 LeetCode</a></p><p>338 - 比特位计数： <a href="/2021-03-08/2103-leetcode/" title="2103 LeetCode">2103 LeetCode</a></p><p>354 - 俄罗斯套娃信封问题： <a href="/2021-03-08/2103-leetcode/" title="2103 LeetCode">2103 LeetCode</a></p><p>503 - 下一个更大元素 II： <a href="/2021-03-08/2103-leetcode/" title="2103 LeetCode">2103 LeetCode</a></p>]]></content>
       
       
       <categories>
