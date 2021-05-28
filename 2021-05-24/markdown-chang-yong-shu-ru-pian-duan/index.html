@@ -466,14 +466,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-05-24
+                    2021-05-28
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    507
+                    508
                 </div>
                 
 
@@ -560,14 +560,17 @@
 </tr>
 </thead>
 <tbody><tr>
-<td align="left">左对齐</td>
-<td>居中对齐（默认）</td>
-<td align="right">右对齐</td>
-<td align="center">两边对齐</td>
+<td align="left">“:—–”</td>
+<td>“—————-“</td>
+<td align="right">“—–:”</td>
+<td align="center">“:——:”</td>
 </tr>
 </tbody></table>
 <ul>
-<li>hexo 在处理右对齐时好像有 bug。</li>
+<li><font color="red">hexo 在处理右对齐时好像有 bug。</font><ul>
+<li>已解决，删除了文件<code>materialize.min.css</code>中<code>td,th</code>中的<code>text_align</code>样式。</li>
+</ul>
+</li>
 </ul>
 <h1 id="符号以及公式"><a href="#符号以及公式" class="headerlink" title="符号以及公式"></a>符号以及公式</h1><h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><ol>
 <li><p>符号：前后加<code>$</code>。</p>
