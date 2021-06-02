@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="核方法, 一汪白水">
+    <meta name="keywords" content="PHP面向对象, 一汪白水">
     <meta name="description" content="某十八线研究僧的学习笔记">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>核方法 | 一汪白水</title>
+    <title>PHP面向对象 | 一汪白水</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -313,12 +313,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/20.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/23.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">核方法</h1>
+                    <h1 class="description center-align post-title">PHP面向对象</h1>
                 </div>
             </div>
         </div>
@@ -434,8 +434,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Machine-Learning/">
-                                <span class="chip bg-color">Machine Learning</span>
+                            <a href="/tags/PHP/">
+                                <span class="chip bg-color">PHP</span>
+                            </a>
+                        
+                            <a href="/tags/OOP/">
+                                <span class="chip bg-color">OOP</span>
                             </a>
                         
                     </div>
@@ -446,8 +450,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Math/" class="post-category">
-                                Math
+                            <a href="/categories/Engineering/" class="post-category">
+                                Engineering
                             </a>
                         
                     </div>
@@ -459,28 +463,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-05-23
+                    2021-06-02
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-06-01
+                    2021-06-02
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.4k
+                    0
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    6 分
+                    1 分
                 </div>
                 
 
@@ -503,153 +507,7 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="一些空间的定义"><a href="#一些空间的定义" class="headerlink" title="一些空间的定义"></a>一些空间的定义</h1><h2 id="泛函分析"><a href="#泛函分析" class="headerlink" title="泛函分析"></a>泛函分析</h2><ul>
-<li>以下内容属于“泛函分析（functional analysis）”范畴，泛函分析研究的是函数空间（function space）的性质。</li>
-<li>函数空间是指空间里面的点（元素）都是函数的空间。</li>
-</ul>
-<h2 id="线性空间"><a href="#线性空间" class="headerlink" title="线性空间"></a>线性空间</h2><ul>
-<li>线性空间（linear space）：定义了数乘和加法的空间。可以通过确定一组基底（basis），通过线性组合得到空间中的所有点。</li>
-<li>举例：<ul>
-<li>二次函数空间，基底为 $\lbrace 1,x,x^2\rbrace$，任意函数 $f(x)=\alpha_1·1+\alpha_2·x+\alpha_3·x^2$，坐标为$(\alpha_1,\alpha_2,\alpha_3)$。</li>
-</ul>
-</li>
-<li>一般选择正交的函数作为函数空间的基底，正交基（orthogonal basis），函数正交定义：<br>$$<br>\int f(x)g(x) {\rm d}x = 0<br>$$</li>
-</ul>
-<h2 id="线性度量空间"><a href="#线性度量空间" class="headerlink" title="线性度量空间"></a>线性度量空间</h2><ul>
-<li>线性度量空间（metric linear space）：定义了距离（metric）的线性空间。</li>
-<li>距离的性质：<ul>
-<li>非负性：$d(x,y) \geq 0; d(x,y) = 0; \Leftrightarrow x = y$；</li>
-<li>对称性：$d(x,y) = d(y,x)$；</li>
-<li>三角不等式：$d(x,y) + d(y,z) \geq d(x,z)$。</li>
-</ul>
-</li>
-</ul>
-<h2 id="线性赋范空间"><a href="#线性赋范空间" class="headerlink" title="线性赋范空间"></a>线性赋范空间</h2><ul>
-<li>线性赋范空间（normed linear space）：定义了范数（norm）的线性度量空间。</li>
-<li>范数的性质：<ul>
-<li>非负性：$||x|| \geq 0$；</li>
-<li>齐次性：$||\alpha x||=|\alpha|||x||$；</li>
-<li>三角不等式：$||x||+||y||\geq||x+y||$。</li>
-</ul>
-</li>
-<li>范数和距离的区别：<ul>
-<li>范数可以导出距离，范数符合距离所有性质；</li>
-<li>距离导不出范数，距离不一定范数齐次性。<ul>
-<li>$d(x,y)=||x-y||$</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="巴纳赫空间"><a href="#巴纳赫空间" class="headerlink" title="巴纳赫空间"></a>巴纳赫空间</h2><ul>
-<li>巴纳赫空间（Banach space）：完备的线性赋范空间。</li>
-<li>完备性（completeness）：任一柯西序列都收敛。</li>
-<li>柯西序列（Cauchy sequence）：</li>
-</ul>
-<h2 id="内积线性空间"><a href="#内积线性空间" class="headerlink" title="内积线性空间"></a>内积线性空间</h2><ul>
-<li>内积线性空间（inner product linear space）：定义了内积（inner product）的线性赋范空间。</li>
-<li>内积：标量积（scalar product）或点积（dot product）。</li>
-<li>内积的性质：<ul>
-<li>对称性：$\langle x,y\rangle =\langle y,x\rangle $；</li>
-<li>线性性：<ul>
-<li>$\langle x,y\rangle +\langle x,z\rangle =\langle x,y+z\rangle $；</li>
-<li>$\langle \alpha x,y\rangle =\alpha\langle x,y\rangle $（数乘只对第一变元有效）；</li>
-</ul>
-</li>
-<li>正定性：$\langle x,x\rangle \geq 0$。</li>
-</ul>
-</li>
-<li>内积和范数的区别：<ul>
-<li>内积可以导出范数，$||x||^2 = \langle x,x \rangle$；</li>
-<li>范数导不出内积。</li>
-</ul>
-</li>
-</ul>
-<h2 id="欧几里得空间"><a href="#欧几里得空间" class="headerlink" title="欧几里得空间"></a>欧几里得空间</h2><ul>
-<li>欧几里得空间（Euclidean space）：有限维的实内积线性空间。</li>
-</ul>
-<h2 id="希尔伯特空间"><a href="#希尔伯特空间" class="headerlink" title="希尔伯特空间"></a>希尔伯特空间</h2><ul>
-<li>希尔伯特空间（Hilbert space）：完备的内积线性空间。</li>
-</ul>
-<h2 id="举例"><a href="#举例" class="headerlink" title="举例"></a>举例</h2><ol>
-<li><p>泰勒级数（Taylor series）展开，基底为：$\lbrace x^i \rbrace,i=0,1,2,\cdots$；</p>
-</li>
-<li><p>傅里叶级数（Fourier series）展开，基底为：$\lbrace 1,\cos x, \sin x, \cos 2x, \sin 2x, \cdots \rbrace$；</p>
-</li>
-</ol>
-<h1 id="核函数"><a href="#核函数" class="headerlink" title="核函数"></a>核函数</h1><h2 id="特征值与特征向量"><a href="#特征值与特征向量" class="headerlink" title="特征值与特征向量"></a>特征值与特征向量</h2><ul>
-<li>有限维的$n\times n$矩阵$A$，可以定义特征值$\lambda$和特征向量$x$为：<br>$$<br>Ax=\lambda x<br>$$</li>
-<li>特征向量可以看成这个矩阵$n$维列空间的一组基底。</li>
-</ul>
-<h2 id="核函数-1"><a href="#核函数-1" class="headerlink" title="核函数"></a>核函数</h2><ul>
-<li>我们把每个函数$f(x)$看作一个无穷维的向量，定义一个无穷维的矩阵$K(x,y)$，如果它满足：<ul>
-<li>正定性：$\forall f \rightarrow \iint f(x)K(x,y)f(y){\rm d}x{\rm d}y \geq 0$；</li>
-<li>对称性：$K(x,y)=K(y,x)$；</li>
-</ul>
-</li>
-</ul>
-<p>则称之为核函数（kernel function）。</p>
-<ul>
-<li>核函数究竟是什么？<ul>
-<li>首先，他不是映射，而是一种在高维空间的内积计算方式；</li>
-<li>其次，应用核函数的时候，我们是不用找具体的低维映射到高维的映射方式，只需要把高维空间的内积计算方式定义好，并将其表示为在低维空间中的坐标之间的计算；</li>
-<li>最后，Mercer Theorem 保证了一个符合条件的核函数一定存在一个映射后的高维空间与之对应。</li>
-</ul>
-</li>
-</ul>
-<h2 id="核函数的特征值与特征函数"><a href="#核函数的特征值与特征函数" class="headerlink" title="核函数的特征值与特征函数"></a>核函数的特征值与特征函数</h2><ul>
-<li><p>对于一个核函数$K(x,y)$，存在特征值$\lambda$和特征函数$\psi(x)$，满足：</p>
-<p>$$<br>\int K(x,y)\psi(x){\rm d}x = \lambda\psi(y)<br>$$</p>
-</li>
-<li><p>对于不同的特征值$\lambda_1,\lambda_2$和他们对应的特征函数$\psi_1(x),\psi_2(x)$，满足：</p>
-</li>
-</ul>
-<p>$$<br>\int \lambda_1\psi_1(x)\psi_2(x){\rm d}x = \iint K(y,x)\psi_1(y){\rm d}y\psi_2(x){\rm d}x \<br>=\iint K(y,x)\psi_2(x){\rm d}x\psi_1(y){\rm d}y \<br>$$</p>
-<p>$$<br>=\int \lambda_2\psi_2(y)\psi_1(y){\rm d}y \<br>=\int \lambda_2\psi_2(x)\psi_1(x){\rm d}x \<br>$$</p>
-<p>因此：</p>
-<p>$$<br>\langle\psi_1,\psi_2\rangle=\int\psi_1(x)\psi_2(x){\rm d}x=0<br>$$</p>
-<ul>
-<li>此时我们找到了无穷多个特征值$\lbrace\lambda_i\rbrace_{i=1}^{\infty}$，一组无穷多个元素的正交基$\lbrace\psi_i\rbrace_{i=1}^{\infty}$。</li>
-</ul>
-<h2 id="再生核希尔伯特空间"><a href="#再生核希尔伯特空间" class="headerlink" title="再生核希尔伯特空间"></a>再生核希尔伯特空间</h2><ul>
-<li><p>如果我们把$\lbrace\sqrt{\lambda_i}\psi_i\rbrace_{i=1}^{\infty}$当成一组正交基来生成一个希尔伯特空间$\mathcal{H}$，则这个空间中的所有函数都能表示为：</p>
-<p>$$<br>f=\sum_{i=1}^{\infty}f_i\sqrt{\lambda_i}\psi_i<br>$$</p>
-</li>
-<li><p>函数坐标：$f=(f_1,f_2,\cdots)_{\mathcal{H}}^T$；</p>
-</li>
-<li><p>函数内积：</p>
-<p>$$<br>\langle f,g \rangle_\mathcal{H} = \sum_{i=1}^\infty f_i g_i<br>$$</p>
-</li>
-<li><p>核函数看成一种内积形式：</p>
-</li>
-</ul>
-<p>$$<br>K(x,·)=\sum_{i=1}^\infty\lambda_i\psi_i(x)\psi_i(·)<br>$$</p>
-<ul>
-<li><p>$K(x,·)$：$x$是一个输入的函数（核函数是函数的函数，输入变量是两个函数），$x$这个函数写成基和坐标的形式是：$\sum_{i=1}^\infty\sqrt{\lambda_i}\psi_i(x)$；</p>
-</li>
-<li><p>$K$的向量表示：$K(x,·)=(\sqrt{\lambda_1}\psi_1(x),\sqrt{\lambda_2}\psi_2(x),\cdots)_\mathcal{H}^\infty$；</p>
-</li>
-<li><p>$K$的内积表示：$\lbrace K(x,·),K(y,·)\rbrace_\mathcal{H} = \sum_{i=0}^\infty \lambda_i\phi_i(x)\phi_i(y) = K(x,y)$ —— 再生性 —— 再生核希尔伯特空间（reproducing kernel Hilbert space，RKHS）。</p>
-</li>
-</ul>
-<h2 id="映射函数"><a href="#映射函数" class="headerlink" title="映射函数"></a>映射函数</h2><ul>
-<li>定义一个映射$\phi:X\rightarrow\mathcal{H},\phi(x)=K(x,·)$，他把一个点$x$映射成了一个函数：</li>
-</ul>
-<p>$$<br>\phi(x)=K(x,·)=(\sqrt{\lambda_1}\psi_1(x),\sqrt{\lambda_2}\psi_2(x),\cdots)_\mathcal{H}^\infty<br>$$</p>
-<ul>
-<li>则：</li>
-</ul>
-<p>$$<br>\lbrace\phi(x),\phi(y)\rbrace_\mathcal(H)=\lbrace K(x,·),K(y,·)\rbrace_\mathcal(H)=K(x,y)<br>$$</p>
-<ul>
-<li>不用确定$K(x,·)$的具体形式，但是一定可以找到，具体可以看 Moore-Aronszajn 定理 —— 核方法。</li>
-</ul>
-<h1 id="SVM-中的应用"><a href="#SVM-中的应用" class="headerlink" title="SVM 中的应用"></a>SVM 中的应用</h1><ul>
-<li>未完待续</li>
-</ul>
-<h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><ol>
-<li><a target="_blank" rel="noopener" href="https://sakigami-yang.me/2017/08/13/about-kernel-01/">说一说核方法</a></li>
-</ol>
-
+                
                 
             </div>
             <hr/>
@@ -675,7 +533,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://tdingquan.github.io/2021-05-23/shu-xue-he-fang-fa/">http://tdingquan.github.io/2021-05-23/shu-xue-he-fang-fa/</a>
+                    <a href="http://tdingquan.github.io/2021-06-02/gong-cheng-php-mian-xiang-dui-xiang/">http://tdingquan.github.io/2021-06-02/gong-cheng-php-mian-xiang-dui-xiang/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -713,8 +571,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Machine-Learning/">
-                                    <span class="chip bg-color">Machine Learning</span>
+                                <a href="/tags/PHP/">
+                                    <span class="chip bg-color">PHP</span>
+                                </a>
+                            
+                                <a href="/tags/OOP/">
+                                    <span class="chip bg-color">OOP</span>
                                 </a>
                             
                         </div>
@@ -758,29 +620,84 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2021-05-24/gong-cheng-markdown-chang-yong-shu-ru-pian-duan/">
+                <a href="/2021-06-02/gong-cheng-php-mian-xiang-dui-xiang/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="Markdown 常用输入片段">
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="PHP面向对象">
                         
-                        <span class="card-title">Markdown 常用输入片段</span>
+                        <span class="card-title">PHP面向对象</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Markdown 常用输入的代码片段。
+                            PHP 面向对象编程基础。
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-05-24
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-02
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Engineering/" class="post-category">
+                                    Engineering
+                                </a>
+                            
+                            
                         </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/PHP/">
+                        <span class="chip bg-color">PHP</span>
+                    </a>
+                    
+                    <a href="/tags/OOP/">
+                        <span class="chip bg-color">OOP</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2021-06-02/gong-cheng-php-yu-fa-tips/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="PHP语法Tips">
+                        
+                        <span class="card-title">PHP语法Tips</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            PHP 基础语法。
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-02
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -796,61 +713,12 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Markdown/">
-                        <span class="chip bg-color">Markdown</span>
+                    <a href="/tags/PHP/">
+                        <span class="chip bg-color">PHP</span>
                     </a>
                     
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2021-05-23/suan-fa-er-fen-cha-zhao-zhuan-ti/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="二分查找专题">
-                        
-                        <span class="card-title">二分查找专题</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            算法中和二分查找相关的题目列表。
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-23
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/Algorithm/" class="post-category">
-                                    Algorithm
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/LeetCode/">
-                        <span class="chip bg-color">LeetCode</span>
-                    </a>
-                    
-                    <a href="/tags/Summary/">
-                        <span class="chip bg-color">Summary</span>
+                    <a href="/tags/Primer/">
+                        <span class="chip bg-color">Primer</span>
                     </a>
                     
                 </div>

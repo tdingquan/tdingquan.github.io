@@ -470,14 +470,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-06-01
+                    2021-06-02
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    124
+                    243
                 </div>
                 
 
@@ -508,13 +508,29 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <h4 id="1-1744-你能在你最喜欢的那天吃到你最喜欢的糖果吗？"><a href="#1-1744-你能在你最喜欢的那天吃到你最喜欢的糖果吗？" class="headerlink" title="1. 1744 - 你能在你最喜欢的那天吃到你最喜欢的糖果吗？"></a>1. <a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/">1744 - 你能在你最喜欢的那天吃到你最喜欢的糖果吗？</a></h4><ul>
-<li>一道阅读理解题目；</li>
-<li>前缀和算出来每种糖的个数，计算指定天吃糖的上下限；</li>
-<li>成立的区间判断条件，反着想；</li>
-<li>特殊情况为成立的区间左端点不存在的情况：<ul>
+<li><p>一道阅读理解题目；</p>
+</li>
+<li><p>前缀和算出来每种糖的个数，计算指定天吃糖的上下限；</p>
+</li>
+<li><p>成立的区间判断条件，反着想；</p>
+</li>
+<li><p>特殊情况为成立的区间左端点不存在的情况：</p>
+<ul>
 <li>一开始想用补零解决，然而不好用；</li>
-<li>特殊处理；</li>
+<li>特殊处理成为第二种情况；</li>
 <li>两个情况的合并，人为营造一个<code>_max &lt; last_sum</code>不成立的条件。</li>
+</ul>
+</li>
+<li><p>求和的一个简便写法：</p>
+</li>
+</ul>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">total <span class="token operator">=</span> <span class="token builtin">list</span><span class="token punctuation">(</span>accumulate<span class="token punctuation">(</span><span class="token punctuation">[</span>candiesCount<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h4 id="2-523-连续的子数组和"><a href="#2-523-连续的子数组和" class="headerlink" title="2. 523. 连续的子数组和"></a>2. <a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/continuous-subarray-sum/">523. 连续的子数组和</a></h4><ul>
+<li>子数组和 - 前缀和；</li>
+<li>连续的要求 - 同余法则；<ul>
+<li>正常的子数组和进行求解的过程是$O(n^2)$的复杂度，其中的重复比较是看两个前缀和的差是否满足整除条件；</li>
+<li>优化方法：哈希表记录前缀和的余数，两者求差之后可以把余数消除。</li>
 </ul>
 </li>
 </ul>
@@ -631,52 +647,50 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021-06-01/suan-fa-2106-leetcode/">
+                <a href="/2021-06-02/gong-cheng-php-yu-fa-tips/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="2106-LeetCode">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="PHP语法Tips">
                         
-                        <span class="card-title">2106-LeetCode</span>
+                        <span class="card-title">PHP语法Tips</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            21年6月份 LeetCode 刷过的题目经验总结
+                            PHP 基础语法。
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-01
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-06-02
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Algorithm/" class="post-category">
-                                    Algorithm
+                            <a href="/categories/Engineering/" class="post-category">
+                                    Engineering
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/LeetCode/">
-                        <span class="chip bg-color">LeetCode</span>
+                    <a href="/tags/PHP/">
+                        <span class="chip bg-color">PHP</span>
                     </a>
                     
-                    <a href="/tags/Daily/">
-                        <span class="chip bg-color">Daily</span>
+                    <a href="/tags/Primer/">
+                        <span class="chip bg-color">Primer</span>
                     </a>
                     
                 </div>
@@ -873,7 +887,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">7.9k</span>&nbsp;字
+                class="white-color">8.9k</span>&nbsp;字
             
             
             
