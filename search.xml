@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>每日DL-安装深度学习环境的坑</title>
+      <link href="2021-08-18/mei-ri-dl-an-zhuang-shen-du-xue-xi-huan-jing-de-keng/"/>
+      <url>2021-08-18/mei-ri-dl-an-zhuang-shen-du-xue-xi-huan-jing-de-keng/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://www.tensorflow.org/install/source">https://www.tensorflow.org/install/source</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Engineering </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Environment </tag>
+            
+            <tag> Deep Learning </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>nohup 命令</title>
       <link href="2021-08-07/nohup-ming-ling/"/>
       <url>2021-08-07/nohup-ming-ling/</url>
@@ -33,7 +60,7 @@
       <link href="2021-08-07/linux-ming-ling/"/>
       <url>2021-08-07/linux-ming-ling/</url>
       
-        <content type="html"><![CDATA[<p><a href="https://www.runoob.com/linux/linux-command-manual.html">https://www.runoob.com/linux/linux-command-manual.html</a></p>]]></content>
+        <content type="html"><![CDATA[<p><a href="https://www.runoob.com/linux/linux-command-manual.html">https://www.runoob.com/linux/linux-command-manual.html</a></p><h2 id="rpm-命令"><a href="#rpm-命令" class="headerlink" title="rpm 命令"></a>rpm 命令</h2><p><a href="https://www.linuxcool.com/rpm">https://www.linuxcool.com/rpm</a></p>]]></content>
       
       
       <categories>
@@ -70,7 +97,7 @@
       
         <tags>
             
-            <tag> Iterm2 </tag>
+            <tag> Terminal </tag>
             
         </tags>
       
@@ -88,14 +115,14 @@
       
       <categories>
           
-          <category> + Engineering </category>
+          <category> Engineering </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> + Vscode </tag>
+            <tag> Terminal </tag>
             
         </tags>
       
@@ -245,7 +272,7 @@
       
         <tags>
             
-            <tag> npm </tag>
+            <tag> Environment </tag>
             
         </tags>
       
@@ -272,8 +299,6 @@
             
             <tag> PHP </tag>
             
-            <tag> OOP </tag>
-            
         </tags>
       
     </entry>
@@ -299,8 +324,6 @@
             
             <tag> PHP </tag>
             
-            <tag> Primer </tag>
-            
         </tags>
       
     </entry>
@@ -325,8 +348,6 @@
         <tags>
             
             <tag> LeetCode </tag>
-            
-            <tag> Daily </tag>
             
         </tags>
       
@@ -371,8 +392,6 @@
         <tags>
             
             <tag> LeetCode </tag>
-            
-            <tag> Summary </tag>
             
         </tags>
       
@@ -532,8 +551,6 @@
             
             <tag> LeetCode </tag>
             
-            <tag> Summary </tag>
-            
         </tags>
       
     </entry>
@@ -557,7 +574,7 @@
       
         <tags>
             
-            <tag> Server </tag>
+            <tag> Environment </tag>
             
         </tags>
       
@@ -584,8 +601,6 @@
             
             <tag> LeetCode </tag>
             
-            <tag> Summary </tag>
-            
         </tags>
       
     </entry>
@@ -602,14 +617,12 @@
       
       <categories>
           
-          <category> + Language </category>
+          <category> Language </category>
           
       </categories>
       
       
         <tags>
-            
-            <tag> Python </tag>
             
             <tag> Matplotlib </tag>
             
@@ -635,8 +648,6 @@
       
       
         <tags>
-            
-            <tag> Python </tag>
             
             <tag> Pytorch </tag>
             
@@ -715,8 +726,6 @@
             
             <tag> LeetCode </tag>
             
-            <tag> Daily </tag>
-            
         </tags>
       
     </entry>
@@ -740,7 +749,7 @@
       
         <tags>
             
-            <tag> Hexo </tag>
+            <tag> Environment </tag>
             
         </tags>
       
