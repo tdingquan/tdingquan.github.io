@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Pandas 读取 Excel 文件</title>
+      <link href="2021-09-02/pandas-du-qu-excel-wen-jian/"/>
+      <url>2021-09-02/pandas-du-qu-excel-wen-jian/</url>
+      
+        <content type="html"><![CDATA[<ol><li>使用接口 <a href="https://pandas.pydata.org/docs/reference/api/pandas.read_excel.html">https://pandas.pydata.org/docs/reference/api/pandas.read_excel.html</a></li></ol><pre class="line-numbers language-python" data-language="python"><code class="language-python">pandas<span class="token punctuation">.</span>read_excel<span class="token punctuation">(</span>io<span class="token punctuation">,</span> sheet_name<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">,</span> header<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">,</span> names<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span> index_col<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span> usecols<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span> squeeze<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">,</span> dtype<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span> engine<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span> converters<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span> true_values<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span> false_values<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span> skiprows<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span> nrows<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span> na_values<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span> keep_default_na<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">,</span> na_filter<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">,</span> verbose<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">,</span> parse_dates<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">,</span> date_parser<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span> thousands<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span> comment<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span> skipfooter<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">,</span> convert_float<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span> mangle_dupe_cols<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">,</span> storage_options<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ul><li>重要参数</li></ul><ol start="2"><li>遇到的问题</li></ol><ul><li><p>ImportError: Install xlrd &gt;= 0.9.0 for Excel support</p><ul><li>解决方案：安装 <code>xlrd</code> 1.2.0 版本，过高的版本无法打开文件</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">pip uninstall xlrdpip <span class="token function">install</span> <span class="token assign-left variable">xlrd</span><span class="token operator">==</span><span class="token number">1.2</span>.0<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Packages </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Pandas </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>每日DL-安装深度学习环境的坑</title>
       <link href="2021-08-18/mei-ri-dl-an-zhuang-shen-du-xue-xi-huan-jing-de-keng/"/>
       <url>2021-08-18/mei-ri-dl-an-zhuang-shen-du-xue-xi-huan-jing-de-keng/</url>
@@ -110,7 +135,7 @@
       <link href="2021-06-05/vscode-shi-yong-ji-qiao/"/>
       <url>2021-06-05/vscode-shi-yong-ji-qiao/</url>
       
-        <content type="html"><![CDATA[<h1 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h1><ol><li>VSCode 连接远程服务器失败</li></ol><ul><li>故障日志</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">Resolver error: Error: Running the contributed command: <span class="token string">'_workbench.downloadResource'</span> failed.<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ul><li><p>可能原因</p><ul><li>远程服务器网络条件差。</li></ul></li><li><p>解决方案：手动安装服务器端软件</p><ul><li>删除远程服务器原文件夹。</li></ul></li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">rm</span> -rf ~/.vscode-server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ul><li>本地再次尝试连接，在远程服务器生成对应文件夹。</li><li>进入远程服务器软件端。</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> ~/.vscode-server/bin/<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ul><li>使用<code>wget</code>从官网下载最新的代码压缩文件。</li></ul><p><img src="/2021-06-05/vscode-shi-yong-ji-qiao/1.png" alt="查看commit_id"></p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">wget</span> https://update.code.visualstudio.com/commit:<span class="token punctuation">[</span><span class="token variable">$COMMIT_ID</span><span class="token punctuation">]</span>/server-linux-x64/stable --no-check-certificate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ul><li>解压缩文件。</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">tar</span> -xvf stable --strip-components <span class="token number">1</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ul><li>尝试本地重新连接。</li></ul><ul><li><p>可能遇到的问题</p><ul><li>如果服务器下载网络存在问题，本地上传遇到 <code>版本不一致</code> ，需要检查服务器端 <code>commit_id</code> 文件夹名和自己下载的版本是否一致。</li></ul></li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h1><ol><li>VSCode 连接远程服务器失败</li></ol><ul><li>故障日志</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">Resolver error: Error: Running the contributed command: <span class="token string">'_workbench.downloadResource'</span> failed.<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ul><li><p>可能原因</p><ul><li>远程服务器网络条件差。</li></ul></li><li><p>解决方案：手动安装服务器端软件</p><ul><li>删除远程服务器原文件夹。</li></ul></li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">rm</span> -rf ~/.vscode-server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ul><li>本地再次尝试连接，在远程服务器生成对应文件夹。</li><li>进入远程服务器软件端。</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> ~/.vscode-server/bin/<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ul><li>删除该文件夹下所有的内容。</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">rm</span> -rf *<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ul><li>使用<code>wget</code>从官网下载最新的代码压缩文件。</li></ul><p><img src="/2021-06-05/vscode-shi-yong-ji-qiao/1.png" alt="查看commit_id"></p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">wget</span> https://update.code.visualstudio.com/commit:<span class="token punctuation">[</span><span class="token variable">$COMMIT_ID</span><span class="token punctuation">]</span>/server-linux-x64/stable --no-check-certificate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ul><li>解压缩文件。</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">tar</span> -xvf stable --strip-components <span class="token number">1</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ul><li>尝试本地重新连接。</li></ul><p><strong>可能遇到的问题</strong></p><ul><li>如果服务器下载网络存在问题，本地上传遇到 <code>版本不一致</code> ，需要检查服务器端 <code>commit_id</code> 文件夹名和自己下载的版本是否一致。</li></ul>]]></content>
       
       
       <categories>
@@ -617,7 +642,7 @@
       
       <categories>
           
-          <category> Language </category>
+          <category> Package </category>
           
       </categories>
       

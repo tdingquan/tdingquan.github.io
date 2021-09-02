@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="2103 LeetCode, 一汪白水">
+    <meta name="keywords" content="Pandas 读取 Excel 文件, 一汪白水">
     <meta name="description" content="某十八线研究僧的学习笔记">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>2103 LeetCode | 一汪白水</title>
+    <title>Pandas 读取 Excel 文件 | 一汪白水</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -313,12 +313,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/21.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/2.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">2103 LeetCode</h1>
+                    <h1 class="description center-align post-title">Pandas 读取 Excel 文件</h1>
                 </div>
             </div>
         </div>
@@ -434,8 +434,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/LeetCode/">
-                                <span class="chip bg-color">LeetCode</span>
+                            <a href="/tags/Pandas/">
+                                <span class="chip bg-color">Pandas</span>
                             </a>
                         
                     </div>
@@ -446,8 +446,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Algorithm/" class="post-category">
-                                Algorithm
+                            <a href="/categories/Packages/" class="post-category">
+                                Packages
                             </a>
                         
                     </div>
@@ -459,28 +459,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-03-08
+                    2021-09-02
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-08-18
+                    2021-09-02
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    658
+                    118
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    2 分
+                    1 分
                 </div>
                 
 
@@ -503,80 +503,25 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h4 id="1-303-区域和检索-数组不可变"><a href="#1-303-区域和检索-数组不可变" class="headerlink" title="1. 303 - 区域和检索 - 数组不可变"></a>1. <a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/range-sum-query-immutable">303 - 区域和检索 - 数组不可变</a></h4><ul>
-<li>前缀和</li>
-<li>注意数组首元素是否为 0 时，具有不同的含义，有时可以为计算带来简便</li>
-<li>重复调用时，可以使用懒计算</li>
-</ul>
-<h4 id="2-304-二维区域和检索-矩阵不可变"><a href="#2-304-二维区域和检索-矩阵不可变" class="headerlink" title="2. 304 - 二维区域和检索 - 矩阵不可变"></a>2. <a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/range-sum-query-2d-immutable/">304 - 二维区域和检索 - 矩阵不可变</a></h4><ul>
-<li>python 二维数组初始化时，避免浅拷贝，数组引用会带来值修改问题</li>
-</ul>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">g <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">[</span><span class="token boolean">True</span><span class="token punctuation">]</span> <span class="token operator">*</span> n <span class="token keyword">for</span> _ <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>n<span class="token punctuation">)</span><span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+                <ol>
+<li>使用接口 <a target="_blank" rel="noopener" href="https://pandas.pydata.org/docs/reference/api/pandas.read_excel.html">https://pandas.pydata.org/docs/reference/api/pandas.read_excel.html</a></li>
+</ol>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">pandas<span class="token punctuation">.</span>read_excel<span class="token punctuation">(</span>io<span class="token punctuation">,</span> sheet_name<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">,</span> header<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">,</span> names<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span> index_col<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span> usecols<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span> squeeze<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">,</span> dtype<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span> engine<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span> converters<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span> true_values<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span> false_values<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span> skiprows<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span> nrows<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span> na_values<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span> keep_default_na<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">,</span> na_filter<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">,</span> verbose<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">,</span> parse_dates<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">,</span> date_parser<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span> thousands<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span> comment<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span> skipfooter<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">,</span> convert_float<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span> mangle_dupe_cols<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">,</span> storage_options<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <ul>
-<li>快速子矩阵求和与 DP 的二维数组含义的配合</li>
+<li>重要参数</li>
 </ul>
-<h4 id="3-338-比特位计数"><a href="#3-338-比特位计数" class="headerlink" title="3. 338 - 比特位计数"></a>3. <a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/counting-bits/">338 - 比特位计数</a></h4><ul>
-<li>位运算计算的奇技淫巧：与 DP 结合快速计算数字二进制形式 1 的个数</li>
-</ul>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">bits<span class="token punctuation">.</span>append<span class="token punctuation">(</span>bits<span class="token punctuation">[</span>i <span class="token operator">&gt;&gt;</span> <span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">+</span> <span class="token punctuation">(</span>i <span class="token operator">&amp;</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<h4 id="4-354-俄罗斯套娃信封问题"><a href="#4-354-俄罗斯套娃信封问题" class="headerlink" title="4. 354 - 俄罗斯套娃信封问题"></a>4. <a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/russian-doll-envelopes/">354 - 俄罗斯套娃信封问题</a></h4><ul>
-<li>题目要求严格大于，在进行预排序的时候，第一维升维，第二维降维</li>
-<li>python 排序</li>
-</ul>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">envelopes<span class="token punctuation">.</span>sort<span class="token punctuation">(</span>key<span class="token operator">=</span><span class="token keyword">lambda</span> x<span class="token punctuation">:</span> <span class="token punctuation">(</span>x<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token operator">-</span>x<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<h4 id="5-232-用栈实现队列"><a href="#5-232-用栈实现队列" class="headerlink" title="5. 232 - 用栈实现队列"></a>5. <a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/implement-queue-using-stacks">232 - 用栈实现队列</a></h4><ul>
-<li>摊销复杂度 【最近总遇到摊销两字，看论文的时候“摊销因果发现”】</li>
-<li>只在 pop 栈出队列为空的时候进行转移</li>
-</ul>
-<h4 id="6-503-下一个更大元素-II"><a href="#6-503-下一个更大元素-II" class="headerlink" title="6. 503 - 下一个更大元素 II"></a>6. <a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/next-greater-element-ii">503 - 下一个更大元素 II</a></h4><ul>
-<li>使用栈只保留 index，不用存具体数据</li>
-<li>单调栈应用在找寻循环数组的下一个更大元素</li>
-</ul>
-<h4 id="7-131-分割回文串"><a href="#7-131-分割回文串" class="headerlink" title="7. 131 - 分割回文串"></a>7. <a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/palindrome-partitioning/">131 - 分割回文串</a></h4><ul>
-<li><p>DP + 深搜 基础题</p>
-</li>
-<li><p>初始化 map 为全 True 和 全 False 在后续初始化中具有很大 区别</p>
+<ol start="2">
+<li>遇到的问题</li>
+</ol>
 <ul>
-<li><p>如果初始化为全 False</p>
+<li><p>ImportError: Install xlrd &gt;= 0.9.0 for Excel support</p>
 <ul>
-<li>计算长度为 1 的</li>
-<li>计算长度为 2 的</li>
-<li>计算长度更长的序列时候，range 的起始为 2；if 的判断条件有 3 个 【防溢出，首尾字母，中间字符串】</li>
+<li>解决方案：安装 <code>xlrd</code> 1.2.0 版本，过高的版本无法打开文件</li>
 </ul>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">_map <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">[</span><span class="token boolean">False</span><span class="token punctuation">]</span> <span class="token operator">*</span> <span class="token builtin">len</span><span class="token punctuation">(</span>s<span class="token punctuation">)</span> <span class="token keyword">for</span> _ <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token builtin">len</span><span class="token punctuation">(</span>s<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">]</span>
-<span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token builtin">len</span><span class="token punctuation">(</span>s<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
-    _map<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token boolean">True</span>
-<span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token builtin">len</span><span class="token punctuation">(</span>s<span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
-    <span class="token keyword">if</span> s<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">==</span> s<span class="token punctuation">[</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">:</span>
-        _map<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token boolean">True</span>
-<span class="token keyword">for</span> j <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token builtin">len</span><span class="token punctuation">(</span>s<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
-    <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token builtin">len</span><span class="token punctuation">(</span>s<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
-        <span class="token keyword">if</span> i <span class="token operator">+</span> j <span class="token operator">&lt;</span> <span class="token builtin">len</span><span class="token punctuation">(</span>s<span class="token punctuation">)</span> <span class="token keyword">and</span> s<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">==</span> s<span class="token punctuation">[</span>i<span class="token operator">+</span>j<span class="token punctuation">]</span> <span class="token keyword">and</span> _map<span class="token punctuation">[</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">[</span>i<span class="token operator">+</span>j<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">:</span>
-            _map<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span>i<span class="token operator">+</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token boolean">True</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
-<li><p>如果初始化为全 True</p>
-<ul>
-<li>计算长度为 1 的</li>
-<li>计算更长长度的字符串的时候，可以倒序计算；长度为 2 的情况因为初始化为 True 不需要单独列出</li>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">pip uninstall xlrd
+pip <span class="token function">install</span> <span class="token assign-left variable">xlrd</span><span class="token operator">==</span><span class="token number">1.2</span>.0<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></li>
 </ul>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">g <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">[</span><span class="token boolean">True</span><span class="token punctuation">]</span> <span class="token operator">*</span> n <span class="token keyword">for</span> _ <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>n<span class="token punctuation">)</span><span class="token punctuation">]</span>
-<span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>n <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
-    <span class="token keyword">for</span> j <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">:</span>
-        g<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">(</span>s<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">==</span> s<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token keyword">and</span> g<span class="token punctuation">[</span>i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">[</span>j <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre></li>
-</ul>
-</li>
-</ul>
-<h4 id="8-132-分割回文串-II"><a href="#8-132-分割回文串-II" class="headerlink" title="8. 132 - 分割回文串 II"></a>8. <a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/palindrome-partitioning-ii">132 - 分割回文串 II</a></h4><ul>
-<li>考虑清楚第二次 DP 的表的物理含义，不用深搜，否则超时<ul>
-<li>前 i 个字符最多需要分割多少次得到回文串子集</li>
-</ul>
-</li>
-<li>初始化时注意观察整个字符串是不是回文串</li>
-<li>初始化为最大值</li>
-</ul>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">f <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token builtin">float</span><span class="token punctuation">(</span><span class="token string">"inf"</span><span class="token punctuation">)</span><span class="token punctuation">]</span> <span class="token operator">*</span> n<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
                 
             </div>
@@ -603,7 +548,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://tdingquan.github.io/2021-03-08/2103-leetcode/">http://tdingquan.github.io/2021-03-08/2103-leetcode/</a>
+                    <a href="http://tdingquan.github.io/2021-09-02/pandas-du-qu-excel-wen-jian/">http://tdingquan.github.io/2021-09-02/pandas-du-qu-excel-wen-jian/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -641,8 +586,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/LeetCode/">
-                                    <span class="chip bg-color">LeetCode</span>
+                                <a href="/tags/Pandas/">
+                                    <span class="chip bg-color">Pandas</span>
                                 </a>
                             
                         </div>
@@ -686,46 +631,48 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2021-04-04/2104-leetcode/">
+                <a href="/2021-09-02/pandas-du-qu-excel-wen-jian/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="2104-LeetCode">
+                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="Pandas 读取 Excel 文件">
                         
-                        <span class="card-title">2104-LeetCode</span>
+                        <span class="card-title">Pandas 读取 Excel 文件</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            21年4月份 LeetCode 刷过的题目经验总结。
+                            
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-04-04
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-09-02
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Algorithm/" class="post-category">
-                                    Algorithm
+                            <a href="/categories/Packages/" class="post-category">
+                                    Packages
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/LeetCode/">
-                        <span class="chip bg-color">LeetCode</span>
+                    <a href="/tags/Pandas/">
+                        <span class="chip bg-color">Pandas</span>
                     </a>
                     
                 </div>
@@ -739,24 +686,24 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021-03-04/hello-world/">
+                <a href="/2021-08-18/mei-ri-dl-an-zhuang-shen-du-xue-xi-huan-jing-de-keng/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="Hexo 基础命令介绍">
+                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="每日DL-安装深度学习环境的坑">
                         
-                        <span class="card-title">Hexo 基础命令介绍</span>
+                        <span class="card-title">每日DL-安装深度学习环境的坑</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Hexo 基础命令介绍。
+                            
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-03-04
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-08-18
                             </span>
                         <span class="publish-author">
                             
@@ -775,6 +722,10 @@
                     
                     <a href="/tags/Environment/">
                         <span class="chip bg-color">Environment</span>
+                    </a>
+                    
+                    <a href="/tags/Deep-Learning/">
+                        <span class="chip bg-color">Deep Learning</span>
                     </a>
                     
                 </div>

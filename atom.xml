@@ -6,7 +6,7 @@
   <link href="http://tdingquan.github.io/atom.xml" rel="self"/>
   
   <link href="http://tdingquan.github.io/"/>
-  <updated>2021-08-18T02:30:41.539Z</updated>
+  <updated>2021-09-02T03:27:42.696Z</updated>
   <id>http://tdingquan.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Pandas 读取 Excel 文件</title>
+    <link href="http://tdingquan.github.io/2021-09-02/pandas-du-qu-excel-wen-jian/"/>
+    <id>http://tdingquan.github.io/2021-09-02/pandas-du-qu-excel-wen-jian/</id>
+    <published>2021-09-02T03:16:51.000Z</published>
+    <updated>2021-09-02T03:27:42.696Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;使用接口 &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Packages" scheme="http://tdingquan.github.io/categories/Packages/"/>
+    
+    
+    <category term="Pandas" scheme="http://tdingquan.github.io/tags/Pandas/"/>
+    
+  </entry>
   
   <entry>
     <title>每日DL-安装深度学习环境的坑</title>
@@ -128,7 +154,7 @@
     <link href="http://tdingquan.github.io/2021-06-05/vscode-shi-yong-ji-qiao/"/>
     <id>http://tdingquan.github.io/2021-06-05/vscode-shi-yong-ji-qiao/</id>
     <published>2021-06-05T14:20:01.000Z</published>
-    <updated>2021-08-18T02:27:19.979Z</updated>
+    <updated>2021-08-21T07:45:01.321Z</updated>
     
     
       
@@ -508,33 +534,6 @@
     <category term="Causal Discovery" scheme="http://tdingquan.github.io/tags/Causal-Discovery/"/>
     
     <category term="Time Series" scheme="http://tdingquan.github.io/tags/Time-Series/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Markdown/Latex 常用输入片段</title>
-    <link href="http://tdingquan.github.io/2021-05-24/markdownlatex-chang-yong-shu-ru-pian-duan/"/>
-    <id>http://tdingquan.github.io/2021-05-24/markdownlatex-chang-yong-shu-ru-pian-duan/</id>
-    <published>2021-05-24T06:07:55.000Z</published>
-    <updated>2021-08-07T09:05:11.232Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Mathpix&quot;&gt;&lt;a href=&quot;#Mathpix&quot; class=&quot;headerlink&quot; title=&quot;Mathpix&quot;&gt;&lt;/a&gt;Mathpix&lt;/h1&gt;&lt;p&gt;人生苦短，我选择 &lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Language" scheme="http://tdingquan.github.io/categories/Language/"/>
-    
-    
-    <category term="Markdown" scheme="http://tdingquan.github.io/tags/Markdown/"/>
-    
-    <category term="Latex" scheme="http://tdingquan.github.io/tags/Latex/"/>
     
   </entry>
   
