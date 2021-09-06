@@ -6,7 +6,7 @@
   <link href="http://tdingquan.github.io/atom.xml" rel="self"/>
   
   <link href="http://tdingquan.github.io/"/>
-  <updated>2021-09-02T03:27:42.696Z</updated>
+  <updated>2021-09-06T08:29:23.673Z</updated>
   <id>http://tdingquan.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Beamer-使用指南</title>
+    <link href="http://tdingquan.github.io/2021-09-06/beamer-shi-yong-zhi-nan/"/>
+    <id>http://tdingquan.github.io/2021-09-06/beamer-shi-yong-zhi-nan/</id>
+    <published>2021-09-06T07:50:02.000Z</published>
+    <updated>2021-09-06T08:29:23.673Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h1&gt;&lt;h2 id=&quot;Beamer-框架代码&quot;&gt;&lt;a href=&quot;#Beamer-框架代码&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Language" scheme="http://tdingquan.github.io/categories/Language/"/>
+    
+    
+    <category term="Latex" scheme="http://tdingquan.github.io/tags/Latex/"/>
+    
+  </entry>
   
   <entry>
     <title>Pandas 读取 Excel 文件</title>
@@ -154,7 +179,7 @@
     <link href="http://tdingquan.github.io/2021-06-05/vscode-shi-yong-ji-qiao/"/>
     <id>http://tdingquan.github.io/2021-06-05/vscode-shi-yong-ji-qiao/</id>
     <published>2021-06-05T14:20:01.000Z</published>
-    <updated>2021-08-21T07:45:01.321Z</updated>
+    <updated>2021-09-03T02:54:07.506Z</updated>
     
     
       
@@ -506,34 +531,6 @@
     <category term="Causal Discovery" scheme="http://tdingquan.github.io/tags/Causal-Discovery/"/>
     
     <category term="Causal Theory" scheme="http://tdingquan.github.io/tags/Causal-Theory/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>On Causal Discovery from Time Series Data using FCI</title>
-    <link href="http://tdingquan.github.io/2021-05-25/on-causal-discovery-from-time-series-data-using-fci/"/>
-    <id>http://tdingquan.github.io/2021-05-25/on-causal-discovery-from-time-series-data-using-fci/</id>
-    <published>2021-05-25T05:36:26.000Z</published>
-    <updated>2021-08-07T09:05:58.744Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;主要内容&quot;&gt;&lt;a href=&quot;#主要内容&quot; class=&quot;headerlink&quot; title=&quot;主要内容&quot;&gt;&lt;/a&gt;主要内容&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;将 FCI</summary>
-        
-      
-    
-    
-    
-    <category term="Paper Reading" scheme="http://tdingquan.github.io/categories/Paper-Reading/"/>
-    
-    
-    <category term="Causal Discovery" scheme="http://tdingquan.github.io/tags/Causal-Discovery/"/>
-    
-    <category term="Time Series" scheme="http://tdingquan.github.io/tags/Time-Series/"/>
     
   </entry>
   
