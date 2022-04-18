@@ -6,7 +6,7 @@
   <link href="http://tdingquan.github.io/atom.xml" rel="self"/>
   
   <link href="http://tdingquan.github.io/"/>
-  <updated>2022-04-18T12:43:59.958Z</updated>
+  <updated>2022-04-18T13:40:06.089Z</updated>
   <id>http://tdingquan.github.io/</id>
   
   <author>
@@ -17,15 +17,27 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>常用代码</title>
+    <title>Pytorch编程常用代码</title>
     <link href="http://tdingquan.github.io/2022-04-18/pytorch-bian-cheng-chang-yong-dai-ma/"/>
     <id>http://tdingquan.github.io/2022-04-18/pytorch-bian-cheng-chang-yong-dai-ma/</id>
     <published>2022-04-18T12:43:59.000Z</published>
-    <updated>2022-04-18T12:43:59.958Z</updated>
+    <updated>2022-04-18T13:40:06.089Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;基本配置&quot;&gt;&lt;a href=&quot;#基本配置&quot; class=&quot;headerlink&quot; title=&quot;基本配置&quot;&gt;&lt;/a&gt;基本配置&lt;/h1&gt;&lt;h2 id=&quot;导入包和版本查询&quot;&gt;&lt;a href=&quot;#导入包和版本查询&quot; class=&quot;headerlink&quot;</summary>
+        
+      
     
     
     
+    <category term="Language" scheme="http://tdingquan.github.io/categories/Language/"/>
     
+    
+    <category term="Pytorch" scheme="http://tdingquan.github.io/tags/Pytorch/"/>
     
   </entry>
   
@@ -34,7 +46,7 @@
     <link href="http://tdingquan.github.io/2021-09-06/beamer-shi-yong-zhi-nan/"/>
     <id>http://tdingquan.github.io/2021-09-06/beamer-shi-yong-zhi-nan/</id>
     <published>2021-09-06T07:50:02.000Z</published>
-    <updated>2021-09-06T08:29:23.673Z</updated>
+    <updated>2022-04-18T12:52:26.639Z</updated>
     
     
       
@@ -50,7 +62,7 @@
     <category term="Language" scheme="http://tdingquan.github.io/categories/Language/"/>
     
     
-    <category term="Latex" scheme="http://tdingquan.github.io/tags/Latex/"/>
+    <category term="Beamer" scheme="http://tdingquan.github.io/tags/Beamer/"/>
     
   </entry>
   
@@ -59,7 +71,7 @@
     <link href="http://tdingquan.github.io/2021-09-02/pandas-du-qu-excel-wen-jian/"/>
     <id>http://tdingquan.github.io/2021-09-02/pandas-du-qu-excel-wen-jian/</id>
     <published>2021-09-02T03:16:51.000Z</published>
-    <updated>2021-12-06T03:22:46.714Z</updated>
+    <updated>2022-04-18T12:50:07.872Z</updated>
     
     
       
@@ -73,7 +85,7 @@
     
     
     
-    <category term="Package" scheme="http://tdingquan.github.io/categories/Package/"/>
+    <category term="Language" scheme="http://tdingquan.github.io/categories/Language/"/>
     
     
     <category term="Pandas" scheme="http://tdingquan.github.io/tags/Pandas/"/>
@@ -109,11 +121,11 @@
   </entry>
   
   <entry>
-    <title>Vscode 使用技巧</title>
+    <title>VScode 使用技巧</title>
     <link href="http://tdingquan.github.io/2021-06-05/vscode-shi-yong-ji-qiao/"/>
     <id>http://tdingquan.github.io/2021-06-05/vscode-shi-yong-ji-qiao/</id>
     <published>2021-06-05T14:20:01.000Z</published>
-    <updated>2021-12-06T03:20:10.172Z</updated>
+    <updated>2022-04-18T12:52:26.644Z</updated>
     
     
       
@@ -130,7 +142,7 @@
     <category term="Engineering" scheme="http://tdingquan.github.io/categories/Engineering/"/>
     
     
-    <category term="Terminal" scheme="http://tdingquan.github.io/tags/Terminal/"/>
+    <category term="VScode" scheme="http://tdingquan.github.io/tags/VScode/"/>
     
   </entry>
   
@@ -139,7 +151,7 @@
     <link href="http://tdingquan.github.io/2021-06-05/bao-guan-li-gong-ju-ming-ling/"/>
     <id>http://tdingquan.github.io/2021-06-05/bao-guan-li-gong-ju-ming-ling/</id>
     <published>2021-06-05T14:02:06.000Z</published>
-    <updated>2021-08-18T02:26:59.952Z</updated>
+    <updated>2022-04-18T12:52:21.436Z</updated>
     
     
       
@@ -159,7 +171,9 @@
     <category term="Engineering" scheme="http://tdingquan.github.io/categories/Engineering/"/>
     
     
-    <category term="Environment" scheme="http://tdingquan.github.io/tags/Environment/"/>
+    <category term="npm" scheme="http://tdingquan.github.io/tags/npm/"/>
+    
+    <category term="pip" scheme="http://tdingquan.github.io/tags/pip/"/>
     
   </entry>
   
@@ -168,7 +182,7 @@
     <link href="http://tdingquan.github.io/2021-05-24/markdownlatex-chang-yong-shu-ru-pian-duan/"/>
     <id>http://tdingquan.github.io/2021-05-24/markdownlatex-chang-yong-shu-ru-pian-duan/</id>
     <published>2021-05-24T06:07:55.000Z</published>
-    <updated>2021-09-06T07:51:06.613Z</updated>
+    <updated>2022-04-18T12:52:26.638Z</updated>
     
     
       
@@ -218,7 +232,7 @@
     <link href="http://tdingquan.github.io/2021-05-17/nginx-fu-wu-qi-pei-zhi-jiao-cheng/"/>
     <id>http://tdingquan.github.io/2021-05-17/nginx-fu-wu-qi-pei-zhi-jiao-cheng/</id>
     <published>2021-05-17T06:19:28.000Z</published>
-    <updated>2021-12-06T03:19:20.414Z</updated>
+    <updated>2022-04-18T12:52:26.637Z</updated>
     
     
       
@@ -234,7 +248,7 @@
     <category term="Engineering" scheme="http://tdingquan.github.io/categories/Engineering/"/>
     
     
-    <category term="Environment" scheme="http://tdingquan.github.io/tags/Environment/"/>
+    <category term="Nginx" scheme="http://tdingquan.github.io/tags/Nginx/"/>
     
   </entry>
   
@@ -243,7 +257,7 @@
     <link href="http://tdingquan.github.io/2021-04-09/matplotlib-ji-chu-zhi-shi/"/>
     <id>http://tdingquan.github.io/2021-04-09/matplotlib-ji-chu-zhi-shi/</id>
     <published>2021-04-09T08:13:35.000Z</published>
-    <updated>2021-12-06T03:19:31.836Z</updated>
+    <updated>2022-04-18T12:52:26.638Z</updated>
     
     
       
@@ -256,7 +270,7 @@
     
     
     
-    <category term="Package" scheme="http://tdingquan.github.io/categories/Package/"/>
+    <category term="Language" scheme="http://tdingquan.github.io/categories/Language/"/>
     
     
     <category term="Matplotlib" scheme="http://tdingquan.github.io/tags/Matplotlib/"/>
