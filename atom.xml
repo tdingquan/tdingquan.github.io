@@ -6,7 +6,7 @@
   <link href="http://tdingquan.github.io/atom.xml" rel="self"/>
   
   <link href="http://tdingquan.github.io/"/>
-  <updated>2021-09-06T08:29:23.673Z</updated>
+  <updated>2022-04-18T12:43:59.958Z</updated>
   <id>http://tdingquan.github.io/</id>
   
   <author>
@@ -15,6 +15,19 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>常用代码</title>
+    <link href="http://tdingquan.github.io/2022-04-18/pytorch-bian-cheng-chang-yong-dai-ma/"/>
+    <id>http://tdingquan.github.io/2022-04-18/pytorch-bian-cheng-chang-yong-dai-ma/</id>
+    <published>2022-04-18T12:43:59.000Z</published>
+    <updated>2022-04-18T12:43:59.958Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Beamer-使用指南</title>
@@ -46,7 +59,7 @@
     <link href="http://tdingquan.github.io/2021-09-02/pandas-du-qu-excel-wen-jian/"/>
     <id>http://tdingquan.github.io/2021-09-02/pandas-du-qu-excel-wen-jian/</id>
     <published>2021-09-02T03:16:51.000Z</published>
-    <updated>2021-09-02T03:27:42.696Z</updated>
+    <updated>2021-12-06T03:22:46.714Z</updated>
     
     
       
@@ -60,37 +73,10 @@
     
     
     
-    <category term="Packages" scheme="http://tdingquan.github.io/categories/Packages/"/>
+    <category term="Package" scheme="http://tdingquan.github.io/categories/Package/"/>
     
     
     <category term="Pandas" scheme="http://tdingquan.github.io/tags/Pandas/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>每日DL-安装深度学习环境的坑</title>
-    <link href="http://tdingquan.github.io/2021-08-18/mei-ri-dl-an-zhuang-shen-du-xue-xi-huan-jing-de-keng/"/>
-    <id>http://tdingquan.github.io/2021-08-18/mei-ri-dl-an-zhuang-shen-du-xue-xi-huan-jing-de-keng/</id>
-    <published>2021-08-18T02:20:27.000Z</published>
-    <updated>2021-08-18T02:30:41.539Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Engineering" scheme="http://tdingquan.github.io/categories/Engineering/"/>
-    
-    
-    <category term="Environment" scheme="http://tdingquan.github.io/tags/Environment/"/>
-    
-    <category term="Deep Learning" scheme="http://tdingquan.github.io/tags/Deep-Learning/"/>
     
   </entry>
   
@@ -123,63 +109,11 @@
   </entry>
   
   <entry>
-    <title>linux 命令</title>
-    <link href="http://tdingquan.github.io/2021-08-07/linux-ming-ling/"/>
-    <id>http://tdingquan.github.io/2021-08-07/linux-ming-ling/</id>
-    <published>2021-08-07T09:15:24.000Z</published>
-    <updated>2021-08-18T02:30:40.281Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.runoob.com/linux/linux-command-manual.html&quot;&gt;https://www.runoob.com/linux/linux-command-manual.html&lt;/a&gt;&lt;/p&gt;
-&lt;h2</summary>
-        
-      
-    
-    
-    
-    <category term="Engineering" scheme="http://tdingquan.github.io/categories/Engineering/"/>
-    
-    
-    <category term="Linux" scheme="http://tdingquan.github.io/tags/Linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Iterm2 使用技巧</title>
-    <link href="http://tdingquan.github.io/2021-06-05/iterm2-shi-yong-ji-qiao/"/>
-    <id>http://tdingquan.github.io/2021-06-05/iterm2-shi-yong-ji-qiao/</id>
-    <published>2021-06-05T14:24:33.000Z</published>
-    <updated>2021-08-18T02:28:50.376Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;ol&gt;
-&lt;li&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Engineering" scheme="http://tdingquan.github.io/categories/Engineering/"/>
-    
-    
-    <category term="Terminal" scheme="http://tdingquan.github.io/tags/Terminal/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Vscode 使用技巧</title>
     <link href="http://tdingquan.github.io/2021-06-05/vscode-shi-yong-ji-qiao/"/>
     <id>http://tdingquan.github.io/2021-06-05/vscode-shi-yong-ji-qiao/</id>
     <published>2021-06-05T14:20:01.000Z</published>
-    <updated>2021-09-03T02:54:07.506Z</updated>
+    <updated>2021-12-06T03:20:10.172Z</updated>
     
     
       
@@ -197,138 +131,6 @@
     
     
     <category term="Terminal" scheme="http://tdingquan.github.io/tags/Terminal/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Pytoch 编程-工程路径准备</title>
-    <link href="http://tdingquan.github.io/2021-06-05/pytoch-bian-cheng-gong-cheng-ji-qiao/"/>
-    <id>http://tdingquan.github.io/2021-06-05/pytoch-bian-cheng-gong-cheng-ji-qiao/</id>
-    <published>2021-06-05T14:17:44.000Z</published>
-    <updated>2021-06-05T14:19:15.203Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Engineering" scheme="http://tdingquan.github.io/categories/Engineering/"/>
-    
-    
-    <category term="Pytorch" scheme="http://tdingquan.github.io/tags/Pytorch/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Pytoch 编程-训练预测</title>
-    <link href="http://tdingquan.github.io/2021-06-05/pytoch-bian-cheng-xun-lian-yu-ce/"/>
-    <id>http://tdingquan.github.io/2021-06-05/pytoch-bian-cheng-xun-lian-yu-ce/</id>
-    <published>2021-06-05T14:13:40.000Z</published>
-    <updated>2021-08-07T09:03:56.193Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;file:///D://Documents/Documentations/torch/notes/serialization.html#recommend-saving-models&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Engineering" scheme="http://tdingquan.github.io/categories/Engineering/"/>
-    
-    
-    <category term="Pytorch" scheme="http://tdingquan.github.io/tags/Pytorch/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Pytoch 编程-模型设计</title>
-    <link href="http://tdingquan.github.io/2021-06-05/pytoch-bian-cheng-mo-xing-she-ji/"/>
-    <id>http://tdingquan.github.io/2021-06-05/pytoch-bian-cheng-mo-xing-she-ji/</id>
-    <published>2021-06-05T14:13:30.000Z</published>
-    <updated>2021-06-05T14:26:39.008Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;ol&gt;
-&lt;li&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Engineering" scheme="http://tdingquan.github.io/categories/Engineering/"/>
-    
-    
-    <category term="Pytorch" scheme="http://tdingquan.github.io/tags/Pytorch/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Pytoch 编程-结果可视化</title>
-    <link href="http://tdingquan.github.io/2021-06-05/pytoch-bian-cheng-jie-guo-ke-shi-hua/"/>
-    <id>http://tdingquan.github.io/2021-06-05/pytoch-bian-cheng-jie-guo-ke-shi-hua/</id>
-    <published>2021-06-05T14:11:25.000Z</published>
-    <updated>2021-06-05T14:26:27.173Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Engineering" scheme="http://tdingquan.github.io/categories/Engineering/"/>
-    
-    
-    <category term="Pytorch" scheme="http://tdingquan.github.io/tags/Pytorch/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Pytoch 编程-数据准备</title>
-    <link href="http://tdingquan.github.io/2021-06-05/pytoch-bian-cheng-shu-ju-zhun-bei/"/>
-    <id>http://tdingquan.github.io/2021-06-05/pytoch-bian-cheng-shu-ju-zhun-bei/</id>
-    <published>2021-06-05T14:09:53.000Z</published>
-    <updated>2021-08-16T12:11:09.292Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Engineering" scheme="http://tdingquan.github.io/categories/Engineering/"/>
-    
-    
-    <category term="Pytorch" scheme="http://tdingquan.github.io/tags/Pytorch/"/>
     
   </entry>
   
@@ -362,39 +164,18 @@
   </entry>
   
   <entry>
-    <title>PHP面向对象</title>
-    <link href="http://tdingquan.github.io/2021-06-02/php-mian-xiang-dui-xiang/"/>
-    <id>http://tdingquan.github.io/2021-06-02/php-mian-xiang-dui-xiang/</id>
-    <published>2021-06-02T10:44:12.000Z</published>
-    <updated>2021-08-18T02:23:06.929Z</updated>
-    
-    
-    
-    
-    <category term="Language" scheme="http://tdingquan.github.io/categories/Language/"/>
-    
-    
-    <category term="PHP" scheme="http://tdingquan.github.io/tags/PHP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PHP语法Tips</title>
-    <link href="http://tdingquan.github.io/2021-06-02/php-yu-fa-tips/"/>
-    <id>http://tdingquan.github.io/2021-06-02/php-yu-fa-tips/</id>
-    <published>2021-06-02T09:50:26.000Z</published>
-    <updated>2021-08-18T02:22:54.951Z</updated>
+    <title>Latex 常用输入片段</title>
+    <link href="http://tdingquan.github.io/2021-05-24/markdownlatex-chang-yong-shu-ru-pian-duan/"/>
+    <id>http://tdingquan.github.io/2021-05-24/markdownlatex-chang-yong-shu-ru-pian-duan/</id>
+    <published>2021-05-24T06:07:55.000Z</published>
+    <updated>2021-09-06T07:51:06.613Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;基本数据类型&quot;&gt;&lt;a href=&quot;#基本数据类型&quot; class=&quot;headerlink&quot; title=&quot;基本数据类型&quot;&gt;&lt;/a&gt;基本数据类型&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;PHP 是弱类型语言。&lt;/li&gt;
-&lt;li&gt;类型查看：&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre</summary>
+    <summary type="html">&lt;h1 id=&quot;Mathpix-公式转换&quot;&gt;&lt;a href=&quot;#Mathpix-公式转换&quot; class=&quot;headerlink&quot; title=&quot;Mathpix 公式转换&quot;&gt;&lt;/a&gt;Mathpix 公式转换&lt;/h1&gt;&lt;p&gt;人生苦短，我选择 &lt;a</summary>
         
       
     
@@ -403,134 +184,157 @@
     <category term="Language" scheme="http://tdingquan.github.io/categories/Language/"/>
     
     
-    <category term="PHP" scheme="http://tdingquan.github.io/tags/PHP/"/>
+    <category term="Latex" scheme="http://tdingquan.github.io/tags/Latex/"/>
     
   </entry>
   
   <entry>
-    <title>2106-LeetCode</title>
-    <link href="http://tdingquan.github.io/2021-06-01/2106-leetcode/"/>
-    <id>http://tdingquan.github.io/2021-06-01/2106-leetcode/</id>
-    <published>2021-06-01T09:26:26.000Z</published>
-    <updated>2021-08-18T02:23:48.191Z</updated>
+    <title>核方法</title>
+    <link href="http://tdingquan.github.io/2021-05-23/he-fang-fa/"/>
+    <id>http://tdingquan.github.io/2021-05-23/he-fang-fa/</id>
+    <published>2021-05-23T13:21:31.000Z</published>
+    <updated>2021-08-07T09:05:53.965Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h4 id=&quot;1-1744-你能在你最喜欢的那天吃到你最喜欢的糖果吗？&quot;&gt;&lt;a href=&quot;#1-1744-你能在你最喜欢的那天吃到你最喜欢的糖果吗？&quot; class=&quot;headerlink&quot; title=&quot;1. 1744 -</summary>
+    <summary type="html">&lt;h1 id=&quot;一些空间的定义&quot;&gt;&lt;a href=&quot;#一些空间的定义&quot; class=&quot;headerlink&quot; title=&quot;一些空间的定义&quot;&gt;&lt;/a&gt;一些空间的定义&lt;/h1&gt;&lt;h2 id=&quot;泛函分析&quot;&gt;&lt;a href=&quot;#泛函分析&quot; class=&quot;headerlink&quot;</summary>
         
       
     
     
     
-    <category term="Algorithm" scheme="http://tdingquan.github.io/categories/Algorithm/"/>
+    <category term="Math" scheme="http://tdingquan.github.io/categories/Math/"/>
     
     
-    <category term="LeetCode" scheme="http://tdingquan.github.io/tags/LeetCode/"/>
+    <category term="Machine Learning" scheme="http://tdingquan.github.io/tags/Machine-Learning/"/>
     
   </entry>
   
   <entry>
-    <title>面试基础知识-工程篇</title>
-    <link href="http://tdingquan.github.io/2021-06-01/gong-cheng-zhi-shi-pian/"/>
-    <id>http://tdingquan.github.io/2021-06-01/gong-cheng-zhi-shi-pian/</id>
-    <published>2021-06-01T09:05:12.000Z</published>
-    <updated>2021-08-18T02:25:58.874Z</updated>
+    <title>Nginx服务器配置教程</title>
+    <link href="http://tdingquan.github.io/2021-05-17/nginx-fu-wu-qi-pei-zhi-jiao-cheng/"/>
+    <id>http://tdingquan.github.io/2021-05-17/nginx-fu-wu-qi-pei-zhi-jiao-cheng/</id>
+    <published>2021-05-17T06:19:28.000Z</published>
+    <updated>2021-12-06T03:19:20.414Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;计算机网络&quot;&gt;&lt;a href=&quot;#计算机网络&quot; class=&quot;headerlink&quot; title=&quot;计算机网络&quot;&gt;&lt;/a&gt;计算机网络&lt;/h1&gt;&lt;h4 id=&quot;1-建立-TCP-连接的三次握手过程&quot;&gt;&lt;a href=&quot;#1-建立-TCP-连接的三次握手过程&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;什么是-Nginx&quot;&gt;&lt;a href=&quot;#什么是-Nginx&quot; class=&quot;headerlink&quot; title=&quot;什么是 Nginx?&quot;&gt;&lt;/a&gt;什么是 Nginx?&lt;/h1&gt;&lt;h1 id=&quot;Nginx-的安装&quot;&gt;&lt;a href=&quot;#Nginx-的安装&quot;</summary>
         
       
     
     
     
-    <category term="Interview" scheme="http://tdingquan.github.io/categories/Interview/"/>
+    <category term="Engineering" scheme="http://tdingquan.github.io/categories/Engineering/"/>
     
+    
+    <category term="Environment" scheme="http://tdingquan.github.io/tags/Environment/"/>
     
   </entry>
   
   <entry>
-    <title>位运算专题</title>
-    <link href="http://tdingquan.github.io/2021-05-28/wei-yun-suan-zhuan-ti/"/>
-    <id>http://tdingquan.github.io/2021-05-28/wei-yun-suan-zhuan-ti/</id>
-    <published>2021-05-28T07:15:23.000Z</published>
-    <updated>2021-08-18T02:24:42.423Z</updated>
+    <title>Matplotlib 基础知识（一）</title>
+    <link href="http://tdingquan.github.io/2021-04-09/matplotlib-ji-chu-zhi-shi/"/>
+    <id>http://tdingquan.github.io/2021-04-09/matplotlib-ji-chu-zhi-shi/</id>
+    <published>2021-04-09T08:13:35.000Z</published>
+    <updated>2021-12-06T03:19:31.836Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;一些经验&quot;&gt;&lt;a href=&quot;#一些经验&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;基本概念&quot;&gt;&lt;a href=&quot;#基本概念&quot; class=&quot;headerlink&quot; title=&quot;基本概念&quot;&gt;&lt;/a&gt;基本概念&lt;/h2&gt;&lt;h3 id=&quot;数据格式&quot;&gt;&lt;a href=&quot;#数据格式&quot; class=&quot;headerlink&quot;</summary>
         
       
     
     
     
-    <category term="Algorithm" scheme="http://tdingquan.github.io/categories/Algorithm/"/>
+    <category term="Package" scheme="http://tdingquan.github.io/categories/Package/"/>
     
     
-    <category term="LeetCode" scheme="http://tdingquan.github.io/tags/LeetCode/"/>
+    <category term="Matplotlib" scheme="http://tdingquan.github.io/tags/Matplotlib/"/>
     
   </entry>
   
   <entry>
-    <title>Causal Discovery with Attention-Based Convolutional Neural Networks</title>
-    <link href="http://tdingquan.github.io/2021-05-27/causal-discovery-with-attention-based-convolutional-neural-networks/"/>
-    <id>http://tdingquan.github.io/2021-05-27/causal-discovery-with-attention-based-convolutional-neural-networks/</id>
-    <published>2021-05-27T07:45:20.000Z</published>
-    <updated>2021-08-07T09:05:41.268Z</updated>
+    <title>Pytorch 编程的一些坑</title>
+    <link href="http://tdingquan.github.io/2021-04-05/pytorch-bian-cheng-de-yi-xie-keng/"/>
+    <id>http://tdingquan.github.io/2021-04-05/pytorch-bian-cheng-de-yi-xie-keng/</id>
+    <published>2021-04-05T04:12:30.000Z</published>
+    <updated>2021-08-18T02:25:51.703Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;主要内容&quot;&gt;&lt;a href=&quot;#主要内容&quot; class=&quot;headerlink&quot; title=&quot;主要内容&quot;&gt;&lt;/a&gt;主要内容&lt;/h1&gt;&lt;p&gt;作者提出 TCDF，一个结合了 CNN 和 Attention 的深度学习框架去对时间序列进行预测，利用 CNN</summary>
+    <summary type="html">&lt;pre class=&quot;line-numbers language-python&quot; data-language=&quot;python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt;</summary>
         
       
     
     
     
-    <category term="Paper Reading" scheme="http://tdingquan.github.io/categories/Paper-Reading/"/>
+    <category term="Language" scheme="http://tdingquan.github.io/categories/Language/"/>
     
     
-    <category term="Causal Discovery" scheme="http://tdingquan.github.io/tags/Causal-Discovery/"/>
-    
-    <category term="Time Series" scheme="http://tdingquan.github.io/tags/Time-Series/"/>
+    <category term="Pytorch" scheme="http://tdingquan.github.io/tags/Pytorch/"/>
     
   </entry>
   
   <entry>
-    <title>On the completeness of orientation rules for causal discovery in the presence of latent confounders and selection bias</title>
-    <link href="http://tdingquan.github.io/2021-05-25/on-the-completeness-of-orientation-rules-for-causal-discovery-in-the-presence-of-latent-confounders-and-selection-bias/"/>
-    <id>http://tdingquan.github.io/2021-05-25/on-the-completeness-of-orientation-rules-for-causal-discovery-in-the-presence-of-latent-confounders-and-selection-bias/</id>
-    <published>2021-05-25T07:32:06.000Z</published>
-    <updated>2021-08-07T09:05:56.393Z</updated>
+    <title>Collections, the Container datatypes</title>
+    <link href="http://tdingquan.github.io/2021-04-04/python-gao-ji-bian-cheng-collections-the-container-datatypes/"/>
+    <id>http://tdingquan.github.io/2021-04-04/python-gao-ji-bian-cheng-collections-the-container-datatypes/</id>
+    <published>2021-04-04T11:39:12.000Z</published>
+    <updated>2021-12-16T09:03:50.182Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;主要内容&quot;&gt;&lt;a href=&quot;#主要内容&quot; class=&quot;headerlink&quot; title=&quot;主要内容&quot;&gt;&lt;/a&gt;主要内容&lt;/h1&gt;&lt;p&gt;传统的因果推理方法假设不存在混杂因子和选择偏差，FCI</summary>
+    <summary type="html">&lt;h4 id=&quot;1-Counter&quot;&gt;&lt;a href=&quot;#1-Counter&quot; class=&quot;headerlink&quot; title=&quot;1. Counter&quot;&gt;&lt;/a&gt;1.</summary>
         
       
     
     
     
-    <category term="Paper Reading" scheme="http://tdingquan.github.io/categories/Paper-Reading/"/>
+    <category term="Language" scheme="http://tdingquan.github.io/categories/Language/"/>
     
     
-    <category term="Causal Discovery" scheme="http://tdingquan.github.io/tags/Causal-Discovery/"/>
+    <category term="Python" scheme="http://tdingquan.github.io/tags/Python/"/>
     
-    <category term="Causal Theory" scheme="http://tdingquan.github.io/tags/Causal-Theory/"/>
+  </entry>
+  
+  <entry>
+    <title>Hexo 基础命令介绍</title>
+    <link href="http://tdingquan.github.io/2021-03-04/hello-world/"/>
+    <id>http://tdingquan.github.io/2021-03-04/hello-world/</id>
+    <published>2021-03-04T13:44:31.000Z</published>
+    <updated>2021-08-18T02:28:42.443Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;欢迎来到 &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;！ 这是你的第一篇文章。访问 &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; 来了解更多信息。&lt;br&gt;在使用 Hexo</summary>
+        
+      
+    
+    
+    
+    <category term="Engineering" scheme="http://tdingquan.github.io/categories/Engineering/"/>
+    
+    
+    <category term="Environment" scheme="http://tdingquan.github.io/tags/Environment/"/>
     
   </entry>
   

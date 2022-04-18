@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>常用代码</title>
+      <link href="2022-04-18/pytorch-bian-cheng-chang-yong-dai-ma/"/>
+      <url>2022-04-18/pytorch-bian-cheng-chang-yong-dai-ma/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Beamer-使用指南</title>
       <link href="2021-09-06/beamer-shi-yong-zhi-nan/"/>
       <url>2021-09-06/beamer-shi-yong-zhi-nan/</url>
@@ -38,7 +51,7 @@
       
       <categories>
           
-          <category> Packages </category>
+          <category> Package </category>
           
       </categories>
       
@@ -46,33 +59,6 @@
         <tags>
             
             <tag> Pandas </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>每日DL-安装深度学习环境的坑</title>
-      <link href="2021-08-18/mei-ri-dl-an-zhuang-shen-du-xue-xi-huan-jing-de-keng/"/>
-      <url>2021-08-18/mei-ri-dl-an-zhuang-shen-du-xue-xi-huan-jing-de-keng/</url>
-      
-        <content type="html"><![CDATA[<p><a href="https://www.tensorflow.org/install/source">https://www.tensorflow.org/install/source</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Engineering </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Environment </tag>
-            
-            <tag> Deep Learning </tag>
             
         </tags>
       
@@ -106,56 +92,6 @@
     
     
     <entry>
-      <title>linux 命令</title>
-      <link href="2021-08-07/linux-ming-ling/"/>
-      <url>2021-08-07/linux-ming-ling/</url>
-      
-        <content type="html"><![CDATA[<p><a href="https://www.runoob.com/linux/linux-command-manual.html">https://www.runoob.com/linux/linux-command-manual.html</a></p><h2 id="rpm-命令"><a href="#rpm-命令" class="headerlink" title="rpm 命令"></a>rpm 命令</h2><p><a href="https://www.linuxcool.com/rpm">https://www.linuxcool.com/rpm</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Engineering </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Linux </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Iterm2 使用技巧</title>
-      <link href="2021-06-05/iterm2-shi-yong-ji-qiao/"/>
-      <url>2021-06-05/iterm2-shi-yong-ji-qiao/</url>
-      
-        <content type="html"><![CDATA[<ol><li><a href="https://www.jianshu.com/p/ba08713c2b19">https://www.jianshu.com/p/ba08713c2b19</a></li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> Engineering </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Terminal </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Vscode 使用技巧</title>
       <link href="2021-06-05/vscode-shi-yong-ji-qiao/"/>
       <url>2021-06-05/vscode-shi-yong-ji-qiao/</url>
@@ -181,131 +117,6 @@
     
     
     <entry>
-      <title>Pytoch 编程-工程路径准备</title>
-      <link href="2021-06-05/pytoch-bian-cheng-gong-cheng-ji-qiao/"/>
-      <url>2021-06-05/pytoch-bian-cheng-gong-cheng-ji-qiao/</url>
-      
-        <content type="html"><![CDATA[<ol><li><p><a href="https://www.cnblogs.com/yitao326/p/10535899.html">https://www.cnblogs.com/yitao326/p/10535899.html</a></p></li><li><p><a href="https://www.cnblogs.com/komean/p/10603518.html">https://www.cnblogs.com/komean/p/10603518.html</a></p></li><li><p><a href="https://www.cnblogs.com/xiaxiaoxu/p/8961106.html">https://www.cnblogs.com/xiaxiaoxu/p/8961106.html</a></p></li><li><p><a href="https://blog.csdn.net/ruguowoshiyu/article/details/80539299">https://blog.csdn.net/ruguowoshiyu/article/details/80539299</a></p></li><li><p><a href="https://www.cnblogs.com/klchang/p/7296058.html">https://www.cnblogs.com/klchang/p/7296058.html</a></p></li><li><p><a href="https://zhuanlan.zhihu.com/p/62569340">https://zhuanlan.zhihu.com/p/62569340</a></p></li><li><p><a href="https://blog.csdn.net/ManyPeng/article/details/92816138">https://blog.csdn.net/ManyPeng/article/details/92816138</a></p></li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> Engineering </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Pytorch </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Pytoch 编程-训练预测</title>
-      <link href="2021-06-05/pytoch-bian-cheng-xun-lian-yu-ce/"/>
-      <url>2021-06-05/pytoch-bian-cheng-xun-lian-yu-ce/</url>
-      
-        <content type="html"><![CDATA[<ol><li><p>file:///D://Documents/Documentations/torch/notes/serialization.html#recommend-saving-models</p></li><li><p><a href="https://blog.csdn.net/lrs1353281004/article/details/97291890">https://blog.csdn.net/lrs1353281004/article/details/97291890</a></p></li><li><p>file:///D://Documents/Documentations/torch/nn.html?highlight=crossentropyloss#torch.nn.CrossEntropyLoss</p></li><li><p><a href="https://www.zhihu.com/question/388343075">https://www.zhihu.com/question/388343075</a></p></li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> Engineering </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Pytorch </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Pytoch 编程-模型设计</title>
-      <link href="2021-06-05/pytoch-bian-cheng-mo-xing-she-ji/"/>
-      <url>2021-06-05/pytoch-bian-cheng-mo-xing-she-ji/</url>
-      
-        <content type="html"><![CDATA[<ol><li><a href="https://www.cnblogs.com/wanghui-garcia/p/10775859.html">https://www.cnblogs.com/wanghui-garcia/p/10775859.html</a></li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> Engineering </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Pytorch </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Pytoch 编程-结果可视化</title>
-      <link href="2021-06-05/pytoch-bian-cheng-jie-guo-ke-shi-hua/"/>
-      <url>2021-06-05/pytoch-bian-cheng-jie-guo-ke-shi-hua/</url>
-      
-        <content type="html"><![CDATA[<ol><li><p><a href="https://blog.csdn.net/bigbennyguo/article/details/87956434">https://blog.csdn.net/bigbennyguo/article/details/87956434</a></p></li><li><p><a href="https://blog.csdn.net/onion_rain/article/details/103865017">https://blog.csdn.net/onion_rain/article/details/103865017</a></p></li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> Engineering </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Pytorch </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Pytoch 编程-数据准备</title>
-      <link href="2021-06-05/pytoch-bian-cheng-shu-ju-zhun-bei/"/>
-      <url>2021-06-05/pytoch-bian-cheng-shu-ju-zhun-bei/</url>
-      
-        <content type="html"><![CDATA[<ol><li><p><a href="https://blog.csdn.net/qq_37388085/article/details/114762385">https://blog.csdn.net/qq_37388085/article/details/114762385</a></p></li><li><p><a href="https://blog.csdn.net/zw__chen/article/details/82806900">https://blog.csdn.net/zw__chen/article/details/82806900</a></p></li><li><p><a href="https://blog.csdn.net/hejp_123/article/details/94553524">https://blog.csdn.net/hejp_123/article/details/94553524</a></p></li><li><p>file:///D://Documents/Documentations/torch/data.html#torch.utils.data.DataLoader</p></li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> Engineering </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Pytorch </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>包工具命令</title>
       <link href="2021-06-05/bao-guan-li-gong-ju-ming-ling/"/>
       <url>2021-06-05/bao-guan-li-gong-ju-ming-ling/</url>
@@ -323,206 +134,6 @@
         <tags>
             
             <tag> Environment </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>PHP面向对象</title>
-      <link href="2021-06-02/php-mian-xiang-dui-xiang/"/>
-      <url>2021-06-02/php-mian-xiang-dui-xiang/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> Language </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> PHP </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>PHP语法Tips</title>
-      <link href="2021-06-02/php-yu-fa-tips/"/>
-      <url>2021-06-02/php-yu-fa-tips/</url>
-      
-        <content type="html"><![CDATA[<h2 id="基本数据类型"><a href="#基本数据类型" class="headerlink" title="基本数据类型"></a>基本数据类型</h2><ul><li>PHP 是弱类型语言。</li><li>类型查看：</li></ul><pre class="line-numbers language-php" data-language="php"><code class="language-php"><span class="token function">var_dump</span><span class="token punctuation">(</span><span class="token variable">$variable</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="字符串类型-is-string"><a href="#字符串类型-is-string" class="headerlink" title="字符串类型 - is_string"></a>字符串类型 - <code>is_string</code></h3><ol><li>使用单引号/双引号括起来的变量，推荐使用单引号，因为不会对变量值进行解析。</li><li>字符串的拼接使用<code>.</code>。</li></ol><h3 id="数字类型-is-interger-is-int-is-float-is-double"><a href="#数字类型-is-interger-is-int-is-float-is-double" class="headerlink" title="数字类型 - is_interger/is_int - is_float/is_double"></a>数字类型 - <code>is_interger/is_int</code> - <code>is_float/is_double</code></h3><ol><li><code>PHP_INT_MIN</code>,<code>PHP_INT_MAX</code>表示整型的下上限。</li><li>PHP 中的浮点型默认是 <code>float</code>。</li></ol><h3 id="布尔类型-is-bool"><a href="#布尔类型-is-bool" class="headerlink" title="布尔类型 - is_bool"></a>布尔类型 - <code>is_bool</code></h3><ol><li>true 和 false。</li></ol><h3 id="强制类型转化"><a href="#强制类型转化" class="headerlink" title="强制类型转化"></a>强制类型转化</h3><pre class="line-numbers language-php" data-language="php"><code class="language-php"><span class="token punctuation">(</span><span class="token punctuation">[</span>类型名<span class="token punctuation">]</span><span class="token punctuation">)</span> $<span class="token punctuation">[</span>变量名<span class="token punctuation">]</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h2><ul><li>可以使用<code>var_dump</code>和<code>print_r</code>进行不同等级的输出。</li></ul><h3 id="索引数组"><a href="#索引数组" class="headerlink" title="索引数组"></a>索引数组</h3><ol><li>数组的键为隐式数字，自动维护。</li><li>增删改查：</li></ol><pre class="line-numbers language-php" data-language="php"><code class="language-php"><span class="token variable">$fruits</span> <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span><span class="token variable">$fruits</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string double-quoted-string">"apple"</span><span class="token punctuation">;</span><span class="token variable">$fruits</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string double-quoted-string">"orange"</span><span class="token punctuation">;</span><span class="token variable">$fruit</span> <span class="token operator">=</span> <span class="token variable">$fruits</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">;</span><span class="token variable">$fruit</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string double-quoted-string">"banana"</span><span class="token punctuation">;</span><span class="token keyword">unset</span><span class="token punctuation">(</span><span class="token variable">$fruits</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment"># 不会重排索引，保留 index=1 的索引</span><span class="token variable">$fruits</span> <span class="token operator">=</span> <span class="token function">array_values</span><span class="token punctuation">(</span><span class="token variable">$fruits</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment"># 重排索引</span><span class="token keyword">unset</span><span class="token punctuation">(</span><span class="token variable">$fruits</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment"># 删除整个数组</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><ol start="3"><li>输出的一些规则：</li></ol><ul><li><code>false</code> =&gt; 空字符串；</li><li><code>true</code> =&gt; 1；</li><li><code>(float)$[variable]</code> =&gt; 对应字符串格式。</li></ul><h3 id="关联数组"><a href="#关联数组" class="headerlink" title="关联数组"></a>关联数组</h3><ol><li>类似字典。</li><li>部分指定键值，php 自动维护一个数字索引的键值。</li></ol><pre class="line-numbers language-php" data-language="php"><code class="language-php"><span class="token variable">$book</span> <span class="token operator">=</span> <span class="token punctuation">[</span>    <span class="token string single-quoted-string">'name'</span> <span class="token operator">=&gt;</span> <span class="token string single-quoted-string">'Test'</span><span class="token punctuation">,</span>    <span class="token string single-quoted-string">'author'</span> <span class="token operator">=&gt;</span> <span class="token string single-quoted-string">'test'</span><span class="token punctuation">,</span>    <span class="token string single-quoted-string">'publish_at'</span> <span class="token operator">=&gt;</span> <span class="token number">2020</span><span class="token punctuation">,</span>    <span class="token string single-quoted-string">'price'</span> <span class="token operator">=&gt;</span> <span class="token number">99.0</span><span class="token punctuation">,</span>    <span class="token string single-quoted-string">'published'</span> <span class="token operator">=&gt;</span> <span class="token constant boolean">true</span><span class="token punctuation">,</span>    <span class="token string single-quoted-string">'掌握 Laravel 和 Vue 技术栈，成为合格的 PHP 全栈工程师！'</span><span class="token punctuation">,</span>    <span class="token string single-quoted-string">'https:blog.test'</span><span class="token punctuation">,</span><span class="token punctuation">]</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><ol start="3"><li>增删改查：</li></ol><pre class="line-numbers language-php" data-language="php"><code class="language-php"><span class="token variable">$book</span><span class="token punctuation">[</span><span class="token string single-quoted-string">'name'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string single-quoted-string">'Laravel精品课'</span><span class="token punctuation">;</span><span class="token variable">$book</span><span class="token punctuation">[</span><span class="token string single-quoted-string">'author'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string single-quoted-string">'学院君'</span><span class="token punctuation">;</span><span class="token variable">$name</span> <span class="token operator">=</span> <span class="token variable">$book</span><span class="token punctuation">[</span><span class="token string single-quoted-string">'name'</span><span class="token punctuation">]</span><span class="token punctuation">;</span><span class="token variable">$book</span><span class="token punctuation">[</span><span class="token string single-quoted-string">'price'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">199.0</span><span class="token keyword">unset</span><span class="token punctuation">(</span><span class="token variable">$book</span><span class="token punctuation">[</span><span class="token string single-quoted-string">'url'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h2><h3 id="比较运算符"><a href="#比较运算符" class="headerlink" title="比较运算符"></a>比较运算符</h3><ul><li><code>==</code> 只比较值；<code>===</code> 不仅比较值，还比较变量类型。</li></ul><h2 id="控制结构"><a href="#控制结构" class="headerlink" title="控制结构"></a>控制结构</h2><h3 id="foreach"><a href="#foreach" class="headerlink" title="foreach"></a>foreach</h3><pre class="line-numbers language-php" data-language="php"><code class="language-php"><span class="token keyword">foreach</span><span class="token punctuation">(</span><span class="token variable">$data</span> <span class="token keyword">as</span> <span class="token variable">$key</span> <span class="token operator">=&gt;</span> <span class="token variable">$val</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>    <span class="token operator">...</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><h2 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h2><h3 id="声明参数和返回值类型"><a href="#声明参数和返回值类型" class="headerlink" title="声明参数和返回值类型"></a>声明参数和返回值类型</h3><pre class="line-numbers language-php" data-language="php"><code class="language-php"><span class="token comment">/** * 计算两数相加之和 * @param int $a * @param int $b * @return int */</span><span class="token keyword">function</span> <span class="token function">add</span><span class="token punctuation">(</span><span class="token keyword type-hint">int</span> <span class="token variable">$a</span><span class="token punctuation">,</span> <span class="token keyword type-hint">int</span> <span class="token variable">$b</span><span class="token punctuation">)</span><span class="token punctuation">:</span> <span class="token keyword return-type">int</span> <span class="token punctuation">{</span>    <span class="token variable">$sum</span> <span class="token operator">=</span> <span class="token variable">$a</span> <span class="token operator">+</span> <span class="token variable">$b</span><span class="token punctuation">;</span>    <span class="token keyword">return</span> <span class="token variable">$sum</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h3 id="引用传递"><a href="#引用传递" class="headerlink" title="引用传递"></a>引用传递</h3><pre class="line-numbers language-php" data-language="php"><code class="language-php"><span class="token keyword">function</span> <span class="token function">add</span><span class="token punctuation">(</span><span class="token keyword type-declaration">int</span> <span class="token operator">&amp;</span><span class="token variable">$a</span><span class="token punctuation">,</span> <span class="token keyword type-hint">int</span> <span class="token variable">$b</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>    <span class="token variable">$a</span> <span class="token operator">+=</span> <span class="token variable">$b</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><h3 id="内置函数"><a href="#内置函数" class="headerlink" title="内置函数"></a>内置函数</h3><ol><li><a href="https://www.php.net/manual/zh/ref.strings.php">字符串函数</a></li><li><a href="https://www.php.net/manual/zh/ref.array.php">数组函数</a></li><li><a href="https://www.php.net/manual/zh/ref.math.php">数学函数</a></li><li><a href="https://www.php.net/manual/zh/ref.filesystem.php">文件系统函数</a></li></ol><h2 id="高级函数"><a href="#高级函数" class="headerlink" title="高级函数"></a>高级函数</h2><h3 id="匿名函数"><a href="#匿名函数" class="headerlink" title="匿名函数"></a>匿名函数</h3><ul><li>不要漏掉最后的分号。</li></ul><pre class="line-numbers language-php" data-language="php"><code class="language-php"><span class="token variable">$add</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token keyword type-hint">int</span> <span class="token variable">$a</span><span class="token punctuation">,</span> <span class="token keyword type-hint">int</span> <span class="token variable">$b</span><span class="token punctuation">)</span><span class="token punctuation">:</span> <span class="token keyword return-type">int</span> <span class="token punctuation">{</span>    <span class="token keyword">return</span> <span class="token variable">$a</span> <span class="token operator">+</span> <span class="token variable">$b</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><h3 id="可变参数"><a href="#可变参数" class="headerlink" title="可变参数"></a>可变参数</h3><pre class="line-numbers language-php" data-language="php"><code class="language-php"><span class="token keyword">function</span> <span class="token function">call_user_func</span><span class="token punctuation">(</span><span class="token variable">$function</span><span class="token punctuation">,</span> <span class="token operator">...</span><span class="token variable">$parameter</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="默认参数"><a href="#默认参数" class="headerlink" title="默认参数"></a>默认参数</h3><pre class="line-numbers language-php" data-language="php"><code class="language-php"><span class="token variable">$add</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token keyword type-hint">int</span> <span class="token variable">$a</span><span class="token punctuation">,</span> <span class="token keyword type-hint">int</span> <span class="token variable">$b</span> <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">:</span> <span class="token keyword return-type">int</span> <span class="token punctuation">{</span>    <span class="token keyword">return</span> <span class="token variable">$a</span> <span class="token operator">+</span> <span class="token variable">$b</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><h3 id="可变函数"><a href="#可变函数" class="headerlink" title="可变函数"></a>可变函数</h3><ul><li>将其他函数类型值赋值给函数类型变量，可以是匿名函数或者是非匿名函数。</li></ul><pre class="line-numbers language-php" data-language="php"><code class="language-php"><span class="token keyword">function</span> <span class="token function">multi</span><span class="token punctuation">(</span><span class="token keyword type-hint">int</span> <span class="token variable">$a</span><span class="token punctuation">,</span> <span class="token keyword type-hint">int</span> <span class="token variable">$b</span><span class="token punctuation">)</span><span class="token punctuation">:</span> <span class="token keyword return-type">int</span> <span class="token punctuation">{</span>    <span class="token keyword">return</span> <span class="token variable">$a</span> <span class="token operator">*</span> <span class="token variable">$b</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span class="token variable">$add</span> <span class="token operator">=</span> <span class="token string single-quoted-string">'multi'</span><span class="token punctuation">;</span><span class="token keyword">echo</span> <span class="token string double-quoted-string">"<span class="token interpolation"><span class="token variable">$n1</span></span> * <span class="token interpolation"><span class="token variable">$n2</span></span> = "</span><span class="token operator">.</span><span class="token variable">$add</span><span class="token punctuation">(</span><span class="token variable">$n1</span><span class="token punctuation">,</span> <span class="token variable">$n2</span><span class="token punctuation">)</span> <span class="token operator">.</span> <span class="token constant">PHP_EOL</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="作用域"><a href="#作用域" class="headerlink" title="作用域"></a>作用域</h2><h3 id="继承父作用域变量"><a href="#继承父作用域变量" class="headerlink" title="继承父作用域变量"></a>继承父作用域变量</h3><ul><li>匿名函数可以直接继承父作用域的变量。</li></ul><pre class="line-numbers language-php" data-language="php"><code class="language-php"><span class="token variable">$n1</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span><span class="token variable">$n2</span> <span class="token operator">=</span> <span class="token number">3</span><span class="token punctuation">;</span><span class="token comment">// 计算两数相加</span><span class="token variable">$add</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">use</span> <span class="token punctuation">(</span><span class="token variable">$n1</span><span class="token punctuation">,</span> <span class="token variable">$n2</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>    <span class="token keyword">return</span> <span class="token variable">$n1</span> <span class="token operator">+</span> <span class="token variable">$n2</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h3 id="基于-global-关键字使用全局变量"><a href="#基于-global-关键字使用全局变量" class="headerlink" title="基于 global 关键字使用全局变量"></a>基于 global 关键字使用全局变量</h3><pre class="line-numbers language-php" data-language="php"><code class="language-php"><span class="token keyword">function</span> <span class="token function">sub</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>    <span class="token keyword">global</span> <span class="token variable">$n1</span><span class="token punctuation">,</span> <span class="token variable">$n2</span><span class="token punctuation">;</span>    <span class="token keyword">return</span> <span class="token variable">$n1</span> <span class="token operator">-</span> <span class="token variable">$n2</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
-      
-      
-      <categories>
-          
-          <category> Language </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> PHP </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>2106-LeetCode</title>
-      <link href="2021-06-01/2106-leetcode/"/>
-      <url>2021-06-01/2106-leetcode/</url>
-      
-        <content type="html"><![CDATA[<h4 id="1-1744-你能在你最喜欢的那天吃到你最喜欢的糖果吗？"><a href="#1-1744-你能在你最喜欢的那天吃到你最喜欢的糖果吗？" class="headerlink" title="1. 1744 - 你能在你最喜欢的那天吃到你最喜欢的糖果吗？"></a>1. <a href="https://leetcode-cn.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/">1744 - 你能在你最喜欢的那天吃到你最喜欢的糖果吗？</a></h4><ul><li><p>一道阅读理解题目；</p></li><li><p>前缀和算出来每种糖的个数，计算指定天吃糖的上下限；</p></li><li><p>成立的区间判断条件，反着想；</p></li><li><p>特殊情况为成立的区间左端点不存在的情况：</p><ul><li>一开始想用补零解决，然而不好用；</li><li>特殊处理成为第二种情况；</li><li>两个情况的合并，人为营造一个<code>_max &lt; last_sum</code>不成立的条件。</li></ul></li><li><p>求和的一个简便写法：</p></li></ul><pre class="line-numbers language-python" data-language="python"><code class="language-python">total <span class="token operator">=</span> <span class="token builtin">list</span><span class="token punctuation">(</span>accumulate<span class="token punctuation">(</span><span class="token punctuation">[</span>candiesCount<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h4 id="2-523-连续的子数组和"><a href="#2-523-连续的子数组和" class="headerlink" title="2. 523. 连续的子数组和"></a>2. <a href="https://leetcode-cn.com/problems/continuous-subarray-sum/">523. 连续的子数组和</a></h4><ul><li>子数组和 - 前缀和；</li><li>连续的要求 - 同余法则；<ul><li>正常的子数组和进行求解的过程是$O(n^2)$的复杂度，其中的重复比较是看两个前缀和的差是否满足整除条件；</li><li>优化方法：哈希表记录前缀和的余数，两者求差之后可以把余数消除。</li></ul></li></ul><h4 id="3-525-连续数组"><a href="#3-525-连续数组" class="headerlink" title="3. 525. 连续数组"></a>3. <a href="https://leetcode-cn.com/problems/contiguous-array/">525. 连续数组</a></h4><ul><li>连续数组 - 前缀和；</li><li>0 和 1 数量一样，反映在求和上不好计算，因此把 0 变成 -1；</li><li>哈希表记录前缀和第一次出现的位置，出现同样的前缀和时就找到了一个连续的数组。</li></ul><h4 id="4-160-相交链表"><a href="#4-160-相交链表" class="headerlink" title="4. 160. 相交链表"></a>4. <a href="https://leetcode-cn.com/problems/intersection-of-two-linked-lists/">160. 相交链表</a></h4><ul><li>双指针方法。</li><li>不能相交：<ul><li>二者存在空；</li><li>二者不相交。</li></ul></li><li>能相交：<ul><li>A = a + c 走一遍，为空的时候跑到 B；</li><li>B = b + c 走一遍，为空的时候跑到 A；</li><li>然后一定能找到相交。</li></ul></li></ul><h4 id="5-203-移除链表元素"><a href="#5-203-移除链表元素" class="headerlink" title="5. 203. 移除链表元素"></a>5. <a href="https://leetcode-cn.com/problems/remove-linked-list-elements/">203. 移除链表元素</a></h4><ul><li>单指针方法。</li><li>头指针重复；</li><li>头指针固定，看下一个位置的数字是否重复。</li></ul><h4 id="6-474-一和零"><a href="#6-474-一和零" class="headerlink" title="6. 474. 一和零"></a>6. <a href="https://leetcode-cn.com/problems/ones-and-zeroes/">474. 一和零</a></h4><ul><li>三重循环，三维 0-1 背包问题；</li><li>正序复杂度较高，可以考虑逆序的想法。</li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> Algorithm </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> LeetCode </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>面试基础知识-工程篇</title>
-      <link href="2021-06-01/gong-cheng-zhi-shi-pian/"/>
-      <url>2021-06-01/gong-cheng-zhi-shi-pian/</url>
-      
-        <content type="html"><![CDATA[<h1 id="计算机网络"><a href="#计算机网络" class="headerlink" title="计算机网络"></a>计算机网络</h1><h4 id="1-建立-TCP-连接的三次握手过程"><a href="#1-建立-TCP-连接的三次握手过程" class="headerlink" title="1. 建立 TCP 连接的三次握手过程"></a>1. 建立 TCP 连接的三次握手过程</h4><ul><li>起初 Client 与 Server 都处于 CLOSED 关闭状态；Client 将标志位 SYN 置为 1，随机产生一个值 seq=x，并将该数据包发送给 Server，Client 进入 SYN-SENT 状态，等待 Server 确认；</li><li>Server 收到数据包后由标志位 SYN=1 得知 Client 请求建立连接，Server 将标志位 SYN 和 ACK 都置为 1，ack=x+1，随机产生一个值 seq=y，并将该数据包发送给 Client 以确认连接请求，Server 进入 SYN-RCVD 状态；</li><li>Client 收到确认后，检查 ack 是否为 x+1，ACK 是否为 1，如果正确则将标志位 ACK 置为 1，ack=y+1，并将该数据包发送给 Server；Server 检查 ack 是否为 y+1，ACK 是否为 1，如果正确则连接建立成功；Client 和 Server 进入 ESTABLISHED 状态，完成三次握手；随后 Client 和 Server 就可以开始传输数据。</li></ul><h4 id="2-终止-TCP-连接的四次挥手过程"><a href="#2-终止-TCP-连接的四次挥手过程" class="headerlink" title="2. 终止 TCP 连接的四次挥手过程"></a>2. 终止 TCP 连接的四次挥手过程</h4>]]></content>
-      
-      
-      <categories>
-          
-          <category> Interview </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>位运算专题</title>
-      <link href="2021-05-28/wei-yun-suan-zhuan-ti/"/>
-      <url>2021-05-28/wei-yun-suan-zhuan-ti/</url>
-      
-        <content type="html"><![CDATA[<h1 id="一些经验"><a href="#一些经验" class="headerlink" title="一些经验"></a>一些经验</h1><ol><li>在对数组进行操作的时候，从数字角度考虑，复杂度如果是$O(n^2)$，则可以从数位角度进行考虑，一般可以将复杂度降低到$O(n)$。</li></ol><h1 id="Hard"><a href="#Hard" class="headerlink" title="Hard"></a>Hard</h1><h1 id="Medium"><a href="#Medium" class="headerlink" title="Medium"></a>Medium</h1><h4 id="1-汉明距离总和"><a href="#1-汉明距离总和" class="headerlink" title="1. 汉明距离总和"></a>1. <a href="https://leetcode-cn.com/problems/total-hamming-distance/">汉明距离总和</a></h4><ul><li>思路一：暴力；</li><li>思路二：对于关于整个列表的位运算，我们可以思考暴力算法里面的重复计算；<ul><li>汉明距离定义为两个数字数位不同的数量和；</li><li>对于第 $k$ 位，求出所有 1 的数量$m_1$，0 的数量就是$m_0$；</li><li>第$k$位，列表所有数字的汉明距离和：$m_0 \times m_1$；</li><li>逐位求和。</li></ul></li></ul><h1 id="Easy"><a href="#Easy" class="headerlink" title="Easy"></a>Easy</h1>]]></content>
-      
-      
-      <categories>
-          
-          <category> Algorithm </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> LeetCode </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Causal Discovery with Attention-Based Convolutional Neural Networks</title>
-      <link href="2021-05-27/causal-discovery-with-attention-based-convolutional-neural-networks/"/>
-      <url>2021-05-27/causal-discovery-with-attention-based-convolutional-neural-networks/</url>
-      
-        <content type="html"><![CDATA[<h1 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h1><p>作者提出 TCDF，一个结合了 CNN 和 Attention 的深度学习框架去对时间序列进行预测，利用 CNN 的参数可以判断因果的时间滞后性；结合一个因果验证步骤（基于干预）去生成一个时序因果图。克服了混杂因子和瞬时影响的限制。</p><h1 id="作者"><a href="#作者" class="headerlink" title="作者"></a>作者</h1><h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><ul><li><p>大多数的模型都通过数据间的相关性去进行预测，但相关性不能表示因果关系：相关性表示一种双向关系，只能说明数据间存在一种关系。因果关系是有向的、非对称的。当两个变量之间存在一个共同成因，这种伪相关关系会使两个不相关变量展示出一种统计意义上的相关关系；</p></li><li><p>因果关系比相关关系更加鲁棒地体现数据的本性，因为它可以揭示数据内在的运行机制；并且可以对人为干预之后数据结果进行预测；</p></li><li><p>传统的因果关系挖掘方法，利用干预或实际实验。大数据使我们可以利用数据分析的方法揭示其中的因果关系。因果挖掘对于数据成因的帮助，也使其成为可解释人工智能的一个研究内容；</p></li><li><p>时间序列数据对于因果关系天然有一个帮助：果发生在因之后。传统因果关系挖掘的方法对时序数据存在以下假设：线性、稳定、无噪声、无混杂因子（共同成因）、无瞬时效应。这些方法只能用于因果关系挖掘，不能用于预测；</p></li><li><p>TCDF 包括多个 CNN；每个 CNN 接受全部时序数据作为输入，并且被用于预测一维时间序列数据；利用反向传播进行更新的网络参数，被用于进行无监督的因果关系挖掘和因果滞后性挖掘；利用 attention 去看 CNN 在预测时使用哪些历史数据；在训练结束后，TCDF 利用因果关系验证去判断因果关系（基于干预）。</p></li></ul><h1 id="TCDF-Temporal-Causal-Discovery-Framework"><a href="#TCDF-Temporal-Causal-Discovery-Framework" class="headerlink" title="TCDF - Temporal Causal Discovery Framework"></a>TCDF - Temporal Causal Discovery Framework</h1><p><img src="/2021-05-27/causal-discovery-with-attention-based-convolutional-neural-networks/models.png" alt="TCDF模型"></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Paper Reading </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Causal Discovery </tag>
-            
-            <tag> Time Series </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>On the completeness of orientation rules for causal discovery in the presence of latent confounders and selection bias</title>
-      <link href="2021-05-25/on-the-completeness-of-orientation-rules-for-causal-discovery-in-the-presence-of-latent-confounders-and-selection-bias/"/>
-      <url>2021-05-25/on-the-completeness-of-orientation-rules-for-causal-discovery-in-the-presence-of-latent-confounders-and-selection-bias/</url>
-      
-        <content type="html"><![CDATA[<h1 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h1><p>传统的因果推理方法假设不存在混杂因子和选择偏差，FCI 算法利用指向规则可以克服这个缺点。本篇论文完善了这个指向规则，使之可以在标准假设下确定所有因果结构。</p><h1 id="作者"><a href="#作者" class="headerlink" title="作者"></a>作者</h1><ul><li>Jiji Zhang$^{1,2}$</li></ul><ol><li>Division of the Humanities and Social Sciences, California Institute of Technology, USA</li><li>Department of Philosophy, Lingnan University, Hong Kong</li></ol><h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><ol><li><p>传统因果算法假设数据中不存在混在因子和选择偏差。如果丢掉这个假设，那么 <code>constraint-based</code> 方法将不再有效。因为我们无法估计混杂因子的数量，也因此无法确定一个 <code>DAG</code> 的拓扑结构。</p></li><li><p>为了解决这个问题，我们使用 <code>ancestral graph</code> 来代替原先的 <code>DAG</code>。他有一个很好的性质：对于任意的因果图结构，我们都可以总结一个 <code>maximal ancestral graph</code> 来表示。</p></li><li><p>基于此的 <code>FCI</code> 算法在推断规则上仍是不完整的。本文通过对 <code>MAG</code> 的一般特征进行刻画来扩展这个指向规则。</p></li></ol><h1 id="Ancestral-graphs-and-their-interpretations"><a href="#Ancestral-graphs-and-their-interpretations" class="headerlink" title="Ancestral graphs and their interpretations"></a>Ancestral graphs and their interpretations</h1><h2 id="Ancestral-graphs"><a href="#Ancestral-graphs" class="headerlink" title="Ancestral graphs"></a>Ancestral graphs</h2><p>1.</p><ol start="2"><li>一个 <code>mixed graph</code> 是 <code>ancestral</code> 如果：</li></ol><ul><li>不存在 <code>directed cycle</code>；</li><li>不存在 <code>almost directed cycle</code>；</li><li>对于无向边 <code>V1-V2</code>，<code>V1,V2</code> 不存在父节点或者伴侣节点。</li></ul><ol start="3"><li><code>DAG</code> 都是 <code>ancestral graph</code> 的特例；双向箭头的定义是二者均不构成对方的祖先节点关系；第三个条件使得带有无向边的节点不会被一个有向边指向（不会接收到一个箭头）。</li></ol><h2 id="Probabilistic-interpretation-of-ancestral-graphs"><a href="#Probabilistic-interpretation-of-ancestral-graphs" class="headerlink" title="Probabilistic interpretation of ancestral graphs"></a>Probabilistic interpretation of ancestral graphs</h2><ol><li><code>collider</code>：在一条路径上被两侧邻边同时指向的节点；否则就是 <code>non-collider</code>。</li></ol><ul><li>这不是节点的属性，而是节点在路径中的特性。</li></ul><ol start="2"><li><code>m-separation</code>： 在一个 <code>mixed-graph</code> 中，在节点集合<code>X</code>和<code>Y</code>之间的路径<code>p</code>相对一个集合<code>Z</code>是<code>m-connecting</code>的，如果：</li></ol><ul><li><code>p</code> 中的 <code>non-collider</code> 都不在 <code>Z</code> 中；</li><li><code>p</code> 中的 <code>collider</code> 都有一个后代在 <code>Z</code> 中。</li></ul><ol start="3"><li><code>separation</code> 与独立性：</li></ol><ul><li>在<code>DAG</code>中，<code>d-separation</code> $\Leftrightarrow$ 独立；</li><li>在<code>ancestral graph</code>中，<code>m-separation</code> $\Rightarrow$ 独立；</li><li>在<code>MAG</code>中，<code>m-separation</code> $\Leftrightarrow$ 独立；</li></ul><h1 id="推荐阅读"><a href="#推荐阅读" class="headerlink" title="推荐阅读"></a>推荐阅读</h1><ol><li>23 - <code>ancestral graph</code></li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> Paper Reading </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Causal Discovery </tag>
-            
-            <tag> Causal Theory </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>On Causal Discovery from Time Series Data using FCI</title>
-      <link href="2021-05-25/on-causal-discovery-from-time-series-data-using-fci/"/>
-      <url>2021-05-25/on-causal-discovery-from-time-series-data-using-fci/</url>
-      
-        <content type="html"><![CDATA[<h1 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h1><ul><li><p>将 FCI 算法应用到时间序列数据上，使其可以处理带有混杂因子和选择偏差的数据。利用了时间序列数据的特性，对于 PAG 图上的边的推导制定了新的规则。理论上效果应该很好，实际上对于大多数的样本大小效果都不太好。</p></li><li><p>时间序列常用格兰杰因果进行推导，但他无法处理混在因子和选择偏差。</p></li><li><p>时间序列的长度对于推断出的关系有影响；条件独立性的检验对于结果的推断有影响；</p></li><li><p>我们假设瞬时因果关系不存在，但由于采样频率等原因，两次采样中间的多元时间序列可能产生自环；</p></li><li><p>时序数据的聚合使得我们找到的因果关系不能表示原数据的因果结构。</p></li></ul><h1 id="作者"><a href="#作者" class="headerlink" title="作者"></a>作者</h1><ul><li>Doris Entner$^1$</li><li>Patrik O. Hoyer$^{1,2}$</li></ul><ol><li>HIIT &amp; Dept. of Computer Science, University of Helsinki, Finland</li><li>CSAIL, Massachusetts Institute of Technology, Cambridge, MA, USA</li></ol><h1 id="FCI-算法介绍"><a href="#FCI-算法介绍" class="headerlink" title="FCI 算法介绍"></a>FCI 算法介绍</h1><h2 id="MAGs-PAGs-and-FCI"><a href="#MAGs-PAGs-and-FCI" class="headerlink" title="MAGs, PAGs, and FCI"></a>MAGs, PAGs, and FCI</h2><ol><li><p>Partial Ancestral graph</p></li><li><p>Mixed graph</p></li><li><p>Ancestral graph</p></li><li><p>m-separation</p></li><li><p>Maximal ancestral graph</p></li></ol><h1 id="时间序列模型"><a href="#时间序列模型" class="headerlink" title="时间序列模型"></a>时间序列模型</h1><h1 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h1><ul><li>N 维时间序列：$\mathbf{X}(t), t=1,\cdots,T$</li></ul><h2 id="算法内容"><a href="#算法内容" class="headerlink" title="算法内容"></a>算法内容</h2><ol><li>使用滑动窗口算法，将原时间序列划分成固定长度$\tau$的片段$\mathbf{X}$，得到$T-\tau$个样本。认为这个样本是采样于分布$P(\mathbf{X})$；</li></ol><ul><li>$X=(X_1(t-\tau),\cdots,X_N(t-\tau),\cdots,X_1(t),\cdots,X_N(t))^T:1\times(\tau+1)·N$</li></ul><ol start="2"><li><p>对得到的样本应用 FCI 算法，得到一个 Partial Ancestral Graph, PAG。</p></li><li><p>结合数据的时间序列特性，对 PAG 更改如下：</p></li></ol><ul><li>因果箭头必须顺时间方向，$X_i(t_1) \rightarrow X_j(t_2), t_1 \leq t_2 $；</li><li>因果效应时间不变性，$X_i(t-t_1) \rightarrow X_j(t-t_2) \Rightarrow X_i(t-t_3) \rightarrow X_j(t-t_4), \forall t_1 - t_2 = t_3 - t_4$。</li></ul><h2 id="推论"><a href="#推论" class="headerlink" title="推论"></a>推论</h2><ol><li>在一个有限长$\tau$的窗口内，如果$X_i(t-t_1)\perp X_j(t-t_2) \mid \lbrace X_k(t-t_3), \cdots, X_l(t-t_k)\rbrace$，则$X_i(t-t_1+t’)\perp X_j(t-t_2+t’) \mid \lbrace X_k(t-t_3+t’), \cdots, X_l(t-t_k+t’)\rbrace$；</li></ol><ul><li><font color="Red">不知道 markdown 如何敲出来独立符号。</font></li></ul><ol start="2"><li>由于因果效应时间不变性推断出来的边，边两侧的 mark 应该一样。</li></ol><h2 id="推论的应用"><a href="#推论的应用" class="headerlink" title="推论的应用"></a>推论的应用</h2><ul><li>两个节点的条件独立性测试表示他们应该是独立的，则可以移除此刻以及未来每一时刻这两个维度之间的边；</li><li>这个策略导致在这个时间点以前的图上会出现一些可能冗余的边。</li></ul><h2 id="算法伪代码"><a href="#算法伪代码" class="headerlink" title="算法伪代码"></a>算法伪代码</h2><p><img src="/2021-05-25/on-causal-discovery-from-time-series-data-using-fci/algo.png" alt="算法伪代码"></p><h1 id="推荐阅读"><a href="#推荐阅读" class="headerlink" title="推荐阅读"></a>推荐阅读</h1><ol><li>Sprites et al. (2000) - FCI algorithm.</li></ol><p>2.</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Paper Reading </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Causal Discovery </tag>
-            
-            <tag> Time Series </tag>
             
         </tags>
       
@@ -581,36 +192,11 @@
     
     
     <entry>
-      <title>二分查找专题</title>
-      <link href="2021-05-23/er-fen-cha-zhao-zhuan-ti/"/>
-      <url>2021-05-23/er-fen-cha-zhao-zhuan-ti/</url>
+      <title>Nginx服务器配置教程</title>
+      <link href="2021-05-17/nginx-fu-wu-qi-pei-zhi-jiao-cheng/"/>
+      <url>2021-05-17/nginx-fu-wu-qi-pei-zhi-jiao-cheng/</url>
       
-        <content type="html"><![CDATA[<h1 id="算法描述"><a href="#算法描述" class="headerlink" title="算法描述"></a>算法描述</h1><h2 id="算法流程"><a href="#算法流程" class="headerlink" title="算法流程"></a>算法流程</h2><ol><li>预处理 —— 数据未排序，先进行排序；</li><li>二分查找 —— 递归进行查找空间的对半划分；</li><li>后处理 —— 在剩余空间中进行选择。</li></ol><h2 id="算法模板"><a href="#算法模板" class="headerlink" title="算法模板"></a>算法模板</h2><h3 id="坑"><a href="#坑" class="headerlink" title="坑"></a>坑</h3><ol><li>mid 的计算问题</li></ol><ul><li>不会超过 int 上限。</li></ul><pre class="line-numbers language-python" data-language="python"><code class="language-python">mid <span class="token operator">=</span> <span class="token punctuation">(</span>right<span class="token operator">-</span>left<span class="token punctuation">)</span> <span class="token operator">//</span> <span class="token number">2</span> <span class="token operator">+</span> left<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ol start="2"><li>题目类型判断</li></ol><ul><li>查找确定的数：</li></ul><pre class="line-numbers language-python" data-language="python"><code class="language-python">right <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>nums<span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">1</span>left <span class="token operator">&lt;=</span> right<span class="token punctuation">;</span> right <span class="token operator">=</span> mid <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">;</span> left <span class="token operator">=</span> mid <span class="token operator">+</span> <span class="token number">1</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><ul><li>查找某个区间的边界：</li></ul><pre class="line-numbers language-python" data-language="python"><code class="language-python">right <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>nums<span class="token punctuation">)</span>left <span class="token operator">&lt;</span> right<span class="token punctuation">;</span> right <span class="token operator">=</span> mid<span class="token punctuation">;</span> left <span class="token operator">=</span> mid <span class="token operator">+</span> <span class="token number">1</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><ol start="3"><li><code>right</code> 究竟如何初始化：</li></ol><ul><li>判别标准在于是否会取到 <code>nums[right]</code> 这个数字。</li></ul><ol start="4"><li><code>mid</code> 的作用：</li></ol><ul><li>如果是检测一个数字第一次出现，<code>mid = (right - left) // 2 + left</code></li><li>如果是检测一个数字最后一次出现，<code>mid = (right - left) // 2 + left + 1</code></li></ul><h3 id="模板一"><a href="#模板一" class="headerlink" title="模板一"></a>模板一</h3><h4 id="使用条件"><a href="#使用条件" class="headerlink" title="使用条件"></a>使用条件</h4><ul><li>查找可以通过访问数组中单个索引来确定的元素或者条件；</li><li>使用中间元素判断向左还是向右；</li><li>无后处理。</li></ul><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">binarySearch</span><span class="token punctuation">(</span>nums<span class="token punctuation">:</span> <span class="token builtin">list</span><span class="token punctuation">,</span> target<span class="token punctuation">:</span> <span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">&gt;</span> <span class="token builtin">int</span><span class="token punctuation">:</span>    <span class="token keyword">if</span> <span class="token builtin">len</span><span class="token punctuation">(</span>nums<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">:</span>        <span class="token keyword">return</span> <span class="token operator">-</span><span class="token number">1</span>    left<span class="token punctuation">,</span> right <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token builtin">len</span><span class="token punctuation">(</span>nums<span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">1</span>    <span class="token keyword">while</span> left <span class="token operator">&lt;=</span> right<span class="token punctuation">:</span>        mid <span class="token operator">=</span> <span class="token punctuation">(</span>right <span class="token operator">-</span> left<span class="token punctuation">)</span> <span class="token operator">//</span> <span class="token number">2</span> <span class="token operator">+</span> left        <span class="token keyword">if</span> nums<span class="token punctuation">[</span>mid<span class="token punctuation">]</span> <span class="token operator">==</span> target<span class="token punctuation">:</span>            <span class="token keyword">return</span> mid        <span class="token keyword">elif</span> nums<span class="token punctuation">[</span>mid<span class="token punctuation">]</span> <span class="token operator">&lt;</span> target<span class="token punctuation">:</span>            left <span class="token operator">=</span> mid <span class="token operator">+</span> <span class="token number">1</span>        <span class="token keyword">elif</span> nums<span class="token punctuation">[</span>mid<span class="token punctuation">]</span> <span class="token operator">&gt;</span> target<span class="token punctuation">:</span>            right <span class="token operator">=</span> mid <span class="token operator">-</span> <span class="token number">1</span>    <span class="token keyword">return</span> <span class="token operator">-</span><span class="token number">1</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h4 id="题目链接"><a href="#题目链接" class="headerlink" title="题目链接"></a>题目链接</h4><ol><li><p><a href="https://leetcode-cn.com/problems/binary-search/">704. 二分查找</a></p></li><li><p><a href="https://leetcode-cn.com/problems/guess-number-higher-or-lower/">374. 猜数字大小</a></p></li></ol><h3 id="模板二"><a href="#模板二" class="headerlink" title="模板二"></a>模板二</h3><h4 id="使用条件-1"><a href="#使用条件-1" class="headerlink" title="使用条件"></a>使用条件</h4><ul><li>查找需要访问数组中当前索引及其右邻居索引的元素或条件；</li><li>使用中间元素的右邻居判断向左还是向右；</li><li>保证查找空间每一步至少有两个元素；</li><li>需要进行后处理。</li></ul><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">binarySearch</span><span class="token punctuation">(</span>nums<span class="token punctuation">:</span> <span class="token builtin">list</span><span class="token punctuation">,</span> target<span class="token punctuation">:</span> mid<span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">&gt;</span> <span class="token builtin">int</span><span class="token punctuation">:</span>    <span class="token keyword">if</span> <span class="token builtin">len</span><span class="token punctuation">(</span>nums<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">:</span>        <span class="token keyword">return</span> <span class="token operator">-</span><span class="token number">1</span>    left<span class="token punctuation">,</span> right <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token builtin">len</span><span class="token punctuation">(</span>nums<span class="token punctuation">)</span>    <span class="token keyword">while</span> left <span class="token operator">&lt;</span> right<span class="token punctuation">:</span>        mid <span class="token operator">=</span> <span class="token punctuation">(</span>right <span class="token operator">-</span> left<span class="token punctuation">)</span> <span class="token operator">//</span> <span class="token number">2</span> <span class="token operator">+</span> left        <span class="token keyword">if</span> nums<span class="token punctuation">[</span>mid<span class="token punctuation">]</span> <span class="token operator">==</span> target<span class="token punctuation">:</span>            <span class="token keyword">return</span> mid        <span class="token keyword">elif</span> nums<span class="token punctuation">[</span>mid<span class="token punctuation">]</span> <span class="token operator">&lt;</span> target<span class="token punctuation">:</span>            left <span class="token operator">=</span> mid <span class="token operator">+</span> <span class="token number">1</span>        <span class="token keyword">else</span><span class="token punctuation">:</span>            right <span class="token operator">=</span> mid    <span class="token keyword">if</span> left <span class="token operator">!=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>nums<span class="token punctuation">)</span> <span class="token keyword">and</span> nums<span class="token punctuation">[</span>left<span class="token punctuation">]</span> <span class="token operator">==</span> target<span class="token punctuation">:</span>        <span class="token keyword">return</span> left    <span class="token keyword">return</span> <span class="token operator">-</span><span class="token number">1</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h4 id="题目链接-1"><a href="#题目链接-1" class="headerlink" title="题目链接"></a>题目链接</h4><ol><li><p><a href="https://leetcode-cn.com/problems/first-bad-version/">278. 第一个错误的版本</a></p></li><li><p><a href="https://leetcode-cn.com/problems/find-peak-element/">162. 寻找峰值</a></p></li></ol><ul><li><p><code>right</code>取值问题：</p><ul><li>寻找局部最小值涉及到中心值和中心值周围元素的比较，<ul><li>如果选择左侧比较，会溢出，考虑两元素状态；</li><li>只能选择右侧比较。</li></ul></li><li>如果 <code>right</code> 取值 <code>len(nums)</code> ，会溢出，考虑两元素状态；</li><li><code>right</code> 只能取值 <code>len(nums)-1</code>。</li></ul></li><li><p><code>left, right</code> 更新问题：</p><ul><li>当确定 <code>nums[mid] &lt; nums[mid+1]</code> 时，<code>nums[mid]</code> 一定不是所求目标；<ul><li>由于 <code>mid</code> 可以取到 <code>left</code>，所以可以直接抛弃当前的 <code>nums[mid]</code>。</li></ul></li><li>当确定 <code>nums[mid] &gt; nums[mid+1]</code> 时，<code>nums[mid]</code> 可能是所求目标，<ul><li>由于 <code>mid</code> 取不到 <code>right</code>，所以不能抛弃当前的 <code>nums[mid]</code>。</li></ul></li></ul></li></ul><ol start="3"><li><a href="https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/">153. 寻找旋转排序数组中的最小值</a></li></ol><h3 id="模板三"><a href="#模板三" class="headerlink" title="模板三"></a>模板三</h3><h4 id="使用条件-2"><a href="#使用条件-2" class="headerlink" title="使用条件"></a>使用条件</h4><ul><li>查找需要访问数组中当前索引的左右邻居索引元素或条件；</li><li>使用元素的邻居决定向左还是向右；</li><li>保证查找空间至少有 3 个元素；</li><li>需要后处理</li></ul><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">binarySearch</span><span class="token punctuation">(</span>nums<span class="token punctuation">:</span> <span class="token builtin">list</span><span class="token punctuation">,</span> target<span class="token punctuation">:</span> <span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">&gt;</span> <span class="token builtin">int</span><span class="token punctuation">:</span>    <span class="token keyword">if</span> <span class="token builtin">len</span><span class="token punctuation">(</span>nums<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">:</span>        <span class="token keyword">return</span> <span class="token operator">-</span><span class="token number">1</span>    left<span class="token punctuation">,</span> right <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token builtin">len</span><span class="token punctuation">(</span>nums<span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">1</span>    <span class="token keyword">while</span> left <span class="token operator">+</span> <span class="token number">1</span> <span class="token operator">&lt;</span> right<span class="token punctuation">:</span>        mid <span class="token operator">=</span> <span class="token punctuation">(</span>right <span class="token operator">-</span> left<span class="token punctuation">)</span> <span class="token operator">//</span> <span class="token number">2</span> <span class="token operator">+</span> left        <span class="token keyword">if</span> nums<span class="token punctuation">[</span>mid<span class="token punctuation">]</span> <span class="token operator">==</span> target<span class="token punctuation">:</span>            <span class="token keyword">return</span> mid        <span class="token keyword">elif</span> nums<span class="token punctuation">[</span>mid<span class="token punctuation">]</span> <span class="token operator">&lt;</span> target<span class="token punctuation">:</span>            left <span class="token operator">=</span> mid        <span class="token keyword">else</span><span class="token punctuation">:</span>            right <span class="token operator">=</span> mid    <span class="token keyword">if</span> nums<span class="token punctuation">[</span>left<span class="token punctuation">]</span> <span class="token operator">==</span> target<span class="token punctuation">:</span> <span class="token keyword">return</span> left    <span class="token keyword">if</span> nums<span class="token punctuation">[</span>right<span class="token punctuation">]</span> <span class="token operator">==</span> target<span class="token punctuation">:</span> <span class="token keyword">return</span> right    <span class="token keyword">return</span> <span class="token operator">-</span><span class="token number">1</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h4 id="题目链接-2"><a href="#题目链接-2" class="headerlink" title="题目链接"></a>题目链接</h4><ol><li><a href="https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/">34. 在排序数组中查找元素的第一个和最后一个位置</a></li></ol><ul><li>检测数字第一次出现和最后一次出现的位置：灵活使用<code>mid</code>。</li></ul><ol start="2"><li><a href="https://leetcode-cn.com/problems/find-k-closest-elements/">658. 找到 K 个最接近的元素</a></li></ol><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">Solution</span><span class="token punctuation">:</span>    <span class="token keyword">def</span> <span class="token function">findClosestElements</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> arr<span class="token punctuation">:</span> List<span class="token punctuation">[</span><span class="token builtin">int</span><span class="token punctuation">]</span><span class="token punctuation">,</span> k<span class="token punctuation">:</span> <span class="token builtin">int</span><span class="token punctuation">,</span> x<span class="token punctuation">:</span> <span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">&gt;</span> List<span class="token punctuation">[</span><span class="token builtin">int</span><span class="token punctuation">]</span><span class="token punctuation">:</span>        left<span class="token punctuation">,</span> right <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token builtin">len</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span> <span class="token operator">-</span> k        <span class="token keyword">while</span> left <span class="token operator">&lt;</span> right<span class="token punctuation">:</span>            mid <span class="token operator">=</span> <span class="token punctuation">(</span>right <span class="token operator">-</span> left<span class="token punctuation">)</span> <span class="token operator">//</span> <span class="token number">2</span> <span class="token operator">+</span> left            <span class="token keyword">if</span> arr<span class="token punctuation">[</span>mid<span class="token punctuation">]</span> <span class="token operator">==</span> arr<span class="token punctuation">[</span>mid<span class="token operator">+</span>k<span class="token punctuation">]</span><span class="token punctuation">:</span>                <span class="token keyword">if</span> arr<span class="token punctuation">[</span>mid<span class="token punctuation">]</span> <span class="token operator">&lt;</span> x<span class="token punctuation">:</span>                    left <span class="token operator">=</span> mid <span class="token operator">+</span> <span class="token number">1</span>                <span class="token keyword">else</span><span class="token punctuation">:</span>                    right <span class="token operator">=</span> mid            <span class="token keyword">else</span><span class="token punctuation">:</span>                <span class="token keyword">if</span> <span class="token builtin">abs</span><span class="token punctuation">(</span>arr<span class="token punctuation">[</span>mid<span class="token punctuation">]</span><span class="token operator">-</span>x<span class="token punctuation">)</span> <span class="token operator">&gt;</span> <span class="token builtin">abs</span><span class="token punctuation">(</span>arr<span class="token punctuation">[</span>mid<span class="token operator">+</span>k<span class="token punctuation">]</span><span class="token operator">-</span>x<span class="token punctuation">)</span><span class="token punctuation">:</span>                    left <span class="token operator">=</span> mid <span class="token operator">+</span> <span class="token number">1</span>                <span class="token keyword">else</span><span class="token punctuation">:</span>                    right <span class="token operator">=</span> mid        <span class="token keyword">return</span> arr<span class="token punctuation">[</span>left<span class="token punctuation">:</span>left<span class="token operator">+</span>k<span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><ul><li>考虑<code>k</code>个数字的区间，就是让数组缩水<code>k</code>个长度去计算；</li><li>需要考虑重复数字，这个情况单独提出来计算（其实就是判断取舍的方向）。</li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> Algorithm </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> LeetCode </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>服务器Nginx配置教程</title>
-      <link href="2021-05-17/fu-wu-qi-nginx-pei-zhi-jiao-cheng/"/>
-      <url>2021-05-17/fu-wu-qi-nginx-pei-zhi-jiao-cheng/</url>
-      
-        <content type="html"><![CDATA[<h1 id="什么是-Nginx"><a href="#什么是-Nginx" class="headerlink" title="什么是 Nginx?"></a>什么是 Nginx?</h1><h1 id="Nginx-的安装"><a href="#Nginx-的安装" class="headerlink" title="Nginx 的安装"></a>Nginx 的安装</h1><ul><li>服务器环境：</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">CentOS <span class="token number">7.0</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ol><li>准备工作</li></ol><ul><li><code>SSL</code> 功能安装 <code>openssl</code> 库:</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">yum <span class="token function">install</span> openssl<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ul><li><code>gzip</code> 模块需要 <code>zlib</code> 库：</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">yum <span class="token function">install</span> zlib<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ul><li><code>rewrite</code> 模块安装 <code>pcre</code> 库：</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">yum <span class="token function">install</span> pcre<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ol start="2"><li>安装 Nginx 依赖项和 Nginx</li></ol><ul><li>安装 Nginx 需要的库 [此处注意下载链接的有效性]</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">rpm</span> -Uvh http://nginx.org/packages/centos/7/noarch/RPMS/nginx-release-centos-7-0.el7.ngx.noarch.rpm<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ul><li>安装 Nginx：</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">yum <span class="token function">install</span> nginx<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ul><li>启动 Nginx：</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">service</span> nginx start<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ol start="3"><li>测试 Nginx 的有效性：浏览器访问本地/服务器端口，如下表示安装成功：</li></ol><ul><li>服务器端注意开放 80 端口。</li></ul><p><img src="/2021-05-17/fu-wu-qi-nginx-pei-zhi-jiao-cheng/success.png" alt="正确启动Nginx的界面"></p><ol start="4"><li>配置 Nginx 的文件位于：</li></ol><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">/etc/nginx/<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h1 id="配置-Nginx"><a href="#配置-Nginx" class="headerlink" title="配置 Nginx"></a>配置 Nginx</h1><ol><li><p>缺省配置：<code>http -&gt; server -&gt; location</code>，内层块自动继承外层块的内容。</p></li><li><p><code>http</code> 层次：<code>/etc/nginx/nginx.conf</code></p></li></ol><ul><li><code>include</code> 语句指明了下级配置文件的路径：当需要处理的 <code>server</code> 超过 2 个时，建议将不同虚拟机的配置放在不同文件中，通过在主配置文件的 <code>include</code> 指令进行选择。</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">http <span class="token punctuation">{</span>    <span class="token punctuation">..</span>. <span class="token punctuation">..</span>.    include /etc/nginx/conf.d/*.conf<span class="token punctuation">;</span>    <span class="token comment"># include /etc/nginx/[name]/*.conf</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><ol start="3"><li><code>server</code> 层次：<code>/etc/nginx/conf.d/default.conf</code></li></ol><ul><li>在 <code>url/ip</code> 层次对发送的请求进行后端服务器的转发；</li><li>通过构建虚拟主机(server)的概念，用 <code>server_name</code> 对服务进行配置隔离；</li><li><code>listen</code> 用于确定监听的端口；</li><li>对应于同一规则的多个域名可以使用空格进行分离。</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">server <span class="token punctuation">{</span>    listen       <span class="token number">80</span><span class="token punctuation">;</span>    server_name  demo.tdingquan.top<span class="token punctuation">;</span>    access_log  /var/log/nginx/host.access.log  main<span class="token punctuation">;</span>    <span class="token punctuation">..</span>. <span class="token punctuation">..</span>.<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><ol start="4"><li><code>location</code> 层次：<code>/etc/nginx/conf.d/default.conf</code>，包含在 <code>server</code> 内</li></ol><ul><li>每个 <code>url/ip</code> 对应于一个服务，Nginx 对服务进行处理转发，转发路径通过 <code>location</code> 指定；</li><li><code>server</code> 是对域名的指定，<code>location</code> 是对访问内容的指定；</li><li><code>index</code> 用于设定访问的默认首页地址；</li><li><code>root</code> 用于指定访问的根目录。</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">server <span class="token punctuation">{</span>    <span class="token punctuation">..</span>. <span class="token punctuation">..</span>.    location / <span class="token punctuation">{</span>        root   /root/BoxEViz<span class="token punctuation">;</span>        index  main.html index.html index.htm<span class="token punctuation">;</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><ul><li><code>location</code> 匹配规则：</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">~ 表示执行一个正则匹配，区分大小写；~* 表示执行一个正则匹配，不区分大小写；^~ 表示普通字符匹配<span class="token operator">=</span> 表示普通字符精确匹配<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><h1 id="高级配置"><a href="#高级配置" class="headerlink" title="高级配置"></a>高级配置</h1><ol><li>服务转发</li></ol><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">location / <span class="token punctuation">{</span>  proxy_pass <span class="token punctuation">[</span>url<span class="token punctuation">]</span>:<span class="token punctuation">[</span>port<span class="token punctuation">]</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><ol start="2"><li>负载均衡</li></ol><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">upstream myserver<span class="token punctuation">;</span> <span class="token punctuation">{</span>    ip_hash<span class="token punctuation">;</span>    server <span class="token number">172.16</span>.1.1:8001<span class="token punctuation">;</span>    server <span class="token number">172.16</span>.1.2:8002<span class="token punctuation">;</span>    server <span class="token number">172.16</span>.1.3<span class="token punctuation">;</span>    server <span class="token number">172.16</span>.1.4<span class="token punctuation">;</span><span class="token punctuation">}</span>location / <span class="token punctuation">{</span>    proxy_pass http://myserver<span class="token punctuation">;</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h1 id="Nginx-配置文件正确性验证"><a href="#Nginx-配置文件正确性验证" class="headerlink" title="Nginx 配置文件正确性验证"></a>Nginx 配置文件正确性验证</h1><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">nginx -tnginx -tc <span class="token punctuation">[</span>config_file_address<span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h1 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h1><ol><li>访问主页时，控制台报错：”403”；查看日志：<code>open() "/data/www/1.txt" failed (13: Permission denied) ...</code></li></ol><ul><li>检查 Nginx 的启动用户：<code>/etc/nginx/nginx.conf</code></li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">user root<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>]]></content>
+        <content type="html"><![CDATA[<h1 id="什么是-Nginx"><a href="#什么是-Nginx" class="headerlink" title="什么是 Nginx?"></a>什么是 Nginx?</h1><h1 id="Nginx-的安装"><a href="#Nginx-的安装" class="headerlink" title="Nginx 的安装"></a>Nginx 的安装</h1><ul><li>服务器环境：</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">CentOS <span class="token number">7.0</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ol><li>准备工作</li></ol><ul><li><code>SSL</code> 功能安装 <code>openssl</code> 库:</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">yum <span class="token function">install</span> openssl<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ul><li><code>gzip</code> 模块需要 <code>zlib</code> 库：</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">yum <span class="token function">install</span> zlib<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ul><li><code>rewrite</code> 模块安装 <code>pcre</code> 库：</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">yum <span class="token function">install</span> pcre<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ol start="2"><li>安装 Nginx 依赖项和 Nginx</li></ol><ul><li>安装 Nginx 需要的库 [此处注意下载链接的有效性]</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">rpm</span> -Uvh http://nginx.org/packages/centos/7/noarch/RPMS/nginx-release-centos-7-0.el7.ngx.noarch.rpm<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ul><li>安装 Nginx：</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">yum <span class="token function">install</span> nginx<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ul><li>启动 Nginx：</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">service</span> nginx start<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ol start="3"><li>测试 Nginx 的有效性：浏览器访问本地/服务器端口，如下表示安装成功：</li></ol><ul><li>服务器端注意开放 80 端口。</li></ul><p><img src="/2021-05-17/nginx-fu-wu-qi-pei-zhi-jiao-cheng/success.png" alt="正确启动Nginx的界面"></p><ol start="4"><li>配置 Nginx 的文件位于：</li></ol><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">/etc/nginx/<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h1 id="配置-Nginx"><a href="#配置-Nginx" class="headerlink" title="配置 Nginx"></a>配置 Nginx</h1><ol><li><p>缺省配置：<code>http -&gt; server -&gt; location</code>，内层块自动继承外层块的内容。</p></li><li><p><code>http</code> 层次：<code>/etc/nginx/nginx.conf</code></p></li></ol><ul><li><code>include</code> 语句指明了下级配置文件的路径：当需要处理的 <code>server</code> 超过 2 个时，建议将不同虚拟机的配置放在不同文件中，通过在主配置文件的 <code>include</code> 指令进行选择。</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">http <span class="token punctuation">{</span>    <span class="token punctuation">..</span>. <span class="token punctuation">..</span>.    include /etc/nginx/conf.d/*.conf<span class="token punctuation">;</span>    <span class="token comment"># include /etc/nginx/[name]/*.conf</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><ol start="3"><li><code>server</code> 层次：<code>/etc/nginx/conf.d/default.conf</code></li></ol><ul><li>在 <code>url/ip</code> 层次对发送的请求进行后端服务器的转发；</li><li>通过构建虚拟主机(server)的概念，用 <code>server_name</code> 对服务进行配置隔离；</li><li><code>listen</code> 用于确定监听的端口；</li><li>对应于同一规则的多个域名可以使用空格进行分离。</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">server <span class="token punctuation">{</span>    listen       <span class="token number">80</span><span class="token punctuation">;</span>    server_name  demo.tdingquan.top<span class="token punctuation">;</span>    access_log  /var/log/nginx/host.access.log  main<span class="token punctuation">;</span>    <span class="token punctuation">..</span>. <span class="token punctuation">..</span>.<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><ol start="4"><li><code>location</code> 层次：<code>/etc/nginx/conf.d/default.conf</code>，包含在 <code>server</code> 内</li></ol><ul><li>每个 <code>url/ip</code> 对应于一个服务，Nginx 对服务进行处理转发，转发路径通过 <code>location</code> 指定；</li><li><code>server</code> 是对域名的指定，<code>location</code> 是对访问内容的指定；</li><li><code>index</code> 用于设定访问的默认首页地址；</li><li><code>root</code> 用于指定访问的根目录。</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">server <span class="token punctuation">{</span>    <span class="token punctuation">..</span>. <span class="token punctuation">..</span>.    location / <span class="token punctuation">{</span>        root   /root/BoxEViz<span class="token punctuation">;</span>        index  main.html index.html index.htm<span class="token punctuation">;</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><ul><li><code>location</code> 匹配规则：</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">~ 表示执行一个正则匹配，区分大小写；~* 表示执行一个正则匹配，不区分大小写；^~ 表示普通字符匹配<span class="token operator">=</span> 表示普通字符精确匹配<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><h1 id="高级配置"><a href="#高级配置" class="headerlink" title="高级配置"></a>高级配置</h1><ol><li>服务转发</li></ol><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">location / <span class="token punctuation">{</span>  proxy_pass <span class="token punctuation">[</span>url<span class="token punctuation">]</span>:<span class="token punctuation">[</span>port<span class="token punctuation">]</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><ol start="2"><li>负载均衡</li></ol><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">upstream myserver<span class="token punctuation">;</span> <span class="token punctuation">{</span>    ip_hash<span class="token punctuation">;</span>    server <span class="token number">172.16</span>.1.1:8001<span class="token punctuation">;</span>    server <span class="token number">172.16</span>.1.2:8002<span class="token punctuation">;</span>    server <span class="token number">172.16</span>.1.3<span class="token punctuation">;</span>    server <span class="token number">172.16</span>.1.4<span class="token punctuation">;</span><span class="token punctuation">}</span>location / <span class="token punctuation">{</span>    proxy_pass http://myserver<span class="token punctuation">;</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h1 id="Nginx-配置文件正确性验证"><a href="#Nginx-配置文件正确性验证" class="headerlink" title="Nginx 配置文件正确性验证"></a>Nginx 配置文件正确性验证</h1><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">nginx -tnginx -tc <span class="token punctuation">[</span>config_file_address<span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h1 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h1><ol><li>访问主页时，控制台报错：”403”；查看日志：<code>open() "/data/www/1.txt" failed (13: Permission denied) ...</code></li></ol><ul><li>检查 Nginx 的启动用户：<code>/etc/nginx/nginx.conf</code></li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">user root<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>]]></content>
       
       
       <categories>
@@ -623,31 +209,6 @@
         <tags>
             
             <tag> Environment </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>树专题</title>
-      <link href="2021-05-17/shu-zhuan-ti/"/>
-      <url>2021-05-17/shu-zhuan-ti/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Hard"><a href="#Hard" class="headerlink" title="Hard"></a>Hard</h1><h1 id="Medium"><a href="#Medium" class="headerlink" title="Medium"></a>Medium</h1><h1 id="Easy"><a href="#Easy" class="headerlink" title="Easy"></a>Easy</h1><h4 id="1-993-二叉树的堂兄弟节点"><a href="#1-993-二叉树的堂兄弟节点" class="headerlink" title="1. 993 - 二叉树的堂兄弟节点"></a>1. <a href="https://leetcode-cn.com/problems/cousins-in-binary-tree/">993 - 二叉树的堂兄弟节点</a></h4><ul><li>堂兄弟节点定义为：父节点不同，深度相同的节点</li><li>层次遍历</li><li>判断每个节点的子节点是否满足查询的数字</li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> Algorithm </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> LeetCode </tag>
             
         </tags>
       
@@ -707,8 +268,8 @@
     
     <entry>
       <title>Collections, the Container datatypes</title>
-      <link href="2021-04-04/collections-the-container-datatypes/"/>
-      <url>2021-04-04/collections-the-container-datatypes/</url>
+      <link href="2021-04-04/python-gao-ji-bian-cheng-collections-the-container-datatypes/"/>
+      <url>2021-04-04/python-gao-ji-bian-cheng-collections-the-container-datatypes/</url>
       
         <content type="html"><![CDATA[<h4 id="1-Counter"><a href="#1-Counter" class="headerlink" title="1. Counter"></a>1. Counter</h4><p>如名字，<code>Counter</code>类用于提供一个方便的计数器</p><ul><li>构造函数<br>支持传入 <code>iterable</code> 或者 <code>mappings</code> 类型的对象进行初始化，最常用传入一个 <code>list</code></li><li><code>elements()</code><br>返回一个迭代器，包含所有计数大于 0 的元素，每个元素出现的次数为他的计数</li><li><code>most_common([n])</code><br>返回前<code>n</code>个最频繁出现的元素</li><li>支持 <code>dict</code>的函数</li></ul>]]></content>
       
@@ -723,56 +284,6 @@
         <tags>
             
             <tag> Python </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>2104-LeetCode</title>
-      <link href="2021-04-04/2104-leetcode/"/>
-      <url>2021-04-04/2104-leetcode/</url>
-      
-        <content type="html"><![CDATA[<h4 id="1-781-森林中的兔子"><a href="#1-781-森林中的兔子" class="headerlink" title="1. 781 - 森林中的兔子"></a>1. <a href="https://leetcode-cn.com/problems/rabbits-in-forest/">781 - 森林中的兔子</a></h4><ul><li><p>好像这个题目是华为今年的第二题，读题</p></li><li><p>贪心算法，目标是统计兔子【可能有没回答的】的最小数量</p></li><li><p>不同颜色的兔子可能会给出相同的答案</p></li><li><p>$\frac{x+y-1}{y}$ 代替 <code>ceil</code> 函数进行向上取整操作</p></li><li><p>python Counter 类真的好用</p></li></ul><h4 id="2-88-合并两个有序数组"><a href="#2-88-合并两个有序数组" class="headerlink" title="2. 88 - 合并两个有序数组"></a>2. <a href="https://leetcode-cn.com/problems/merge-sorted-array/">88 - 合并两个有序数组</a></h4><ul><li><p>双指针，每个指针指向一个数组</p></li><li><p>第一种方法，合并后排序，$O((m+n)log(m+n))$ 时间</p></li><li><p>第二种方法，正序指针，$O(m+n)$ 时间，$O(m+n)$ 空间</p></li><li><p>第三种方法，倒序指针，$O(m+n)$ 时间，$O(1)$ 空间</p></li></ul><h4 id="3-80-删除有序数组中的重复项-II"><a href="#3-80-删除有序数组中的重复项-II" class="headerlink" title="3. 80 - 删除有序数组中的重复项 II"></a>3. <a href="https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/">80 - 删除有序数组中的重复项 II</a></h4><ul><li><p>原地算法</p></li><li><p>双指针</p></li><li><p>解法一，使用一个 index 变量来表示</p><ul><li>使用 del 函数直接删除元素，很慢</li><li>注意写代码过程中的下标检查</li></ul></li><li><p>解法二，使用快慢指针进行复制</p><ul><li>fast 指针代表已经扫过的区域</li><li>slow 指针代表确定排序的区域</li><li>最终返回的数组长度为 slow 指向的 index</li><li>速度提升一倍</li></ul></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> Algorithm </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> LeetCode </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>2103 LeetCode</title>
-      <link href="2021-03-08/2103-leetcode/"/>
-      <url>2021-03-08/2103-leetcode/</url>
-      
-        <content type="html"><![CDATA[<h4 id="1-303-区域和检索-数组不可变"><a href="#1-303-区域和检索-数组不可变" class="headerlink" title="1. 303 - 区域和检索 - 数组不可变"></a>1. <a href="https://leetcode-cn.com/problems/range-sum-query-immutable">303 - 区域和检索 - 数组不可变</a></h4><ul><li>前缀和</li><li>注意数组首元素是否为 0 时，具有不同的含义，有时可以为计算带来简便</li><li>重复调用时，可以使用懒计算</li></ul><h4 id="2-304-二维区域和检索-矩阵不可变"><a href="#2-304-二维区域和检索-矩阵不可变" class="headerlink" title="2. 304 - 二维区域和检索 - 矩阵不可变"></a>2. <a href="https://leetcode-cn.com/problems/range-sum-query-2d-immutable/">304 - 二维区域和检索 - 矩阵不可变</a></h4><ul><li>python 二维数组初始化时，避免浅拷贝，数组引用会带来值修改问题</li></ul><pre class="line-numbers language-python" data-language="python"><code class="language-python">g <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">[</span><span class="token boolean">True</span><span class="token punctuation">]</span> <span class="token operator">*</span> n <span class="token keyword">for</span> _ <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>n<span class="token punctuation">)</span><span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ul><li>快速子矩阵求和与 DP 的二维数组含义的配合</li></ul><h4 id="3-338-比特位计数"><a href="#3-338-比特位计数" class="headerlink" title="3. 338 - 比特位计数"></a>3. <a href="https://leetcode-cn.com/problems/counting-bits/">338 - 比特位计数</a></h4><ul><li>位运算计算的奇技淫巧：与 DP 结合快速计算数字二进制形式 1 的个数</li></ul><pre class="line-numbers language-python" data-language="python"><code class="language-python">bits<span class="token punctuation">.</span>append<span class="token punctuation">(</span>bits<span class="token punctuation">[</span>i <span class="token operator">&gt;&gt;</span> <span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">+</span> <span class="token punctuation">(</span>i <span class="token operator">&amp;</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h4 id="4-354-俄罗斯套娃信封问题"><a href="#4-354-俄罗斯套娃信封问题" class="headerlink" title="4. 354 - 俄罗斯套娃信封问题"></a>4. <a href="https://leetcode-cn.com/problems/russian-doll-envelopes/">354 - 俄罗斯套娃信封问题</a></h4><ul><li>题目要求严格大于，在进行预排序的时候，第一维升维，第二维降维</li><li>python 排序</li></ul><pre class="line-numbers language-python" data-language="python"><code class="language-python">envelopes<span class="token punctuation">.</span>sort<span class="token punctuation">(</span>key<span class="token operator">=</span><span class="token keyword">lambda</span> x<span class="token punctuation">:</span> <span class="token punctuation">(</span>x<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token operator">-</span>x<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h4 id="5-232-用栈实现队列"><a href="#5-232-用栈实现队列" class="headerlink" title="5. 232 - 用栈实现队列"></a>5. <a href="https://leetcode-cn.com/problems/implement-queue-using-stacks">232 - 用栈实现队列</a></h4><ul><li>摊销复杂度 【最近总遇到摊销两字，看论文的时候“摊销因果发现”】</li><li>只在 pop 栈出队列为空的时候进行转移</li></ul><h4 id="6-503-下一个更大元素-II"><a href="#6-503-下一个更大元素-II" class="headerlink" title="6. 503 - 下一个更大元素 II"></a>6. <a href="https://leetcode-cn.com/problems/next-greater-element-ii">503 - 下一个更大元素 II</a></h4><ul><li>使用栈只保留 index，不用存具体数据</li><li>单调栈应用在找寻循环数组的下一个更大元素</li></ul><h4 id="7-131-分割回文串"><a href="#7-131-分割回文串" class="headerlink" title="7. 131 - 分割回文串"></a>7. <a href="https://leetcode-cn.com/problems/palindrome-partitioning/">131 - 分割回文串</a></h4><ul><li><p>DP + 深搜 基础题</p></li><li><p>初始化 map 为全 True 和 全 False 在后续初始化中具有很大 区别</p><ul><li><p>如果初始化为全 False</p><ul><li>计算长度为 1 的</li><li>计算长度为 2 的</li><li>计算长度更长的序列时候，range 的起始为 2；if 的判断条件有 3 个 【防溢出，首尾字母，中间字符串】</li></ul><pre class="line-numbers language-python" data-language="python"><code class="language-python">_map <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">[</span><span class="token boolean">False</span><span class="token punctuation">]</span> <span class="token operator">*</span> <span class="token builtin">len</span><span class="token punctuation">(</span>s<span class="token punctuation">)</span> <span class="token keyword">for</span> _ <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token builtin">len</span><span class="token punctuation">(</span>s<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token builtin">len</span><span class="token punctuation">(</span>s<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">:</span>    _map<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token boolean">True</span><span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token builtin">len</span><span class="token punctuation">(</span>s<span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>    <span class="token keyword">if</span> s<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">==</span> s<span class="token punctuation">[</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">:</span>        _map<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token boolean">True</span><span class="token keyword">for</span> j <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token builtin">len</span><span class="token punctuation">(</span>s<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">:</span>    <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token builtin">len</span><span class="token punctuation">(</span>s<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">:</span>        <span class="token keyword">if</span> i <span class="token operator">+</span> j <span class="token operator">&lt;</span> <span class="token builtin">len</span><span class="token punctuation">(</span>s<span class="token punctuation">)</span> <span class="token keyword">and</span> s<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">==</span> s<span class="token punctuation">[</span>i<span class="token operator">+</span>j<span class="token punctuation">]</span> <span class="token keyword">and</span> _map<span class="token punctuation">[</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">[</span>i<span class="token operator">+</span>j<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">:</span>            _map<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span>i<span class="token operator">+</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token boolean">True</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li><li><p>如果初始化为全 True</p><ul><li>计算长度为 1 的</li><li>计算更长长度的字符串的时候，可以倒序计算；长度为 2 的情况因为初始化为 True 不需要单独列出</li></ul><pre class="line-numbers language-python" data-language="python"><code class="language-python">g <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">[</span><span class="token boolean">True</span><span class="token punctuation">]</span> <span class="token operator">*</span> n <span class="token keyword">for</span> _ <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>n<span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>n <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>    <span class="token keyword">for</span> j <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">:</span>        g<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">(</span>s<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">==</span> s<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token keyword">and</span> g<span class="token punctuation">[</span>i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">[</span>j <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre></li></ul></li></ul><h4 id="8-132-分割回文串-II"><a href="#8-132-分割回文串-II" class="headerlink" title="8. 132 - 分割回文串 II"></a>8. <a href="https://leetcode-cn.com/problems/palindrome-partitioning-ii">132 - 分割回文串 II</a></h4><ul><li>考虑清楚第二次 DP 的表的物理含义，不用深搜，否则超时<ul><li>前 i 个字符最多需要分割多少次得到回文串子集</li></ul></li><li>初始化时注意观察整个字符串是不是回文串</li><li>初始化为最大值</li></ul><pre class="line-numbers language-python" data-language="python"><code class="language-python">f <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token builtin">float</span><span class="token punctuation">(</span><span class="token string">"inf"</span><span class="token punctuation">)</span><span class="token punctuation">]</span> <span class="token operator">*</span> n<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>]]></content>
-      
-      
-      <categories>
-          
-          <category> Algorithm </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> LeetCode </tag>
             
         </tags>
       
