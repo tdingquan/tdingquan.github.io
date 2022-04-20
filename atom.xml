@@ -47,6 +47,32 @@
   </entry>
   
   <entry>
+    <title>Linux 命令 rsync</title>
+    <link href="http://tdingquan.github.io/2022-04-19/linux-ming-ling-rsync/"/>
+    <id>http://tdingquan.github.io/2022-04-19/linux-ming-ling-rsync/</id>
+    <published>2022-04-19T03:03:08.000Z</published>
+    <updated>2022-04-20T03:21:52.321Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;描述&quot;&gt;&lt;a href=&quot;#描述&quot; class=&quot;headerlink&quot; title=&quot;描述&quot;&gt;&lt;/a&gt;描述&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;是一个远程数据同步命令，支持通过 LAN/WAN</summary>
+        
+      
+    
+    
+    
+    <category term="Engineering" scheme="http://tdingquan.github.io/categories/Engineering/"/>
+    
+    
+    <category term="Linux Command" scheme="http://tdingquan.github.io/tags/Linux-Command/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Pytorch 编程常用代码 - 基本配置与张量</title>
     <link href="http://tdingquan.github.io/2022-04-18/pytorch-bian-cheng-chang-yong-dai-ma-ji-ben-pei-zhi-yu-zhang-liang/"/>
     <id>http://tdingquan.github.io/2022-04-18/pytorch-bian-cheng-chang-yong-dai-ma-ji-ben-pei-zhi-yu-zhang-liang/</id>
