@@ -6,7 +6,7 @@
   <link href="http://tdingquan.github.io/atom.xml" rel="self"/>
   
   <link href="http://tdingquan.github.io/"/>
-  <updated>2022-04-19T02:59:41.550Z</updated>
+  <updated>2022-04-19T10:35:40.741Z</updated>
   <id>http://tdingquan.github.io/</id>
   
   <author>
@@ -17,11 +17,41 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Pytorch编程常用代码</title>
-    <link href="http://tdingquan.github.io/2022-04-18/pytorch-bian-cheng-chang-yong-dai-ma/"/>
-    <id>http://tdingquan.github.io/2022-04-18/pytorch-bian-cheng-chang-yong-dai-ma/</id>
+    <title>Pytorch 编程常用代码 - 模型参数</title>
+    <link href="http://tdingquan.github.io/2022-04-19/pytorch-bian-cheng-chang-yong-dai-ma-mo-xing-can-shu/"/>
+    <id>http://tdingquan.github.io/2022-04-19/pytorch-bian-cheng-chang-yong-dai-ma-mo-xing-can-shu/</id>
+    <published>2022-04-19T06:44:38.000Z</published>
+    <updated>2022-04-19T10:35:40.741Z</updated>
+    
+    
+    
+    
+    <category term="Language" scheme="http://tdingquan.github.io/categories/Language/"/>
+    
+    
+    <category term="Pytorch" scheme="http://tdingquan.github.io/tags/Pytorch/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>用代码</title>
+    <link href="http://tdingquan.github.io/2022-04-19/yong-dai-ma/"/>
+    <id>http://tdingquan.github.io/2022-04-19/yong-dai-ma/</id>
+    <published>2022-04-19T06:44:05.000Z</published>
+    <updated>2022-04-19T06:44:05.246Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Pytorch 编程常用代码 - 基本配置与张量</title>
+    <link href="http://tdingquan.github.io/2022-04-18/pytorch-bian-cheng-chang-yong-dai-ma-ji-ben-pei-zhi-yu-zhang-liang/"/>
+    <id>http://tdingquan.github.io/2022-04-18/pytorch-bian-cheng-chang-yong-dai-ma-ji-ben-pei-zhi-yu-zhang-liang/</id>
     <published>2022-04-18T12:43:59.000Z</published>
-    <updated>2022-04-19T02:59:41.550Z</updated>
+    <updated>2022-04-19T06:46:14.389Z</updated>
     
     
       
@@ -97,17 +127,14 @@
     <link href="http://tdingquan.github.io/2021-08-07/linux-ming-ling-nohup/"/>
     <id>http://tdingquan.github.io/2021-08-07/linux-ming-ling-nohup/</id>
     <published>2021-08-07T09:19:35.000Z</published>
-    <updated>2022-04-19T03:04:39.498Z</updated>
+    <updated>2022-04-19T06:34:08.724Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;ol&gt;
-&lt;li&gt;什么是 &lt;code&gt;nohup&lt;/code&gt; 命令&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;code&gt;nohup&lt;/code&gt; (no hang up)</summary>
+    <summary type="html">&lt;h1 id=&quot;什么是-nohup-命令&quot;&gt;&lt;a href=&quot;#什么是-nohup-命令&quot; class=&quot;headerlink&quot; title=&quot;什么是 nohup 命令&quot;&gt;&lt;/a&gt;什么是 &lt;code&gt;nohup&lt;/code&gt;</summary>
         
       
     
@@ -329,10 +356,10 @@
   
   <entry>
     <title>Hexo 基础命令介绍</title>
-    <link href="http://tdingquan.github.io/2021-03-04/hello-world/"/>
-    <id>http://tdingquan.github.io/2021-03-04/hello-world/</id>
+    <link href="http://tdingquan.github.io/2021-03-04/hexo-ji-chu-ming-ling-jie-shao/"/>
+    <id>http://tdingquan.github.io/2021-03-04/hexo-ji-chu-ming-ling-jie-shao/</id>
     <published>2021-03-04T13:44:31.000Z</published>
-    <updated>2021-08-18T02:28:42.443Z</updated>
+    <updated>2022-04-19T03:54:42.908Z</updated>
     
     
       
@@ -348,7 +375,7 @@
     <category term="Engineering" scheme="http://tdingquan.github.io/categories/Engineering/"/>
     
     
-    <category term="Environment" scheme="http://tdingquan.github.io/tags/Environment/"/>
+    <category term="Hexo" scheme="http://tdingquan.github.io/tags/Hexo/"/>
     
   </entry>
   

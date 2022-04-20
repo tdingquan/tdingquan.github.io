@@ -503,32 +503,20 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <ol>
-<li>什么是 <code>nohup</code> 命令</li>
-</ol>
-<p><code>nohup</code> (no hang up) 命令，用来标识其后的指令在运行过程中不受任何挂断指令的影响。在用户账户退出后，<code>nohup</code>标识的命令将继续运行。</p>
-<ol start="2">
-<li>命令语法</li>
-</ol>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">nohup</span> <span class="token builtin class-name">command</span> <span class="token operator">&gt;</span> file_name <span class="token operator"><span class="token file-descriptor important">2</span>&gt;</span><span class="token file-descriptor important">&amp;1</span> <span class="token punctuation">[</span><span class="token operator">&amp;</span><span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+                <h1 id="什么是-nohup-命令"><a href="#什么是-nohup-命令" class="headerlink" title="什么是 nohup 命令"></a>什么是 <code>nohup</code> 命令</h1><p><code>nohup</code> (no hang up) 命令，用来标识其后的指令在运行过程中不受任何挂断指令的影响。在用户账户退出后，<code>nohup</code>标识的命令将继续运行。</p>
+<h1 id="命令语法"><a href="#命令语法" class="headerlink" title="命令语法"></a>命令语法</h1><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">nohup</span> <span class="token builtin class-name">command</span> <span class="token operator">&gt;</span> file_name <span class="token operator"><span class="token file-descriptor important">2</span>&gt;</span><span class="token file-descriptor important">&amp;1</span> <span class="token punctuation">[</span><span class="token operator">&amp;</span><span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <ul>
 <li><code>\&gt; file_name</code> 表示运行日志写入的文件名，默认名为 <code>nohup.out</code>。</li>
 <li><code>2&gt;&amp;1</code> 是将标准错误（2）重定向到标准输出（&amp;1），标准输出（&amp;1）再被重定向输入到日志文件。</li>
 <li><code>[&amp;]</code> 标志是否后台运行。</li>
 </ul>
-<ol start="3">
-<li><code>nohup</code> 与 <code>&amp;</code> 联系与区别</li>
-</ol>
-<ul>
+<h1 id="nohup-与-amp-联系与区别"><a href="#nohup-与-amp-联系与区别" class="headerlink" title="nohup 与 &amp; 联系与区别"></a><code>nohup</code> 与 <code>&amp;</code> 联系与区别</h1><ul>
 <li><code>nohup</code> 指运行不挂断，用户退出会话后程序继续运行，用户使用 <code>Ctrl+c</code> 中断命令可以结束程序。</li>
 <li><code>&amp;</code> 指后台运行，用户退出会话后程序被中止，可以使用 <code>kill</code> 命令中断程序。</li>
 <li><code>nohup</code> + <code>&amp;</code> 后台永久运行，只能被<code>kill</code> 命令中断。</li>
 </ul>
-<ol start="4">
-<li>中断 <code>nohup</code> 任务</li>
-</ol>
-<ul>
+<h1 id="中断-nohup-任务"><a href="#中断-nohup-任务" class="headerlink" title="中断 nohup 任务"></a>中断 <code>nohup</code> 任务</h1><ul>
 <li>使用 <code>nohup</code> 命令执行时控制台上显示的进程号 + <code>kill</code> 命令。</li>
 <li>查看后台进程，检索进程号 + <code>kill</code> 命令：</li>
 </ul>
