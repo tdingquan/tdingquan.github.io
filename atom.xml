@@ -6,7 +6,7 @@
   <link href="http://tdingquan.github.io/atom.xml" rel="self"/>
   
   <link href="http://tdingquan.github.io/"/>
-  <updated>2022-04-19T10:35:40.741Z</updated>
+  <updated>2022-05-20T03:13:11.789Z</updated>
   <id>http://tdingquan.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python</title>
+    <link href="http://tdingquan.github.io/2022-05-20/python-gao-ji-bian-cheng-functools/"/>
+    <id>http://tdingquan.github.io/2022-05-20/python-gao-ji-bian-cheng-functools/</id>
+    <published>2022-05-20T02:50:25.000Z</published>
+    <updated>2022-05-20T03:13:11.789Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;该模块设计的目的是包含一些面向函数式编程的接口，具有两个功能：&lt;br&gt;对函数执行前进行修饰，将函数作为返回值。任何可调用对象都符合该模块的设计理念。&lt;/p&gt;
+&lt;h3 id=&quot;1-cache-user-function&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Language" scheme="http://tdingquan.github.io/categories/Language/"/>
+    
+    
+    <category term="Python" scheme="http://tdingquan.github.io/tags/Python/"/>
+    
+  </entry>
   
   <entry>
     <title>Pytorch 编程常用代码 - 模型参数</title>
@@ -30,19 +56,6 @@
     
     
     <category term="Pytorch" scheme="http://tdingquan.github.io/tags/Pytorch/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>用代码</title>
-    <link href="http://tdingquan.github.io/2022-04-19/yong-dai-ma/"/>
-    <id>http://tdingquan.github.io/2022-04-19/yong-dai-ma/</id>
-    <published>2022-04-19T06:44:05.000Z</published>
-    <updated>2022-04-19T06:44:05.246Z</updated>
-    
-    
-    
-    
     
   </entry>
   
@@ -281,11 +294,11 @@
   </entry>
   
   <entry>
-    <title>Nginx服务器配置教程</title>
+    <title>Nginx 服务器配置教程</title>
     <link href="http://tdingquan.github.io/2021-05-17/nginx-fu-wu-qi-pei-zhi-jiao-cheng/"/>
     <id>http://tdingquan.github.io/2021-05-17/nginx-fu-wu-qi-pei-zhi-jiao-cheng/</id>
     <published>2021-05-17T06:19:28.000Z</published>
-    <updated>2022-04-18T12:52:26.637Z</updated>
+    <updated>2022-05-20T02:52:02.227Z</updated>
     
     
       
@@ -360,7 +373,7 @@
     <link href="http://tdingquan.github.io/2021-04-04/python-gao-ji-bian-cheng-collections-the-container-datatypes/"/>
     <id>http://tdingquan.github.io/2021-04-04/python-gao-ji-bian-cheng-collections-the-container-datatypes/</id>
     <published>2021-04-04T11:39:12.000Z</published>
-    <updated>2021-12-16T09:03:50.182Z</updated>
+    <updated>2022-05-20T02:52:49.283Z</updated>
     
     
       

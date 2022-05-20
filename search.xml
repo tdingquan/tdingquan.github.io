@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Python</title>
+      <link href="2022-05-20/python-gao-ji-bian-cheng-functools/"/>
+      <url>2022-05-20/python-gao-ji-bian-cheng-functools/</url>
+      
+        <content type="html"><![CDATA[<p>该模块设计的目的是包含一些面向函数式编程的接口，具有两个功能：<br>对函数执行前进行修饰，将函数作为返回值。任何可调用对象都符合该模块的设计理念。</p><h3 id="1-cache-user-function"><a href="#1-cache-user-function" class="headerlink" title="1. cache(user_function)"></a>1. cache(user_function)</h3><p>对函数进行缓存，常用于 DFS 的空间换时间 trick</p><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token decorator annotation punctuation">@cache</span><span class="token keyword">def</span> <span class="token function">factorial</span><span class="token punctuation">(</span>n<span class="token punctuation">)</span><span class="token punctuation">:</span>    <span class="token keyword">return</span> n <span class="token operator">*</span> factorial<span class="token punctuation">(</span>n<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span> <span class="token keyword">if</span> n <span class="token keyword">else</span> <span class="token number">1</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><h3 id="2-cmp-to-key-func"><a href="#2-cmp-to-key-func" class="headerlink" title="2. cmp_to_key(func)"></a>2. cmp_to_key(func)</h3><ol><li><p>提供一个定义复杂排序条件的函数接口。python 3 的 sort 函数只支持从单个元素角度定义排序条件，该函数可以从两个元素角度定义排序条件。</p></li><li><p>返回值为严格的 +1, -1</p></li></ol><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">cmp_function</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span> y<span class="token punctuation">)</span><span class="token punctuation">:</span>    <span class="token keyword">return</span> <span class="token number">1</span> <span class="token keyword">if</span> x <span class="token operator">+</span> y <span class="token operator">&gt;</span> y <span class="token operator">+</span> x <span class="token keyword">else</span> <span class="token operator">-</span><span class="token number">1</span><span class="token builtin">sorted</span><span class="token punctuation">(</span>iterable<span class="token punctuation">,</span> key<span class="token operator">=</span>cmp_to_key<span class="token punctuation">(</span>cmp_function<span class="token punctuation">)</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><h3 id="3-partial-func-args-keywords"><a href="#3-partial-func-args-keywords" class="headerlink" title="3. partial(func, /, *args, **keywords)"></a>3. partial(func, /, *args, **keywords)</h3><ol><li><p>将原函数的一些参数固定为值，返回新函数。</p></li><li><p>在新函数被调用时，如果传入的参数与原函数中被固定的参数值冲突，会进行覆写。</p></li></ol><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">partial</span><span class="token punctuation">(</span>func<span class="token punctuation">,</span> <span class="token operator">/</span><span class="token punctuation">,</span> <span class="token operator">*</span>args<span class="token punctuation">,</span> <span class="token operator">**</span>keywords<span class="token punctuation">)</span><span class="token punctuation">:</span>    <span class="token keyword">def</span> <span class="token function">new_func</span><span class="token punctuation">(</span><span class="token operator">*</span>fargs<span class="token punctuation">,</span> <span class="token operator">**</span>fkeywords<span class="token punctuation">)</span><span class="token punctuation">:</span>        newkeywords <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token operator">**</span>keywords<span class="token punctuation">,</span> <span class="token operator">**</span>fkeywords<span class="token punctuation">}</span>        <span class="token keyword">return</span> func<span class="token punctuation">(</span><span class="token operator">*</span>args<span class="token punctuation">,</span> <span class="token operator">*</span>fargs<span class="token punctuation">,</span> <span class="token operator">**</span>newkeywords<span class="token punctuation">)</span>    new_func<span class="token punctuation">.</span>func <span class="token operator">=</span> func    new_func<span class="token punctuation">.</span>args <span class="token operator">=</span> args    new_func<span class="token punctuation">.</span>keywords <span class="token operator">=</span> keywords    <span class="token keyword">return</span> newfunc<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h3 id="4-reduce-function-iterable-initializer"><a href="#4-reduce-function-iterable-initializer" class="headerlink" title="4. reduce(function, iterable[, initializer])"></a>4. reduce(function, iterable[, initializer])</h3><ol><li>将一个可迭代对象的元素从左向右，依次输入到函数对象中。</li><li>如果初始化元素为空（默认），则把前两个元素先输入到函数对象进行结果的初始化。</li></ol><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">reduce</span><span class="token punctuation">(</span>function<span class="token punctuation">,</span> iterable<span class="token punctuation">,</span> initializer<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span><span class="token punctuation">:</span>    it <span class="token operator">=</span> <span class="token builtin">iter</span><span class="token punctuation">(</span>iterable<span class="token punctuation">)</span>    <span class="token keyword">if</span> initializer <span class="token keyword">is</span> <span class="token boolean">None</span><span class="token punctuation">:</span>        value <span class="token operator">=</span> <span class="token builtin">next</span><span class="token punctuation">(</span>it<span class="token punctuation">)</span>    <span class="token keyword">else</span><span class="token punctuation">:</span>        value <span class="token operator">=</span> initializer    <span class="token keyword">for</span> element <span class="token keyword">in</span> it<span class="token punctuation">:</span>        value <span class="token operator">=</span> function<span class="token punctuation">(</span>value<span class="token punctuation">,</span> element<span class="token punctuation">)</span>    <span class="token keyword">return</span> value<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Language </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Pytorch 编程常用代码 - 模型参数</title>
       <link href="2022-04-19/pytorch-bian-cheng-chang-yong-dai-ma-mo-xing-can-shu/"/>
       <url>2022-04-19/pytorch-bian-cheng-chang-yong-dai-ma-mo-xing-can-shu/</url>
@@ -23,19 +48,6 @@
             <tag> Pytorch </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>用代码</title>
-      <link href="2022-04-19/yong-dai-ma/"/>
-      <url>2022-04-19/yong-dai-ma/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
       
     </entry>
     
@@ -269,7 +281,7 @@
     
     
     <entry>
-      <title>Nginx服务器配置教程</title>
+      <title>Nginx 服务器配置教程</title>
       <link href="2021-05-17/nginx-fu-wu-qi-pei-zhi-jiao-cheng/"/>
       <url>2021-05-17/nginx-fu-wu-qi-pei-zhi-jiao-cheng/</url>
       
