@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Pytorch 编程的一些坑, 一汪白水">
+    <meta name="keywords" content="Shell-字符串与数组, 一汪白水">
     <meta name="description" content="某十八线研究僧的学习笔记">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Pytorch 编程的一些坑 | 一汪白水</title>
+    <title>Shell-字符串与数组 | 一汪白水</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -313,12 +313,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/20.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Pytorch 编程的一些坑</h1>
+                    <h1 class="description center-align post-title">Shell-字符串与数组</h1>
                 </div>
             </div>
         </div>
@@ -434,8 +434,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Pytorch/">
-                                <span class="chip bg-color">Pytorch</span>
+                            <a href="/tags/Shell/">
+                                <span class="chip bg-color">Shell</span>
                             </a>
                         
                     </div>
@@ -459,21 +459,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-04-05
+                    2022-05-28
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-08-18
+                    2022-05-28
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    451
+                    252
                 </div>
                 
 
@@ -503,56 +503,57 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">import</span> torch<span class="token punctuation">.</span>tensor <span class="token keyword">as</span> Tensor
-tensor <span class="token operator">=</span> Tensor<span class="token punctuation">.</span>randn<span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+                <h1 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h1><p>字符串可以用单引号，双引号（推荐使用）括起来，也可以不用引号</p>
+<h2 id="单引号"><a href="#单引号" class="headerlink" title="单引号"></a>单引号</h2><p>无法输出变量，无法输出转义字符的单引号，不推荐使用</p>
+<h2 id="双引号"><a href="#双引号" class="headerlink" title="双引号"></a>双引号</h2><pre class="line-numbers language-shell" data-language="shell"><code class="language-shell"><span class="token assign-left variable">name</span><span class="token operator">=</span><span class="token string">"123"</span>
+<span class="token assign-left variable">str</span><span class="token operator">=</span><span class="token string">"my name is <span class="token entity" title="\&quot;">\"</span><span class="token variable">$name</span><span class="token entity" title="\&quot;">\"</span>! <span class="token entity" title="\n">\n</span>"</span>
+<span class="token builtin class-name">echo</span> -e <span class="token variable">$str</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
-<h2 id="数据复制"><a href="#数据复制" class="headerlink" title="数据复制"></a>数据复制</h2><h3 id="tensor对象与numpy对象的数据转换"><a href="#tensor对象与numpy对象的数据转换" class="headerlink" title="tensor对象与numpy对象的数据转换"></a><code>tensor</code>对象与<code>numpy</code>对象的数据转换</h3><ol>
-<li><p>共享内存：</p>
-<ul>
-<li><code>tensor</code> -&gt; <code>numpy</code>: <code>tensor.numpy()</code></li>
-<li><code>numpy</code> -&gt; <code>tensor</code>: <code>Tensor.from_numpy()</code></li>
-</ul>
-</li>
-<li><p>不共享内存：</p>
-<ul>
-<li><code>tensor</code> -&gt; <code>numpy</code>: <code>tensor.clone().numpy()</code></li>
-<li><code>numpy</code> -&gt; <code>tensor</code>: <code>tensor.from_numpy(array.copy())</code></li>
-</ul>
-</li>
+<p>可以使用变量和转义字符，推荐使用</p>
+<h2 id="字符串拼接"><a href="#字符串拼接" class="headerlink" title="字符串拼接"></a>字符串拼接</h2><pre class="line-numbers language-shell" data-language="shell"><code class="language-shell"><span class="token assign-left variable">name</span><span class="token operator">=</span><span class="token string">"123"</span>
+<span class="token assign-left variable">greeting</span><span class="token operator">=</span><span class="token string">"hello, "</span><span class="token variable">$name</span><span class="token string">"!"</span>
+<span class="token builtin class-name">echo</span> <span class="token variable">$greeting</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="字符串长度"><a href="#字符串长度" class="headerlink" title="字符串长度"></a>字符串长度</h2><pre class="line-numbers language-shell" data-language="shell"><code class="language-shell"><span class="token assign-left variable">str</span><span class="token operator">=</span><span class="token string">"abcde"</span>
+<span class="token builtin class-name">echo</span> <span class="token variable">${<span class="token operator">#</span>str}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<h2 id="提取子字符串"><a href="#提取子字符串" class="headerlink" title="提取子字符串"></a>提取子字符串</h2><pre class="line-numbers language-shell" data-language="shell"><code class="language-shell"><span class="token assign-left variable">str</span><span class="token operator">=</span><span class="token string">"abcde"</span>
+eco <span class="token variable">${str<span class="token operator">:</span>1<span class="token operator">:</span>3}</span> <span class="token comment"># 输出 bcd</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<ol>
+<li>第一个索引为 0</li>
+<li>索引区间左右皆闭</li>
 </ol>
-<h3 id="tensor-对象之间的复制"><a href="#tensor-对象之间的复制" class="headerlink" title="tensor 对象之间的复制"></a><code>tensor</code> 对象之间的复制</h3><ol>
-<li>共享内存：<code>tensor.detach()</code>，从计算图中分离，不计算梯度</li>
-<li>不共享内存：<code>tensor.clone()</code>，是否计算梯度，看原 <code>tensor</code> 的配置</li>
-<li><strong>Deprecated</strong> 不共享内存：<code>tensor()</code>，是否计算梯度，看构造函数的传参</li>
+<h2 id="查找子字符串"><a href="#查找子字符串" class="headerlink" title="查找子字符串"></a>查找子字符串</h2><pre class="line-numbers language-shell" data-language="shell"><code class="language-shell"><span class="token assign-left variable">string</span><span class="token operator">=</span><span class="token string">"I am a good person"</span>
+<span class="token builtin class-name">echo</span> <span class="token variable"><span class="token variable">`</span><span class="token function">expr</span> index <span class="token string">"<span class="token variable">$string</span>"</span> io<span class="token variable">`</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p>查找字符 <code>i</code> 或 <code>o</code> 出现的第一个位置</p>
+<h1 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h1><p>bash 只支持一维数组。</p>
+<h2 id="数组定义"><a href="#数组定义" class="headerlink" title="数组定义"></a>数组定义</h2><ol>
+<li>数组的初始化</li>
 </ol>
-<h3 id="cpu-向-gpu-的转换"><a href="#cpu-向-gpu-的转换" class="headerlink" title="cpu 向 gpu 的转换"></a><code>cpu</code> 向 <code>gpu</code> 的转换</h3><ul>
-<li>拷贝到 GPU：<code>tensor.cuda()</code></li>
-<li>转换到 GPU：<code>tensor.to()</code></li>
-</ul>
-<h2 id="Tensor类与tensor对象的操作"><a href="#Tensor类与tensor对象的操作" class="headerlink" title="Tensor类与tensor对象的操作"></a><code>Tensor</code>类与<code>tensor</code>对象的操作</h2><h3 id="从tensor中获取元素"><a href="#从tensor中获取元素" class="headerlink" title="从tensor中获取元素"></a>从<code>tensor</code>中获取元素</h3><ol>
-<li>下标访问得到一个 <code>0-dim</code> 的 <code>scalar</code></li>
-<li>使用下标访问 + <code>item()</code> 得到元素的值</li>
-<li>单元素 <code>tensor</code> 也可以使用 <code>item()</code></li>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token assign-left variable">arr_1</span><span class="token operator">=</span><span class="token punctuation">(</span>val_1, val_2, val3<span class="token punctuation">)</span>
+<span class="token assign-left variable">arr_2</span><span class="token operator">=</span><span class="token punctuation">(</span>
+    val_1
+    val_2
+    val_3
+<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<ol start="2">
+<li>数组单个元素赋值</li>
 </ol>
-<h3 id="整数类型除法"><a href="#整数类型除法" class="headerlink" title="整数类型除法"></a>整数类型除法</h3><p>计算数据类型为 <code>Tensor.uint8, Tensor.int8, Tensor.int16, Tensor.int32, Tensor.int64</code> 或者张量类型为 <code>Tensor.CharTensor, Tensor.ShortTensor, Tensor.IntTensor, Tensor.LongTensor</code> 的浮点数类型除法时，使用 <code>Tensor.true_divide(tensor1, tensor2)</code></p>
-<h3 id="Tensor-构造的-Tensor-Size-问题"><a href="#Tensor-构造的-Tensor-Size-问题" class="headerlink" title="Tensor 构造的 Tensor.Size 问题"></a><code>Tensor</code> 构造的 <code>Tensor.Size</code> 问题</h3><ol>
-<li><code>Tensor.tensor(3.14159) </code>, size: <code>torch.Size([])</code> ~ <code>scalar</code> 单元素 <code>tensor</code></li>
-<li><code>Tensor.tensor([])</code>, size: <code>torch.Size([0])</code> ~ 空</li>
-<li><code>Tensor.tensor([1, 2])</code>, size: <code>torch.Size([2])</code> ~ <code>tensor</code></li>
-<li><code>Tensor.Tensor(1, 2)</code>, size: <code>torch.Size([1, 2])</code> ~ 规定<code>tensor</code>大小的初始化方式</li>
-</ol>
-<p>综合，传入一个<code>list</code>，两种构造方法都是将<code>list</code>转换成一个<code>tensor</code>；<br>传入数字，<code>Tensor.tensor</code>只接受单个数字用于构造<code>scalar</code>，<code>Tensor.Tensor</code>用于构造对应大小<code>Tensor</code></p>
-<h3 id="tensor-的大小改变"><a href="#tensor-的大小改变" class="headerlink" title="tensor 的大小改变"></a><code>tensor</code> 的大小改变</h3><ol>
-<li><code>tensor.view()</code> 创造一个共享内存的新 tensor</li>
-<li><code>tensor.squeeze(), tensor.unsqueeze()</code> 减少、添加一个维度，创造一个共享内存的新 tensor</li>
-<li><code>tensor.resize()</code> 如果新分配空间大小小于原空间，保留数据不删除</li>
-</ol>
-<h3 id="tensor-的索引"><a href="#tensor-的索引" class="headerlink" title="tensor 的索引"></a><code>tensor</code> 的索引</h3><ol>
-<li><p><code>tensor[0:1, :2]</code>, size: <code>torch.Size([1, 2])</code>; <code>tensor[0, :2]</code>, size: <code>torch.Size([2])</code></p>
-</li>
-<li><p><code>None</code> 相当于 <code>np.newaxis</code>，新增一个轴：<code>tensor[None].shape</code>, size: <code>torch.Size([1, 10])</code></p>
-</li>
-</ol>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">arr_1<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token operator">=</span>val_0<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h2 id="数组读取"><a href="#数组读取" class="headerlink" title="数组读取"></a>数组读取</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token assign-left variable">val_0</span><span class="token operator">=</span><span class="token variable">${arr_1<span class="token punctuation">[</span>0<span class="token punctuation">]</span>}</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>使用<code>@</code>可以获取数组中所有的元素</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">echo</span> <span class="token variable">${arr_1<span class="token punctuation">[</span>@<span class="token punctuation">]</span>}</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h2 id="数组长度"><a href="#数组长度" class="headerlink" title="数组长度"></a>数组长度</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 获取数组长度</span>
+<span class="token assign-left variable">length</span><span class="token operator">=</span><span class="token variable">${<span class="token operator">#</span>arr_1<span class="token punctuation">[</span>@<span class="token punctuation">]</span>}</span>
+<span class="token comment"># 获取单个元素长度</span>
+<span class="token assign-left variable">length</span><span class="token operator">=</span><span class="token variable">${<span class="token operator">#</span>arr_1<span class="token punctuation">[</span>0<span class="token punctuation">]</span>}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
 
                 
             </div>
@@ -579,7 +580,7 @@ tensor <span class="token operator">=</span> Tensor<span class="token punctuatio
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://tdingquan.github.io/2021-04-05/pytorch-bian-cheng-de-yi-xie-keng/">http://tdingquan.github.io/2021-04-05/pytorch-bian-cheng-de-yi-xie-keng/</a>
+                    <a href="http://tdingquan.github.io/2022-05-28/shell-ji-chu-zhi-shi-02-zi-fu-chuan-yu-shu-zu/">http://tdingquan.github.io/2022-05-28/shell-ji-chu-zhi-shi-02-zi-fu-chuan-yu-shu-zu/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -617,8 +618,8 @@ tensor <span class="token operator">=</span> Tensor<span class="token punctuatio
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Pytorch/">
-                                    <span class="chip bg-color">Pytorch</span>
+                                <a href="/tags/Shell/">
+                                    <span class="chip bg-color">Shell</span>
                                 </a>
                             
                         </div>
@@ -666,44 +667,32 @@ tensor <span class="token operator">=</span> Tensor<span class="token punctuatio
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021-04-09/matplotlib-ji-chu-zhi-shi/">
+                <a href="/2022-05-28/shell-ji-chu-zhi-shi-05-han-shu-yu-chuan-can/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="Matplotlib 基础知识（一）">
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="03 运行时传参">
                         
-                        <span class="card-title">Matplotlib 基础知识（一）</span>
+                        <span class="card-title">03 运行时传参</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Matplotlib 入门知识和例程。
+                            
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-04-09
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-05-28
                         </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/Language/" class="post-category">
-                                    Language
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            一汪白水
                             
                         </span>
                     </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/Matplotlib/">
-                        <span class="chip bg-color">Matplotlib</span>
-                    </a>
-                    
                 </div>
                 
             </div>
@@ -715,24 +704,24 @@ tensor <span class="token operator">=</span> Tensor<span class="token punctuatio
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021-04-04/python-gao-ji-bian-cheng-collections-the-container-datatypes/">
+                <a href="/2022-05-28/shell-ji-chu-zhi-shi-01-yun-xing-huan-jing-he-bian-liang/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="Python Collections, the Container datatypes">
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="Shell-运行环境和变量">
                         
-                        <span class="card-title">Python Collections, the Container datatypes</span>
+                        <span class="card-title">Shell-运行环境和变量</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Python 内置的高级数据类型介绍。
+                            Shell 运行环境和变量
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-04-04
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-28
                             </span>
                         <span class="publish-author">
                             
@@ -749,8 +738,8 @@ tensor <span class="token operator">=</span> Tensor<span class="token punctuatio
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Python/">
-                        <span class="chip bg-color">Python</span>
+                    <a href="/tags/Shell/">
+                        <span class="chip bg-color">Shell</span>
                     </a>
                     
                 </div>

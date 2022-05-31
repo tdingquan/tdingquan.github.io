@@ -6,7 +6,7 @@
   <link href="http://tdingquan.github.io/atom.xml" rel="self"/>
   
   <link href="http://tdingquan.github.io/"/>
-  <updated>2022-05-20T03:13:11.789Z</updated>
+  <updated>2022-05-31T05:41:50.034Z</updated>
   <id>http://tdingquan.github.io/</id>
   
   <author>
@@ -17,11 +17,154 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Python</title>
+    <title>Shell基础知识-06-互文件交互</title>
+    <link href="http://tdingquan.github.io/2022-05-28/shell-ji-chu-zhi-shi-06-shu-ru-shu-chu/"/>
+    <id>http://tdingquan.github.io/2022-05-28/shell-ji-chu-zhi-shi-06-shu-ru-shu-chu/</id>
+    <published>2022-05-28T04:07:36.000Z</published>
+    <updated>2022-05-31T05:41:50.034Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;输出重定向，覆盖版本&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&quot;line-numbers language-bash&quot; data-language=&quot;bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;command1 &lt;span</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Shell基础知识-04-流程控制</title>
+    <link href="http://tdingquan.github.io/2022-05-28/shell-ji-chu-zhi-shi-04-liu-cheng-kong-zhi/"/>
+    <id>http://tdingquan.github.io/2022-05-28/shell-ji-chu-zhi-shi-04-liu-cheng-kong-zhi/</id>
+    <published>2022-05-28T04:05:56.000Z</published>
+    <updated>2022-05-31T05:27:11.546Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;if 语句&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&quot;line-numbers language-bash&quot; data-language=&quot;bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Shell基础知识</title>
+    <link href="http://tdingquan.github.io/2022-05-28/shell-ji-chu-zhi-shi-03-yun-suan-fu/"/>
+    <id>http://tdingquan.github.io/2022-05-28/shell-ji-chu-zhi-shi-03-yun-suan-fu/</id>
+    <published>2022-05-28T04:04:58.000Z</published>
+    <updated>2022-05-31T05:17:06.628Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;算术运算符&quot;&gt;&lt;a href=&quot;#算术运算符&quot; class=&quot;headerlink&quot; title=&quot;算术运算符&quot;&gt;&lt;/a&gt;算术运算符&lt;/h1&gt;&lt;p&gt;原生的shell语言不支持数学计算，会将数学运算符和 &lt;code&gt;expr&lt;/code&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>03 运行时传参</title>
+    <link href="http://tdingquan.github.io/2022-05-28/shell-ji-chu-zhi-shi-05-han-shu-yu-chuan-can/"/>
+    <id>http://tdingquan.github.io/2022-05-28/shell-ji-chu-zhi-shi-05-han-shu-yu-chuan-can/</id>
+    <published>2022-05-28T03:46:08.000Z</published>
+    <updated>2022-05-31T05:31:34.667Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;脚本参数&quot;&gt;&lt;a href=&quot;#脚本参数&quot; class=&quot;headerlink&quot; title=&quot;脚本参数&quot;&gt;&lt;/a&gt;脚本参数&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;执行脚本时传入的参数，按照传参的顺序，在脚本内可通过 &lt;code&gt;$n&lt;/code&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Shell-字符串与数组</title>
+    <link href="http://tdingquan.github.io/2022-05-28/shell-ji-chu-zhi-shi-02-zi-fu-chuan-yu-shu-zu/"/>
+    <id>http://tdingquan.github.io/2022-05-28/shell-ji-chu-zhi-shi-02-zi-fu-chuan-yu-shu-zu/</id>
+    <published>2022-05-28T03:24:12.000Z</published>
+    <updated>2022-05-28T03:45:38.990Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;字符串&quot;&gt;&lt;a href=&quot;#字符串&quot; class=&quot;headerlink&quot; title=&quot;字符串&quot;&gt;&lt;/a&gt;字符串&lt;/h1&gt;&lt;p&gt;字符串可以用单引号，双引号（推荐使用）括起来，也可以不用引号&lt;/p&gt;
+&lt;h2 id=&quot;单引号&quot;&gt;&lt;a href=&quot;#单引号&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Language" scheme="http://tdingquan.github.io/categories/Language/"/>
+    
+    
+    <category term="Shell" scheme="http://tdingquan.github.io/tags/Shell/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Shell-运行环境和变量</title>
+    <link href="http://tdingquan.github.io/2022-05-28/shell-ji-chu-zhi-shi-01-yun-xing-huan-jing-he-bian-liang/"/>
+    <id>http://tdingquan.github.io/2022-05-28/shell-ji-chu-zhi-shi-01-yun-xing-huan-jing-he-bian-liang/</id>
+    <published>2022-05-28T03:09:32.000Z</published>
+    <updated>2022-05-28T03:45:36.985Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Shell-运行环境&quot;&gt;&lt;a href=&quot;#Shell-运行环境&quot; class=&quot;headerlink&quot; title=&quot;Shell 运行环境&quot;&gt;&lt;/a&gt;Shell 运行环境&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;Linux</summary>
+        
+      
+    
+    
+    
+    <category term="Language" scheme="http://tdingquan.github.io/categories/Language/"/>
+    
+    
+    <category term="Shell" scheme="http://tdingquan.github.io/tags/Shell/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python Functools</title>
     <link href="http://tdingquan.github.io/2022-05-20/python-gao-ji-bian-cheng-functools/"/>
     <id>http://tdingquan.github.io/2022-05-20/python-gao-ji-bian-cheng-functools/</id>
     <published>2022-05-20T02:50:25.000Z</published>
-    <updated>2022-05-20T03:13:11.789Z</updated>
+    <updated>2022-05-21T07:38:13.190Z</updated>
     
     
       
@@ -365,56 +508,6 @@
     
     
     <category term="Pytorch" scheme="http://tdingquan.github.io/tags/Pytorch/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python Collections, the Container datatypes</title>
-    <link href="http://tdingquan.github.io/2021-04-04/python-gao-ji-bian-cheng-collections-the-container-datatypes/"/>
-    <id>http://tdingquan.github.io/2021-04-04/python-gao-ji-bian-cheng-collections-the-container-datatypes/</id>
-    <published>2021-04-04T11:39:12.000Z</published>
-    <updated>2022-05-20T03:16:18.844Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h4 id=&quot;1-Counter&quot;&gt;&lt;a href=&quot;#1-Counter&quot; class=&quot;headerlink&quot; title=&quot;1. Counter&quot;&gt;&lt;/a&gt;1.</summary>
-        
-      
-    
-    
-    
-    <category term="Language" scheme="http://tdingquan.github.io/categories/Language/"/>
-    
-    
-    <category term="Python" scheme="http://tdingquan.github.io/tags/Python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo 基础命令介绍</title>
-    <link href="http://tdingquan.github.io/2021-03-04/hexo-ji-chu-ming-ling-jie-shao/"/>
-    <id>http://tdingquan.github.io/2021-03-04/hexo-ji-chu-ming-ling-jie-shao/</id>
-    <published>2021-03-04T13:44:31.000Z</published>
-    <updated>2022-04-19T03:54:42.908Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;欢迎来到 &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;！ 这是你的第一篇文章。访问 &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; 来了解更多信息。&lt;br&gt;在使用 Hexo</summary>
-        
-      
-    
-    
-    
-    <category term="Engineering" scheme="http://tdingquan.github.io/categories/Engineering/"/>
-    
-    
-    <category term="Hexo" scheme="http://tdingquan.github.io/tags/Hexo/"/>
     
   </entry>
   
