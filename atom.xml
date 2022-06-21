@@ -6,7 +6,7 @@
   <link href="http://tdingquan.github.io/atom.xml" rel="self"/>
   
   <link href="http://tdingquan.github.io/"/>
-  <updated>2022-05-31T05:41:50.034Z</updated>
+  <updated>2022-06-21T07:36:37.214Z</updated>
   <id>http://tdingquan.github.io/</id>
   
   <author>
@@ -17,11 +17,81 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Shell基础知识-06-互文件交互</title>
-    <link href="http://tdingquan.github.io/2022-05-28/shell-ji-chu-zhi-shi-06-shu-ru-shu-chu/"/>
-    <id>http://tdingquan.github.io/2022-05-28/shell-ji-chu-zhi-shi-06-shu-ru-shu-chu/</id>
+    <title>01 ROCKET: Exceptionally fast and accurate time series classification using random convolution kernels</title>
+    <link href="http://tdingquan.github.io/2022-06-21/everday-paper-reading/01-rocket-exceptionally-fast-and-accurate-time-series-classification-using-random-convolution-kernels/"/>
+    <id>http://tdingquan.github.io/2022-06-21/everday-paper-reading/01-rocket-exceptionally-fast-and-accurate-time-series-classification-using-random-convolution-kernels/</id>
+    <published>2022-06-21T07:36:21.000Z</published>
+    <updated>2022-06-21T07:36:37.214Z</updated>
+    
+    
+    
+    
+    <category term="Everyday Paper Reading" scheme="http://tdingquan.github.io/categories/Everyday-Paper-Reading/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Python Sorted Containers 02 - SortedDict &amp; SortedSet</title>
+    <link href="http://tdingquan.github.io/2022-06-20/python/data-structure/sorted-containers/02-sorteddict-and-sortedset/"/>
+    <id>http://tdingquan.github.io/2022-06-20/python/data-structure/sorted-containers/02-sorteddict-and-sortedset/</id>
+    <published>2022-06-20T03:50:25.000Z</published>
+    <updated>2022-06-21T06:34:59.940Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;SortedDict&quot;&gt;&lt;a href=&quot;#SortedDict&quot; class=&quot;headerlink&quot; title=&quot;SortedDict&quot;&gt;&lt;/a&gt;SortedDict&lt;/h1&gt;&lt;p&gt;在插入、删除键值对后仍然可以按照键值自动维护顺序的字典。&lt;/p&gt;
+&lt;pre</summary>
+        
+      
+    
+    
+    
+    <category term="Python" scheme="http://tdingquan.github.io/categories/Python/"/>
+    
+    
+    <category term="Data Structure" scheme="http://tdingquan.github.io/tags/Data-Structure/"/>
+    
+    <category term="Sorted Containers" scheme="http://tdingquan.github.io/tags/Sorted-Containers/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python Sorted Containers 01 - Install and SortedList</title>
+    <link href="http://tdingquan.github.io/2022-06-20/python/data-structure/sorted-containers/01-install-and-sortedlist/"/>
+    <id>http://tdingquan.github.io/2022-06-20/python/data-structure/sorted-containers/01-install-and-sortedlist/</id>
+    <published>2022-06-20T02:50:25.000Z</published>
+    <updated>2022-06-21T06:35:07.892Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Install&quot;&gt;&lt;a href=&quot;#Install&quot; class=&quot;headerlink&quot; title=&quot;Install&quot;&gt;&lt;/a&gt;Install&lt;/h1&gt;&lt;pre class=&quot;line-numbers language-bash&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Python" scheme="http://tdingquan.github.io/categories/Python/"/>
+    
+    
+    <category term="Data Structure" scheme="http://tdingquan.github.io/tags/Data-Structure/"/>
+    
+    <category term="Sorted Containers" scheme="http://tdingquan.github.io/tags/Sorted-Containers/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Shell 基础知识 06 输入输出重定向</title>
+    <link href="http://tdingquan.github.io/2022-05-28/shell-ji-chu-zhi-shi-06-shu-ru-shu-chu-chong-ding-xiang/"/>
+    <id>http://tdingquan.github.io/2022-05-28/shell-ji-chu-zhi-shi-06-shu-ru-shu-chu-chong-ding-xiang/</id>
     <published>2022-05-28T04:07:36.000Z</published>
-    <updated>2022-05-31T05:41:50.034Z</updated>
+    <updated>2022-06-06T13:08:53.721Z</updated>
     
     
       
@@ -37,15 +107,19 @@
     
     
     
+    <category term="Language" scheme="http://tdingquan.github.io/categories/Language/"/>
+    
+    
+    <category term="Shell" scheme="http://tdingquan.github.io/tags/Shell/"/>
     
   </entry>
   
   <entry>
-    <title>Shell基础知识-04-流程控制</title>
+    <title>Shell 基础知识 04 流程控制</title>
     <link href="http://tdingquan.github.io/2022-05-28/shell-ji-chu-zhi-shi-04-liu-cheng-kong-zhi/"/>
     <id>http://tdingquan.github.io/2022-05-28/shell-ji-chu-zhi-shi-04-liu-cheng-kong-zhi/</id>
     <published>2022-05-28T04:05:56.000Z</published>
-    <updated>2022-05-31T05:27:11.546Z</updated>
+    <updated>2022-06-06T13:08:58.539Z</updated>
     
     
       
@@ -61,15 +135,19 @@
     
     
     
+    <category term="Language" scheme="http://tdingquan.github.io/categories/Language/"/>
+    
+    
+    <category term="Shell" scheme="http://tdingquan.github.io/tags/Shell/"/>
     
   </entry>
   
   <entry>
-    <title>Shell基础知识</title>
+    <title>Shell 基础知识 03 运算符</title>
     <link href="http://tdingquan.github.io/2022-05-28/shell-ji-chu-zhi-shi-03-yun-suan-fu/"/>
     <id>http://tdingquan.github.io/2022-05-28/shell-ji-chu-zhi-shi-03-yun-suan-fu/</id>
     <published>2022-05-28T04:04:58.000Z</published>
-    <updated>2022-05-31T05:17:06.628Z</updated>
+    <updated>2022-06-06T13:08:58.539Z</updated>
     
     
       
@@ -82,15 +160,19 @@
     
     
     
+    <category term="Language" scheme="http://tdingquan.github.io/categories/Language/"/>
+    
+    
+    <category term="Shell" scheme="http://tdingquan.github.io/tags/Shell/"/>
     
   </entry>
   
   <entry>
-    <title>03 运行时传参</title>
+    <title>Shell 基础知识 05 函数和传参</title>
     <link href="http://tdingquan.github.io/2022-05-28/shell-ji-chu-zhi-shi-05-han-shu-yu-chuan-can/"/>
     <id>http://tdingquan.github.io/2022-05-28/shell-ji-chu-zhi-shi-05-han-shu-yu-chuan-can/</id>
     <published>2022-05-28T03:46:08.000Z</published>
-    <updated>2022-05-31T05:31:34.667Z</updated>
+    <updated>2022-06-06T13:08:58.539Z</updated>
     
     
       
@@ -104,15 +186,19 @@
     
     
     
+    <category term="Language" scheme="http://tdingquan.github.io/categories/Language/"/>
+    
+    
+    <category term="Shell" scheme="http://tdingquan.github.io/tags/Shell/"/>
     
   </entry>
   
   <entry>
-    <title>02 字符串与数组</title>
+    <title>Shell 基础知识 02 字符串与数组</title>
     <link href="http://tdingquan.github.io/2022-05-28/shell-ji-chu-zhi-shi-02-zi-fu-chuan-yu-shu-zu/"/>
     <id>http://tdingquan.github.io/2022-05-28/shell-ji-chu-zhi-shi-02-zi-fu-chuan-yu-shu-zu/</id>
     <published>2022-05-28T03:24:12.000Z</published>
-    <updated>2022-05-31T12:20:49.317Z</updated>
+    <updated>2022-06-06T13:08:58.539Z</updated>
     
     
       
@@ -134,11 +220,11 @@
   </entry>
   
   <entry>
-    <title>01 运行环境和变量</title>
+    <title>Shell 基础知识 01 运行环境和变量</title>
     <link href="http://tdingquan.github.io/2022-05-28/shell-ji-chu-zhi-shi-01-yun-xing-huan-jing-he-bian-liang/"/>
     <id>http://tdingquan.github.io/2022-05-28/shell-ji-chu-zhi-shi-01-yun-xing-huan-jing-he-bian-liang/</id>
     <published>2022-05-28T03:09:32.000Z</published>
-    <updated>2022-05-31T12:20:51.088Z</updated>
+    <updated>2022-06-06T13:08:58.539Z</updated>
     
     
       
@@ -161,8 +247,8 @@
   
   <entry>
     <title>Python Functools</title>
-    <link href="http://tdingquan.github.io/2022-05-20/python-gao-ji-bian-cheng-functools/"/>
-    <id>http://tdingquan.github.io/2022-05-20/python-gao-ji-bian-cheng-functools/</id>
+    <link href="http://tdingquan.github.io/2022-05-20/python/data-structure/python-gao-ji-bian-cheng-02-functools/"/>
+    <id>http://tdingquan.github.io/2022-05-20/python/data-structure/python-gao-ji-bian-cheng-02-functools/</id>
     <published>2022-05-20T02:50:25.000Z</published>
     <updated>2022-05-21T07:38:13.190Z</updated>
     
@@ -433,81 +519,6 @@
     
     
     <category term="Machine Learning" scheme="http://tdingquan.github.io/tags/Machine-Learning/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Nginx 服务器配置教程</title>
-    <link href="http://tdingquan.github.io/2021-05-17/nginx-fu-wu-qi-pei-zhi-jiao-cheng/"/>
-    <id>http://tdingquan.github.io/2021-05-17/nginx-fu-wu-qi-pei-zhi-jiao-cheng/</id>
-    <published>2021-05-17T06:19:28.000Z</published>
-    <updated>2022-05-20T02:52:02.227Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;什么是-Nginx&quot;&gt;&lt;a href=&quot;#什么是-Nginx&quot; class=&quot;headerlink&quot; title=&quot;什么是 Nginx?&quot;&gt;&lt;/a&gt;什么是 Nginx?&lt;/h1&gt;&lt;h1 id=&quot;Nginx-的安装&quot;&gt;&lt;a href=&quot;#Nginx-的安装&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Engineering" scheme="http://tdingquan.github.io/categories/Engineering/"/>
-    
-    
-    <category term="Nginx" scheme="http://tdingquan.github.io/tags/Nginx/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Matplotlib 基础知识（一）</title>
-    <link href="http://tdingquan.github.io/2021-04-09/matplotlib-ji-chu-zhi-shi/"/>
-    <id>http://tdingquan.github.io/2021-04-09/matplotlib-ji-chu-zhi-shi/</id>
-    <published>2021-04-09T08:13:35.000Z</published>
-    <updated>2022-04-18T12:52:26.638Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;基本概念&quot;&gt;&lt;a href=&quot;#基本概念&quot; class=&quot;headerlink&quot; title=&quot;基本概念&quot;&gt;&lt;/a&gt;基本概念&lt;/h2&gt;&lt;h3 id=&quot;数据格式&quot;&gt;&lt;a href=&quot;#数据格式&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Language" scheme="http://tdingquan.github.io/categories/Language/"/>
-    
-    
-    <category term="Matplotlib" scheme="http://tdingquan.github.io/tags/Matplotlib/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Pytorch 编程的一些坑</title>
-    <link href="http://tdingquan.github.io/2021-04-05/pytorch-bian-cheng-de-yi-xie-keng/"/>
-    <id>http://tdingquan.github.io/2021-04-05/pytorch-bian-cheng-de-yi-xie-keng/</id>
-    <published>2021-04-05T04:12:30.000Z</published>
-    <updated>2021-08-18T02:25:51.703Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;pre class=&quot;line-numbers language-python&quot; data-language=&quot;python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt;</summary>
-        
-      
-    
-    
-    
-    <category term="Language" scheme="http://tdingquan.github.io/categories/Language/"/>
-    
-    
-    <category term="Pytorch" scheme="http://tdingquan.github.io/tags/Pytorch/"/>
     
   </entry>
   

@@ -4,12 +4,18 @@
   
     
     <entry>
-      <title>Shell基础知识-06-互文件交互</title>
-      <link href="2022-05-28/shell-ji-chu-zhi-shi-06-shu-ru-shu-chu/"/>
-      <url>2022-05-28/shell-ji-chu-zhi-shi-06-shu-ru-shu-chu/</url>
+      <title>01 ROCKET: Exceptionally fast and accurate time series classification using random convolution kernels</title>
+      <link href="2022-06-21/everday-paper-reading/01-rocket-exceptionally-fast-and-accurate-time-series-classification-using-random-convolution-kernels/"/>
+      <url>2022-06-21/everday-paper-reading/01-rocket-exceptionally-fast-and-accurate-time-series-classification-using-random-convolution-kernels/</url>
       
-        <content type="html"><![CDATA[<ol><li>输出重定向，覆盖版本</li></ol><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">command1 <span class="token operator">&gt;</span> file1<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ol><li>输出重定向，追加版本</li></ol><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">command1 <span class="token operator">&gt;&gt;</span> file1<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ol><li>输入重定向，两个版本</li></ol><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">command2 <span class="token operator">&lt;</span> file1command2 <span class="token operator">&lt;&lt;</span> file2<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><ol><li>输入输出流</li></ol><ul><li>标准输入文件：0，stdin</li><li>标准输出文件：1，stdout</li><li>标准错误文件：2，stderr</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># stdout 重定向到 file</span><span class="token builtin class-name">command</span> <span class="token operator">&gt;</span> <span class="token function">file</span><span class="token comment"># stdin 重定向到 file</span><span class="token builtin class-name">command</span> <span class="token operator">&lt;</span> <span class="token function">file</span><span class="token comment"># stderr 重定向到 file</span><span class="token builtin class-name">command</span> <span class="token operator"><span class="token file-descriptor important">2</span>&gt;</span>file<span class="token comment"># stderr 追加到 file 文件末尾</span><span class="token builtin class-name">command</span> <span class="token operator"><span class="token file-descriptor important">2</span>&gt;&gt;</span>file<span class="token comment"># stdout 和 stderr 合并后重定向到 file</span><span class="token builtin class-name">command</span> <span class="token operator">&gt;</span> <span class="token function">file</span> <span class="token operator"><span class="token file-descriptor important">2</span>&gt;</span><span class="token file-descriptor important">&amp;1</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
+      
+      <categories>
+          
+          <category> Everyday Paper Reading </category>
+          
+      </categories>
       
       
     </entry>
@@ -17,46 +23,161 @@
     
     
     <entry>
-      <title>Shell基础知识-04-流程控制</title>
+      <title>Python Sorted Containers 02 - SortedDict &amp; SortedSet</title>
+      <link href="2022-06-20/python/data-structure/sorted-containers/02-sorteddict-and-sortedset/"/>
+      <url>2022-06-20/python/data-structure/sorted-containers/02-sorteddict-and-sortedset/</url>
+      
+        <content type="html"><![CDATA[<h1 id="SortedDict"><a href="#SortedDict" class="headerlink" title="SortedDict"></a>SortedDict</h1><p>在插入、删除键值对后仍然可以按照键值自动维护顺序的字典。</p><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">from</span> sortedcontainers <span class="token keyword">import</span> SortedDictsd <span class="token operator">=</span> SortedDict<span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h2 id="插入键值对"><a href="#插入键值对" class="headerlink" title="插入键值对"></a>插入键值对</h2><ol><li>插入/更新单个键值对：<code>SortedDict.__setitem__(key, val)</code>, <code>SortedDict[key]=val</code></li><li>插入（如果键值不存在）的键值对：<code>SortedDict.setdefault(key, val)</code></li><li>插入/更新多个键值对：<code>SortedDict.update({key1: val1, key2: val2, ...})</code></li></ol><h2 id="移除键值对"><a href="#移除键值对" class="headerlink" title="移除键值对"></a>移除键值对</h2><ol><li>根据键值移除：<code>SortedDict.__delitem__(key)</code>, <code>del SortedDict[key]</code>, <code>SortedDict.pop(key)</code></li><li>根据键值的索引移除：<code>SortedDict.popitem(index)</code></li></ol><h2 id="查询键值对"><a href="#查询键值对" class="headerlink" title="查询键值对"></a>查询键值对</h2><ol><li>根据键值获取：<code>SortedDict[key]</code>, <code>SortedDict.__getitem__(key)</code></li><li>查询键值是否存在：<code>SortedDict.__contains__(key)</code>, <code>key in SortedDict</code></li><li>获取键值对（不存在，返回空）：<code>SortedDict.get(key)</code></li><li>根据键值索引获取：<code>SortedDict.peekitem(index)</code></li><li>支持 <code>SortedList</code> 包含的其他接口：<code>SortedDict.bisect_left</code>, <code>SortedDict.bisect_right</code>, <code>SortedDict.index</code>, …</li></ol><h2 id="Dict类内置接口支持"><a href="#Dict类内置接口支持" class="headerlink" title="Dict类内置接口支持"></a>Dict类内置接口支持</h2><ol><li>获取键的列表：<code>SortedDict.keys()</code></li><li>获取值的列表：<code>SortedDict.values()</code></li><li>获取键值对的列表：<code>SortedDict.items()</code></li></ol><h1 id="SortedSet"><a href="#SortedSet" class="headerlink" title="SortedSet"></a>SortedSet</h1><p>将可哈希的元素保持顺序的存放在列表里。</p><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">from</span> sortedcollections <span class="token keyword">import</span> SortedSetss <span class="token operator">=</span> SortedSet<span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h2 id="Set-类内置接口"><a href="#Set-类内置接口" class="headerlink" title="Set 类内置接口"></a>Set 类内置接口</h2><ol><li>查询元素接口：<code>SortedSet.__contains__(val)</code></li><li>增加元素接口：<code>SortedSet.add(val)</code>, <code>SortedSet.update(Iterable[val1, val2, ...])</code></li><li>移除元素接口：<code>SortedSet.discard(val)</code>, <code>SortedSet.remove(val)</code></li><li></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> Python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Data Structure </tag>
+            
+            <tag> Sorted Containers </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Python Sorted Containers 01 - Install and SortedList</title>
+      <link href="2022-06-20/python/data-structure/sorted-containers/01-install-and-sortedlist/"/>
+      <url>2022-06-20/python/data-structure/sorted-containers/01-install-and-sortedlist/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h1><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">pip <span class="token function">install</span> sortedcontainers<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h1 id="SortedList"><a href="#SortedList" class="headerlink" title="SortedList"></a>SortedList</h1><p>在插入、删除元素后仍然可以自动维护序列的顺序。</p><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">from</span> sortedcontainers <span class="token keyword">import</span> SortedListsl <span class="token operator">=</span> SortedList<span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h2 id="插入元素"><a href="#插入元素" class="headerlink" title="插入元素"></a>插入元素</h2><ol><li>插入一整个列表：<code>SortedList.update(List[val1, val2, ...])</code></li><li>插入一个元素：<code>SortedList.add(value)</code></li></ol><h2 id="删除元素"><a href="#删除元素" class="headerlink" title="删除元素"></a>删除元素</h2><ol><li>按照元素值删除：<code>SortedList.remove(value)</code>, <code>SortedList.discard(value)</code></li><li>按照元素索引删除：<code>SortedList.pop([index])</code>, <code>SortedList.__delitem__(index)</code>, <code>del SortedList[index]</code></li><li>清空列表：<code>SortedList.clear()</code></li></ol><h2 id="随机访问-O-log-n-复杂度"><a href="#随机访问-O-log-n-复杂度" class="headerlink" title="随机访问 - O(log n) 复杂度"></a>随机访问 - <code>O(log n)</code> 复杂度</h2><ol><li>查询元素是否存在：<code>SortedList.__contains__(value)</code>, <code>value in SortedList</code></li><li>查询元素索引：<code>SortedList.index(value)</code></li><li>查询元素数量：<code>SortedList.count(value)</code></li><li>二分查找元素插入位置：<code>SortedList.bisect_left(value)</code>, <code>SortedList.bisect_right(value)</code></li><li>切片：<code>SortedList.__getitem__(index)</code>, <code>SortedList[start:end]</code></li></ol><h2 id="迭代器"><a href="#迭代器" class="headerlink" title="迭代器"></a>迭代器</h2><ol><li>创建迭代器：<code>SortedList.__iter__()</code>, <code>iter(SortedList)</code></li><li>反向迭代：<code>SortedList.__reversed__()</code>, <code>reversed(SortedList)</code></li><li>根据值进行切片：<code>SortedList.irange(start, end)</code></li><li>根据索引进行切片：<code>SortedList.islice(start, end)</code></li></ol><h2 id="运算符操作"><a href="#运算符操作" class="headerlink" title="运算符操作"></a>运算符操作</h2><ol><li>数组加和，拼接后排序操作：<code>SortedList.__add__()</code>, <code>SortedList1 + SortedList2</code></li><li>数组数乘，倍增后排序操作：<code>SortedList.__mul__()</code>, <code>SortedList * num</code></li></ol><h2 id="不支持的List类的api"><a href="#不支持的List类的api" class="headerlink" title="不支持的List类的api"></a>不支持的List类的api</h2><ol><li>赋值操作 -&gt; add</li></ol>  <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment"># sl[0] = 1</span><span class="token keyword">del</span> sl<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>sl<span class="token punctuation">.</span>add<span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><ol start="2"><li>反序api：reverse -&gt; reversed</li></ol>  <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment"># sl.reverse()</span><span class="token builtin">reversed</span><span class="token punctuation">(</span>sl<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><ol start="3"><li>增加元素api：append -&gt; add</li></ol>  <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment"># sl.append(value)</span>sl<span class="token punctuation">.</span>add<span class="token punctuation">(</span>value<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><ol start="4"><li>合并其他数组api：extend -&gt; update</li></ol>  <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment"># sl.extend([val1, val2, ...])</span>sl<span class="token punctuation">.</span>update<span class="token punctuation">(</span><span class="token punctuation">[</span>val1<span class="token punctuation">,</span> val2<span class="token punctuation">,</span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><ol start="5"><li>插入元素到指定位置api：insert -&gt; add</li></ol>  <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment"># sl.insert(5, value)</span>sl<span class="token punctuation">.</span>add<span class="token punctuation">(</span>value<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Data Structure </tag>
+            
+            <tag> Sorted Containers </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Shell 基础知识 06 输入输出重定向</title>
+      <link href="2022-05-28/shell-ji-chu-zhi-shi-06-shu-ru-shu-chu-chong-ding-xiang/"/>
+      <url>2022-05-28/shell-ji-chu-zhi-shi-06-shu-ru-shu-chu-chong-ding-xiang/</url>
+      
+        <content type="html"><![CDATA[<ol><li>输出重定向，覆盖版本</li></ol><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">command1 <span class="token operator">&gt;</span> file1<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ol><li>输出重定向，追加版本</li></ol><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">command1 <span class="token operator">&gt;&gt;</span> file1<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ol><li>输入重定向，两个版本</li></ol><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">command2 <span class="token operator">&lt;</span> file1command2 <span class="token operator">&lt;&lt;</span> file2<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><ol><li>输入输出流</li></ol><ul><li>标准输入文件：0，stdin</li><li>标准输出文件：1，stdout</li><li>标准错误文件：2，stderr</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># stdout 重定向到 file</span><span class="token builtin class-name">command</span> <span class="token operator">&gt;</span> <span class="token function">file</span><span class="token comment"># stdin 重定向到 file</span><span class="token builtin class-name">command</span> <span class="token operator">&lt;</span> <span class="token function">file</span><span class="token comment"># stderr 重定向到 file</span><span class="token builtin class-name">command</span> <span class="token operator"><span class="token file-descriptor important">2</span>&gt;</span>file<span class="token comment"># stderr 追加到 file 文件末尾</span><span class="token builtin class-name">command</span> <span class="token operator"><span class="token file-descriptor important">2</span>&gt;&gt;</span>file<span class="token comment"># stdout 和 stderr 合并后重定向到 file</span><span class="token builtin class-name">command</span> <span class="token operator">&gt;</span> <span class="token function">file</span> <span class="token operator"><span class="token file-descriptor important">2</span>&gt;</span><span class="token file-descriptor important">&amp;1</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Language </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Shell </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Shell 基础知识 04 流程控制</title>
       <link href="2022-05-28/shell-ji-chu-zhi-shi-04-liu-cheng-kong-zhi/"/>
       <url>2022-05-28/shell-ji-chu-zhi-shi-04-liu-cheng-kong-zhi/</url>
       
         <content type="html"><![CDATA[<ol><li>if 语句</li></ol><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token keyword">if</span> condition1<span class="token keyword">then</span>  command1<span class="token keyword">elif</span> condition2<span class="token keyword">then</span>  command2<span class="token keyword">else</span>  command3<span class="token keyword">fi</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><ol start="2"><li>for 语句</li></ol><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token keyword">for</span> <span class="token for-or-select variable">var</span> <span class="token keyword">in</span> item1, item2, <span class="token punctuation">..</span>., itemN<span class="token keyword">do</span>  command1  command2  <span class="token punctuation">..</span>.  commandN<span class="token keyword">done</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><ol start="3"><li>while 语句</li></ol><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token keyword">while</span> condition<span class="token keyword">do</span>  <span class="token builtin class-name">command</span><span class="token keyword">done</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><ol start="4"><li>无限循环的两个写法</li></ol><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token keyword">while</span> <span class="token boolean">true</span><span class="token keyword">do</span>  <span class="token builtin class-name">command</span><span class="token keyword">done</span><span class="token keyword">for</span> <span class="token variable"><span class="token punctuation">((</span> <span class="token punctuation">;</span> <span class="token punctuation">;</span> <span class="token punctuation">))</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><ol start="5"><li>until 语句</li></ol><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token assign-left variable">a</span><span class="token operator">=</span><span class="token number">0</span><span class="token keyword">until</span> condition<span class="token keyword">do</span>  <span class="token builtin class-name">command</span><span class="token keyword">done</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><ol start="6"><li>case 语句</li></ol><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token keyword">case</span> val <span class="token keyword">in</span>  val1<span class="token punctuation">)</span>  command11  command12  <span class="token punctuation">;</span><span class="token punctuation">;</span>  val2<span class="token punctuation">)</span>  command21  command22  <span class="token punctuation">;</span><span class="token punctuation">;</span><span class="token keyword">esac</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><ol start="7"><li>break/continue 语句</li></ol><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token shebang important">#!/bin/bash</span>while:<span class="token keyword">do</span>    <span class="token builtin class-name">echo</span> -n <span class="token string">"输入 1 到 5 之间的数字: "</span>    <span class="token builtin class-name">read</span> aNum    <span class="token keyword">case</span> <span class="token variable">$aNum</span> <span class="token keyword">in</span>        <span class="token number">1</span><span class="token operator">|</span><span class="token number">2</span><span class="token operator">|</span><span class="token number">3</span><span class="token operator">|</span><span class="token number">4</span><span class="token operator">|</span><span class="token number">5</span><span class="token punctuation">)</span> <span class="token builtin class-name">echo</span> <span class="token string">"你输入的数字为 <span class="token variable">$aNum</span>!"</span>        <span class="token punctuation">;</span><span class="token punctuation">;</span>        <span class="token number">6</span><span class="token operator">|</span><span class="token number">7</span><span class="token operator">|</span><span class="token number">8</span><span class="token operator">|</span><span class="token number">9</span><span class="token operator">|</span><span class="token number">10</span><span class="token punctuation">)</span> <span class="token builtin class-name">echo</span> <span class="token string">"你输入的数字为 <span class="token variable">$aNum</span>!"</span>            <span class="token builtin class-name">break</span>        <span class="token punctuation">;</span><span class="token punctuation">;</span>        *<span class="token punctuation">)</span> <span class="token builtin class-name">echo</span> <span class="token string">"你输入的数字不是 1 到 5 之间的!"</span>            <span class="token builtin class-name">continue</span>            <span class="token builtin class-name">echo</span> <span class="token string">"游戏结束"</span>        <span class="token punctuation">;</span><span class="token punctuation">;</span>        <span class="token number">6</span>    <span class="token keyword">esac</span><span class="token keyword">done</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
       
       
+      <categories>
+          
+          <category> Language </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Shell </tag>
+            
+        </tags>
       
     </entry>
     
     
     
     <entry>
-      <title>Shell基础知识</title>
+      <title>Shell 基础知识 03 运算符</title>
       <link href="2022-05-28/shell-ji-chu-zhi-shi-03-yun-suan-fu/"/>
       <url>2022-05-28/shell-ji-chu-zhi-shi-03-yun-suan-fu/</url>
       
         <content type="html"><![CDATA[<h1 id="算术运算符"><a href="#算术运算符" class="headerlink" title="算术运算符"></a>算术运算符</h1><p>原生的shell语言不支持数学计算，会将数学运算符和 <code>expr</code> 命令结合使用：</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token assign-left variable">val</span><span class="token operator">=</span><span class="token variable"><span class="token variable">`</span><span class="token function">expr</span> <span class="token number">2</span> + <span class="token number">2</span><span class="token variable">`</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ol><li>支持加、减、乘、除、取余运算</li><li>条件表达式要放在方括号之间，并且注意要有空格</li><li>乘号前面必须加反斜杠才能执行运算</li></ol><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token variable">$a</span> <span class="token operator">!=</span> <span class="token variable">$b</span> <span class="token punctuation">]</span><span class="token keyword">then</span>    <span class="token builtin class-name">echo</span> <span class="token string">"a 不等于 b"</span><span class="token keyword">fi</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><h1 id="关系运算符"><a href="#关系运算符" class="headerlink" title="关系运算符"></a>关系运算符</h1><table><thead><tr><th align="left">运算符</th><th>说明</th></tr></thead><tbody><tr><td align="left">-eq</td><td>检查是否相等</td></tr><tr><td align="left">-ne</td><td>检查是否不相等</td></tr><tr><td align="left">-gt</td><td>大于</td></tr><tr><td align="left">-lt</td><td>小于</td></tr><tr><td align="left">-ge</td><td>大于等于</td></tr><tr><td align="left">-le</td><td>小于等于</td></tr></tbody></table><h1 id="布尔运算符"><a href="#布尔运算符" class="headerlink" title="布尔运算符"></a>布尔运算符</h1><table><thead><tr><th align="left">运算符</th><th>说明</th></tr></thead><tbody><tr><td align="left">!</td><td>非运算</td></tr><tr><td align="left">-a</td><td>或运算</td></tr><tr><td align="left">-o</td><td>与运算</td></tr></tbody></table><h1 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h1><table><thead><tr><th align="left">运算符</th><th>说明</th></tr></thead><tbody><tr><td align="left">&amp;&amp;</td><td>逻辑与运算</td></tr><tr><td align="left">||</td><td>逻辑或运算</td></tr></tbody></table><h1 id="字符串运算符"><a href="#字符串运算符" class="headerlink" title="字符串运算符"></a>字符串运算符</h1><table><thead><tr><th align="left">运算符</th><th>说明</th></tr></thead><tbody><tr><td align="left">=</td><td>检查字符串是否相等</td></tr><tr><td align="left">!=</td><td>检查字符串是否不相等</td></tr><tr><td align="left">-z</td><td>检查字符串长度是否为 0</td></tr><tr><td align="left">-n</td><td>检查字符串长度是否不为 0</td></tr><tr><td align="left">$</td><td>检查字符串是否不为空</td></tr></tbody></table>]]></content>
       
       
+      <categories>
+          
+          <category> Language </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Shell </tag>
+            
+        </tags>
       
     </entry>
     
     
     
     <entry>
-      <title>03 运行时传参</title>
+      <title>Shell 基础知识 05 函数和传参</title>
       <link href="2022-05-28/shell-ji-chu-zhi-shi-05-han-shu-yu-chuan-can/"/>
       <url>2022-05-28/shell-ji-chu-zhi-shi-05-han-shu-yu-chuan-can/</url>
       
         <content type="html"><![CDATA[<h1 id="脚本参数"><a href="#脚本参数" class="headerlink" title="脚本参数"></a>脚本参数</h1><ol><li><p>执行脚本时传入的参数，按照传参的顺序，在脚本内可通过 <code>$n</code> 的形式获取。</p></li><li><p><code>n</code> 从 0 开始计数，但参数从 1 开始计数</p></li><li><p><code>$0</code> 为执行的文件名</p></li></ol><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">echo</span> <span class="token string">"<span class="token variable">$0</span>"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ol start="4"><li><p><code>$#</code> 为传递到脚本的参数个数</p></li><li><p><code>$*</code> 使用单个字符串一起显示传递给脚本的参数</p></li><li><p><code>$@</code> 将每个参数分别以字符串形式显示</p></li><li><p><code>$$</code> 为脚本运行的当前进程 ID</p></li></ol><h1 id="函数定义"><a href="#函数定义" class="headerlink" title="函数定义"></a>函数定义</h1><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token punctuation">[</span> <span class="token keyword">function</span> <span class="token punctuation">]</span> funname <span class="token punctuation">[</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">{</span>    action<span class="token punctuation">;</span>    <span class="token punctuation">[</span>return int<span class="token punctuation">;</span><span class="token punctuation">]</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><ol><li><p>return 数值 (0-255)</p></li><li><p>返回值的调用：在调用该函数后，使用<code>$?</code>获得</p></li><li><p>函数内部传参也使用 <code>$n</code> 进行获取</p></li></ol>]]></content>
       
       
+      <categories>
+          
+          <category> Language </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Shell </tag>
+            
+        </tags>
       
     </entry>
     
     
     
     <entry>
-      <title>02 字符串与数组</title>
+      <title>Shell 基础知识 02 字符串与数组</title>
       <link href="2022-05-28/shell-ji-chu-zhi-shi-02-zi-fu-chuan-yu-shu-zu/"/>
       <url>2022-05-28/shell-ji-chu-zhi-shi-02-zi-fu-chuan-yu-shu-zu/</url>
       
@@ -81,7 +202,7 @@
     
     
     <entry>
-      <title>01 运行环境和变量</title>
+      <title>Shell 基础知识 01 运行环境和变量</title>
       <link href="2022-05-28/shell-ji-chu-zhi-shi-01-yun-xing-huan-jing-he-bian-liang/"/>
       <url>2022-05-28/shell-ji-chu-zhi-shi-01-yun-xing-huan-jing-he-bian-liang/</url>
       
@@ -107,8 +228,8 @@
     
     <entry>
       <title>Python Functools</title>
-      <link href="2022-05-20/python-gao-ji-bian-cheng-functools/"/>
-      <url>2022-05-20/python-gao-ji-bian-cheng-functools/</url>
+      <link href="2022-05-20/python/data-structure/python-gao-ji-bian-cheng-02-functools/"/>
+      <url>2022-05-20/python/data-structure/python-gao-ji-bian-cheng-02-functools/</url>
       
         <content type="html"><![CDATA[<p>该模块设计的目的是包含一些面向函数式编程的接口，具有两个功能：<br>对函数执行前进行修饰，将函数作为返回值。任何可调用对象都符合该模块的设计理念。</p><h3 id="1-cache-user-function"><a href="#1-cache-user-function" class="headerlink" title="1. cache(user_function)"></a>1. cache(user_function)</h3><p>对函数进行缓存，常用于 DFS 的空间换时间 trick</p><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token decorator annotation punctuation">@cache</span><span class="token keyword">def</span> <span class="token function">factorial</span><span class="token punctuation">(</span>n<span class="token punctuation">)</span><span class="token punctuation">:</span>    <span class="token keyword">return</span> n <span class="token operator">*</span> factorial<span class="token punctuation">(</span>n<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span> <span class="token keyword">if</span> n <span class="token keyword">else</span> <span class="token number">1</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><h3 id="2-cmp-to-key-func"><a href="#2-cmp-to-key-func" class="headerlink" title="2. cmp_to_key(func)"></a>2. cmp_to_key(func)</h3><ol><li><p>提供一个定义复杂排序条件的函数接口。python 3 的 sort 函数只支持从单个元素角度定义排序条件，该函数可以从两个元素角度定义排序条件。</p></li><li><p>返回值为严格的 +1, -1</p></li></ol><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">cmp_function</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span> y<span class="token punctuation">)</span><span class="token punctuation">:</span>    <span class="token keyword">return</span> <span class="token number">1</span> <span class="token keyword">if</span> x <span class="token operator">+</span> y <span class="token operator">&gt;</span> y <span class="token operator">+</span> x <span class="token keyword">else</span> <span class="token operator">-</span><span class="token number">1</span><span class="token builtin">sorted</span><span class="token punctuation">(</span>iterable<span class="token punctuation">,</span> key<span class="token operator">=</span>cmp_to_key<span class="token punctuation">(</span>cmp_function<span class="token punctuation">)</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><h3 id="3-partial-func-args-keywords"><a href="#3-partial-func-args-keywords" class="headerlink" title="3. partial(func, /, *args, **keywords)"></a>3. partial(func, /, *args, **keywords)</h3><ol><li><p>将原函数的一些参数固定为值，返回新函数。</p></li><li><p>在新函数被调用时，如果传入的参数与原函数中被固定的参数值冲突，会进行覆写。</p></li></ol><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">partial</span><span class="token punctuation">(</span>func<span class="token punctuation">,</span> <span class="token operator">/</span><span class="token punctuation">,</span> <span class="token operator">*</span>args<span class="token punctuation">,</span> <span class="token operator">**</span>keywords<span class="token punctuation">)</span><span class="token punctuation">:</span>    <span class="token keyword">def</span> <span class="token function">new_func</span><span class="token punctuation">(</span><span class="token operator">*</span>fargs<span class="token punctuation">,</span> <span class="token operator">**</span>fkeywords<span class="token punctuation">)</span><span class="token punctuation">:</span>        newkeywords <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token operator">**</span>keywords<span class="token punctuation">,</span> <span class="token operator">**</span>fkeywords<span class="token punctuation">}</span>        <span class="token keyword">return</span> func<span class="token punctuation">(</span><span class="token operator">*</span>args<span class="token punctuation">,</span> <span class="token operator">*</span>fargs<span class="token punctuation">,</span> <span class="token operator">**</span>newkeywords<span class="token punctuation">)</span>    new_func<span class="token punctuation">.</span>func <span class="token operator">=</span> func    new_func<span class="token punctuation">.</span>args <span class="token operator">=</span> args    new_func<span class="token punctuation">.</span>keywords <span class="token operator">=</span> keywords    <span class="token keyword">return</span> newfunc<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h3 id="4-reduce-function-iterable-initializer"><a href="#4-reduce-function-iterable-initializer" class="headerlink" title="4. reduce(function, iterable[, initializer])"></a>4. reduce(function, iterable[, initializer])</h3><ol><li>将一个可迭代对象的元素从左向右，依次输入到函数对象中。</li><li>如果初始化元素为空（默认），则把前两个元素先输入到函数对象进行结果的初始化。</li></ol><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">reduce</span><span class="token punctuation">(</span>function<span class="token punctuation">,</span> iterable<span class="token punctuation">,</span> initializer<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span><span class="token punctuation">:</span>    it <span class="token operator">=</span> <span class="token builtin">iter</span><span class="token punctuation">(</span>iterable<span class="token punctuation">)</span>    <span class="token keyword">if</span> initializer <span class="token keyword">is</span> <span class="token boolean">None</span><span class="token punctuation">:</span>        value <span class="token operator">=</span> <span class="token builtin">next</span><span class="token punctuation">(</span>it<span class="token punctuation">)</span>    <span class="token keyword">else</span><span class="token punctuation">:</span>        value <span class="token operator">=</span> initializer    <span class="token keyword">for</span> element <span class="token keyword">in</span> it<span class="token punctuation">:</span>        value <span class="token operator">=</span> function<span class="token punctuation">(</span>value<span class="token punctuation">,</span> element<span class="token punctuation">)</span>    <span class="token keyword">return</span> value<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
       
@@ -459,22 +580,24 @@
     
     <entry>
       <title>Python Collections, the Container datatypes</title>
-      <link href="2021-04-04/python-gao-ji-bian-cheng-collections-the-container-datatypes/"/>
-      <url>2021-04-04/python-gao-ji-bian-cheng-collections-the-container-datatypes/</url>
+      <link href="2021-04-04/python/data-structure/collections/01-containers/"/>
+      <url>2021-04-04/python/data-structure/collections/01-containers/</url>
       
         <content type="html"><![CDATA[<h4 id="1-Counter"><a href="#1-Counter" class="headerlink" title="1. Counter"></a>1. Counter</h4><p>如名字，<code>Counter</code>类用于提供一个方便的计数器</p><ul><li>构造函数<br>支持传入 <code>iterable</code> 或者 <code>mappings</code> 类型的对象进行初始化，最常用传入一个 <code>list</code></li><li><code>elements()</code><br>返回一个迭代器，包含所有计数大于 0 的元素，每个元素出现的次数为他的计数</li><li><code>most_common([n])</code><br>返回前<code>n</code>个最频繁出现的元素</li><li>支持 <code>dict</code>的函数</li></ul>]]></content>
       
       
       <categories>
           
-          <category> Language </category>
+          <category> Python </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Python </tag>
+            <tag> Collections </tag>
+            
+            <tag> Data Structure </tag>
             
         </tags>
       
